@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/said/Dev/c/ncurses/build",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/main.dir/goodby.c.o -c /home/said/Dev/c/ncurses/goodby.c",
-  "file": "/home/said/Dev/c/ncurses/goodby.c"
-}
-]

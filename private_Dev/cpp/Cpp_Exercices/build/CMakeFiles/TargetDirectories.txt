@@ -1,3 +1,0 @@
-/home/said/Dev/cpp/Cpp_Exercices/build/CMakeFiles/cmake_tutorial_02.dir
-/home/said/Dev/cpp/Cpp_Exercices/build/CMakeFiles/edit_cache.dir
-/home/said/Dev/cpp/Cpp_Exercices/build/CMakeFiles/rebuild_cache.dir

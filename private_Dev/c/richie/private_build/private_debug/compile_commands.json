@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/said/Dev/c/richie/build/debug",
-  "command": "/usr/bin/cc   -g -std=gnu11 -o CMakeFiles/test.dir/fahrenheit2.c.o -c /home/said/Dev/c/richie/fahrenheit2.c",
-  "file": "/home/said/Dev/c/richie/fahrenheit2.c"
-}
-]

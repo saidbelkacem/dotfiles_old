@@ -1,3 +1,0 @@
-/home/said/Dev/cpp/test_cpp/build/debug/CMakeFiles/Testproject.dir
-/home/said/Dev/cpp/test_cpp/build/debug/CMakeFiles/edit_cache.dir
-/home/said/Dev/cpp/test_cpp/build/debug/CMakeFiles/rebuild_cache.dir

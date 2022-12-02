@@ -1,3 +1,0 @@
-0000000000000000000000000000000000000000 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136262 +0300	branch: Created from 59a8129
-59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136287 +0300	rebase (finish): refs/heads/two-funcitons onto a98388a4d33049d65ef5451c4aea1eacf90dee57
-a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136456 +0300	Branch: renamed refs/heads/two-funcitons to refs/heads/master
