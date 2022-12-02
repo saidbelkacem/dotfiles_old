@@ -1,0 +1,3 @@
+/home/said/Dev/cpp/CppPrimer/build/CMakeFiles/Testproject.dir
+/home/said/Dev/cpp/CppPrimer/build/CMakeFiles/edit_cache.dir
+/home/said/Dev/cpp/CppPrimer/build/CMakeFiles/rebuild_cache.dir

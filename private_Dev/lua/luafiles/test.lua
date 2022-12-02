@@ -1,0 +1,6 @@
+print("Hallo Said " .. 7)
+print("Hallo Said " .. 7)
+print(5 * 5)
+print("Hallo Said " .. 7)
+print("Hallo Said " .. 7)
+print("Hallo Said " .. 7)

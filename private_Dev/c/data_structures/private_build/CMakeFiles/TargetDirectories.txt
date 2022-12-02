@@ -1,0 +1,3 @@
+/home/said/Dev/c/data_structures/build/CMakeFiles/Arrays.dir
+/home/said/Dev/c/data_structures/build/CMakeFiles/edit_cache.dir
+/home/said/Dev/c/data_structures/build/CMakeFiles/rebuild_cache.dir

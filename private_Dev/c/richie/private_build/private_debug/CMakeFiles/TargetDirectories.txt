@@ -1,0 +1,3 @@
+/home/said/Dev/c/richie/build/debug/CMakeFiles/test.dir
+/home/said/Dev/c/richie/build/debug/CMakeFiles/edit_cache.dir
+/home/said/Dev/c/richie/build/debug/CMakeFiles/rebuild_cache.dir
