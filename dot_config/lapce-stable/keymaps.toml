@@ -1,0 +1,12 @@
+
+[[keymaps]]
+command = "normal_mode"
+mode = "inv"
+when = "!search_focus && !modal_focus && !search_active"
+key = "j k"
+
+[[keymaps]]
+command = "-normal_mode"
+mode = "inv"
+when = "!search_focus && !modal_focus && !search_active"
+key = "Escape"

@@ -1,0 +1,15 @@
+
+[core]
+modal = true
+custom-titlebar = true
+
+[terminal]
+font-family = "Iosevka Fixed SS18 "
+font-size = 14
+
+[editor]
+font-family = "Iosevka Fixed SS18 "
+font-size = 22
+
+[ui]
+font-size = 15

@@ -1,0 +1,11 @@
+break bp1 main.main:3
+condition bp1 i == 2
+continue
+print i
+i = 90
+set i = 99
+print i
+whatis i
+next
+continue
+exit
