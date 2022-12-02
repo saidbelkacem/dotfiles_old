@@ -1237,7 +1237,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;sudo pacman -R clementine
 : 1668615558:0;sudo pacman -R adacious
 : 1668615558:0;yay -R audacious
-: 1668615558:0;yay -Syu
 : 1668615558:0;yay -U obs-streamfx
 : 1668615558:0;paru 
 : 1668615558:0;pacman -S steam
@@ -1737,7 +1736,6 @@ exit:q
 : 1668615558:0;sudo pacman -S go
 : 1668615558:0;gc
 : 1668615558:0;c pkg
-: 1668615558:0;tree go
 : 1668615558:0;go list
 : 1668615558:0;cd local
 : 1668615558:0;cd /usr/local
@@ -2476,7 +2474,6 @@ exit
 : 1668615558:0;sudo lsof -Pni | grep -i list
 : 1668615558:0;dlv
 : 1668615558:0;add Dev/go
-: 1668615558:0;c add Dev/go
 : 1668615558:0;cd Dev/go
 : 1668615558:0;c remove go
 : 1668615558:0;c forget go
@@ -2650,7 +2647,6 @@ exit
 : 1668615558:0;rm .pkglist.txt
 : 1668615558:0;pacman -S bla
 : 1668615558:0;c add .config/polybar
-: 1668615558:0;c add .xprofile
 : 1668615558:0;c add .config/bspwm
 : 1668615558:0;cat .python_history
 : 1668615558:0;rm .python_history
@@ -3481,7 +3477,6 @@ iddkdkd
 : 1668615558:0;rm run_before_pkglist.sh
 : 1668615558:0;c forget run_before_pkglist.sh
 : 1668615558:0;c remove run_before_pkglist.sh
-: 1668615558:0;c add pkglist.txt
 : 1668615558:0;ls -la pkglist.txt
 : 1668615558:0;ls pkglist.txt
 : 1668615558:0;c-readd
@@ -3572,7 +3567,6 @@ hallo das ein  stiein ein test test
 : 1668615558:0;openxdg
 : 1668615558:0;KITTY_WINDOW_ID
 : 1668615558:0;xdg-open $(fzf)
-: 1668615558:0;rm .xsession-errors
 : 1668615558:0;cd .gnome
 : 1668615558:0;cd apps
 : 1668615558:0;rm -rf .gno
@@ -4120,7 +4114,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 
 : 1668615558:0;rm =rf chezmoi
 : 1668615558:0;rm -rf chezmoi
-: 1668615558:0;c add .
 : 1668615558:0;cd Documents/ls
 : 1668615558:0;cd Documents
 : 1668615558:0;cd Calibre\ Library
@@ -4570,107 +4563,24 @@ tmux
 : 1668615558:0;htop kitty
 : 1668615558:0;htop -kitty
 : 1668615558:0;killall kitty
-: 1668615558:0;n
 : 1668615558:0;ikajsdkfasd
-: 1668615558:0;clear
-: 1668615558:0;m
 : 1668615558:0;in
-: 1668615558:0;n
-: 1668615558:0;m
-: 1668615558:0;f
 : 1668615558:0;Dev/lua/luafiles/test.lua 
 : 1668615558:0;Dev/lua/luafiles/test.lua | xargs nvim
 : 1668615558:0;Dev/lua/luafiles/test.lua |  nvim -
 : 1668615558:0;Dev/lua/luafiles/test.lua | -\ nvim 
 : 1668615558:0;Dev/lua/luafiles/test.lua | - nvim 
 : 1668615558:0;cd Dev/lua/luafiles/
-: 1668615558:0;ls
-: 1668615558:0;n test.lua
-: 1668615558:0;cd .config
 : 1668615558:0;c add .config/kitty
 : 1668615558:0;c add kitty
-: 1668615558:0;run_chezmoi
-: 1668615558:0;ls
-: 1668615558:0;clar
-: 1668615558:0;clear
-: 1668615558:0;htop
-: 1668615558:0;j dev
-: 1668615558:0;nvim
-: 1668615558:0;n
-: 1668615558:0;ls
 : 1668615558:0;clea
-: 1668615558:0;clear
-: 1668615558:0;g
-: 1668615558:0;g
 : 1668615558:0;asldkfj;asdlkfjd
-: 1668615558:0;fasd
-: 1668615558:0;fasd
-: 1668615558:0;f
-: 1668615558:0;clear
-: 1668615558:0;htop
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;exit
-: 1668615558:0;pwd
-: 1668615558:0;pwd
-: 1668615558:0;j dev
-: 1668615558:0;ls
-: 1668615558:0;cd c
-: 1668615558:0;ls
-: 1668615558:0;cd richie
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ps ax
-: 1668615558:0;n
-: 1668615558:0;pwd
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;m
-: 1668615558:0;n
-: 1668615558:0;n
 : 1668615558:0;man lazygit
-: 1668615558:0; n
-: 1668615558:0;j dev cpp
-: 1668615558:0;ls
-: 1668615558:0;n main.cpp
-: 1668615558:0;cd
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j dev cpp
-: 1668615558:0;ls
-: 1668615558:0;cd ..
-: 1668615558:0;ls
 : 1668615558:0;cd Classes
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;git init
-: 1668615558:0;cd
-: 1668615558:0;n
 : 1668615558:0;j classes
 : 1668615558:0;j clas
 : 1668615558:0;j dev cla
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;clear
 : 1668615558:0;kitty --version
-: 1668615558:0;ls
-: 1668615558:0;ps ax
-: 1668615558:0;ps ax
 : 1668615558:0;CSI
 : 1668615558:0;pacseek
 : 1668615558:0;yay -Syy
@@ -10413,3 +10323,56 @@ ne https://gitlab.com/gabmus/nvpunk ~/.config/nvim
 : 1670014869:0;c add .zshrc
 : 1670014885:0;c add .xprofile
 : 1670015371:0;run_chezmoi
+: 1670015376:0;ls
+: 1670015388:0;c add Dev
+: 1670015402:0;c add pkglist.txt
+: 1670015603:0;cd Def
+: 1670015606:0;cd Dev
+: 1670015606:0;ls
+: 1670015633:0;c add .
+: 1670015636:0;ls
+: 1670015661:0;c re-add .
+: 1670015674:0;ls
+: 1670015799:0;chezmoi forget Dev
+: 1670015815:0;cd
+: 1670015822:0;chezmoi forget Dev
+: 1670015831:0;ls
+: 1670015835:0;cd Dev
+: 1670015835:0;ls
+: 1670015839:0;cd ..
+: 1670015850:0;chezmoi add Dev
+: 1670015953:0;c add Dev/go
+: 1670015955:0;ls
+: 1670015962:0;cd go
+: 1670015962:0;ls
+: 1670015966:0;cd ..
+: 1670015967:0;ls
+: 1670015969:0;clear
+: 1670016015:0;ls
+: 1670016022:0;clear
+: 1670016058:0;c cd
+: 1670016059:0;ls
+: 1670016069:0;cd private_Dev
+: 1670016069:0;ls
+: 1670016087:0;cd
+: 1670016090:0;cd Dev
+: 1670016090:0;ls
+: 1670016094:0;tree go
+: 1670016111:0;c add go/
+: 1670016115:0;ls
+: 1670016125:0;c cd
+: 1670016126:0;ls
+: 1670016127:0;clear
+: 1670016128:0;ls
+: 1670016132:0;cd private_Dev
+: 1670016133:0;ls
+: 1670016233:0;clear
+: 1670022015:0;c
+: 1670022018:0;cd
+: 1670022046:0;exit
+: 1670022054:0;n
+: 1670022098:0;c add Dev
+: 1670022104:0;ls
+: 1670022106:0;clear
+: 1670022107:0;ls
+: 1670022117:0;run_chezmoi
