@@ -1,6 +1,6 @@
-export ZSH="$HOME/.oh-my-zsh"
-# ZSH_THEME="theunraveler"
-# ZSH_THEME="gnzh"
+export ZSH="/usr/share/oh-my-zsh"
+ZSH_THEME="theunraveler"
+ZSH_THEME="gnzh"
 export VI_MODE_SET_CURSOR=true
 ZSH_THEME="arrow"
 ZSH_TMUX_AUTOSTART="true"
