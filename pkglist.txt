@@ -25,6 +25,7 @@ bind
 binutils
 bison
 blueman
+bluetooth-autoconnect
 bluez
 bluez-utils
 bspwm
@@ -242,6 +243,7 @@ thunar-media-tags-plugin
 thunar-volman
 tldr
 tmux
+tmux-resurrect
 transmission-gtk
 tree
 ttc-iosevka
