@@ -181,6 +181,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+oh-my-zsh-git
 openconnect
 openvpn
 os-prober
@@ -246,7 +247,7 @@ tmux
 tmux-resurrect
 transmission-gtk
 tree
-ttc-iosevka
+ttf-iosevka-term
 ttf-liberation
 ttf-nerd-fonts-symbols-2048-em-mono
 ttf-opensans

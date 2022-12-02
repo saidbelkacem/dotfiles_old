@@ -455,7 +455,6 @@ exit
 : 1668615558:0;cd project_nvim
 : 1668615558:0;cd pack/
 : 1668615558:0;start
-: 1668615558:0;lls
 : 1668615558:0;toop
 : 1668615558:0;to
 : 1668615558:0;j neo
@@ -1191,7 +1190,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;mv nvim ~/
 : 1668615558:0;mv ~/nvim ~/.config 
 : 1668615558:0;cd loca
-: 1668615558:0;j local
 : 1668615558:0;mv nvim nvim.bak
 : 1668615558:0;n init lua
 : 1668615558:0;mv nvim.bak nvim
@@ -2331,7 +2329,6 @@ p
 : 1668615558:0;chezmoi
 : 1668615558:0;chezmoi status
 : 1668615558:0;touch pkglist.txt
-: 1668615558:0;c managed
 : 1668615558:0;j learngo
 : 1668615558:0;fd 
 : 1668615558:0;fd .go
@@ -3441,7 +3438,6 @@ iddkdkd
 : 1668615558:0;sudo paccache -rf
 : 1668615558:0;pacman -S pacseek
 : 1668615558:0;sudo pacman -S pacseek
-: 1668615558:0;cd chezmoi
 : 1668615558:0;hostneme
 : 1668615558:0;cat /etc/hosts
 : 1668615558:0;rm pkglistnew.txt
@@ -4107,7 +4103,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;cat id_rsa.pub | nvim
 : 1668615558:0;n .git/config
 : 1668615558:0;git remote add origin git@gitlab.com:saidbelkacem/dotfiles.git
-: 1668615558:0;cat config
 : 1668615558:0;git remote add origin https://gitlab.com/saidbelkacem/dotfiles.git\
 
 : 1668615558:0;git remote add origin git@gitlab.com:saidbelkacem/dotfiles.git\
@@ -4532,52 +4527,11 @@ tmux
 : 1668615558:0;cd .config/nvim
 : 1668615558:0;cd .config/nvim/lua/said
 : 1668615558:0;lslslls lsjk
-: 1668615558:0;clear
-: 1668615558:0;exit
-: 1668615558:0;close
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;f
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;close
 : 1668615558:0;e
-: 1668615558:0;clear
 : 1668615558:0;ls la
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n 
-: 1668615558:0;n
-: 1668615558:0;f
-: 1668615558:0;n
-: 1668615558:0;cd .local/share/nvim/site/pack/packer/start/vim-kitty-navigator
-: 1668615558:0;ls
-: 1668615558:0;cp *.py ~/.config/kitty
-: 1668615558:0;n
-: 1668615558:0;exit
-: 1668615558:0;nvim
-: 1668615558:0;g
-: 1668615558:0;g
-: 1668615558:0;g
-: 1668615558:0;g
 : 1668615558:0;bat
-: 1668615558:0;g
-: 1668615558:0;g
-: 1668615558:0;g
-: 1668615558:0;ls
 : 1668615558:0;chezmoi managed
 : 1668615558:0;chezmoi forget .config/alacritty
-: 1668615558:0;cd .config
-: 1668615558:0;ls
-: 1668615558:0;du -ch *
-: 1668615558:0;gdu
-: 1668615558:0;clear
-: 1668615558:0;cd
-: 1668615558:0;hello
 : 1668615558:0;kitty +kitten icat path/to/some/image.png\
 
 : 1668615558:0;kitty +launch lazygit
@@ -4591,95 +4545,31 @@ tmux
 : 1668615558:0;launch sh -c "ls && exec zsh"
 : 1668615558:0;kitty launch sh -c "ls && exec zsh"
 : 1668615558:0;kitty sh -c "ls && exec zsh"
-: 1668615558:0;kitty sh -c "ls && exec zsh"
-: 1668615558:0;clear
-: 1668615558:0;kitty sh -c "ls && exec zsh"
-: 1668615558:0;cd .config/kitty
-: 1668615558:0;ls
-: 1668615558:0;cd
-: 1668615558:0;c add .config/kitty
-: 1668615558:0;g
 : 1668615558:0;cd .config/lazygit
-: 1668615558:0;ls
 : 1668615558:0;n config.yml
-: 1668615558:0;g
-: 1668615558:0;n config.yml
-: 1668615558:0;cd 
-: 1668615558:0;n .gitignore
-: 1668615558:0;g
-: 1668615558:0;g
-: 1668615558:0;n .gitconfig
-: 1668615558:0;n .gitconfig
-: 1668615558:0;n .gitignore
-: 1668615558:0;n .gitconfig
-: 1668615558:0;n
-: 1668615558:0;cd .config/kitty
-: 1668615558:0;ls
 : 1668615558:0;n mykitten.py
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;n
 : 1668615558:0;ls *jpg | fzf --preview="kitty icat --clear --place 200x40@0x0 --transfer-mode file {}"
 : 1668615558:0;fzf --preview="kitty icat --clear --place 200x40@0x0 --transfer-mode file {}"
 : 1668615558:0;kitty sh -c "lazgit"
 : 1668615558:0;kitty sh -c "exec lazgit"
-: 1668615558:0;kitty @new-window sh -c "exec lazgit"
 : 1668615558:0;kitty @new-tab sh -c "exec lazgit"
 : 1668615558:0;kitty @focus-tab sh -c "exec lazgit"
 : 1668615558:0;kitty @new-window sh -c "exec lazgit"
 : 1668615558:0;]]]
-: 1668615558:0;ps ax
 : 1668615558:0;kitty launch sh -c "exec lazgit"
 : 1668615558:0;kitty lazygit
-: 1668615558:0;kitty @new-window lazygit
 : 1668615558:0;kitty @launch lazygit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;kitty @new-window lazygit
-: 1668615558:0;kitty @new-window lazygit
 : 1668615558:0;kitty @focus-window lazygit
 : 1668615558:0;kitty @new-window lazygit
 : 1668615558:0;kitty @new-window --location=vsplit lazygit
 : 1668615558:0;kitty @launch --location=vsplit lazygit
-: 1668615558:0;kitty @launch --location=vsplit lazygit
 : 1668615558:0;kitty @launch --location=hsplit lazygit
-: 1668615558:0;kitty @launch --location=split lazygit
 : 1668615558:0;kitty @launch --location=split lazygit
 : 1668615558:0;kitty @launch --location=after lazygit
 : 1668615558:0;kitty @launch --location=before lazygit
-: 1668615558:0;kitty @launch --location=neighbor lazygit
-: 1668615558:0;n
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;clear
-: 1668615558:0;exit
-: 1668615558:0;cd .config
-: 1668615558:0;n
 : 1668615558:0;htop kitty
 : 1668615558:0;htop -kitty
-: 1668615558:0;htop
 : 1668615558:0;killall kitty
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;nvim
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;clear
 : 1668615558:0;n
 : 1668615558:0;ikajsdkfasd
 : 1668615558:0;clear
@@ -10465,3 +10355,61 @@ ne https://gitlab.com/gabmus/nvpunk ~/.config/nvim
 : 1670005196:0;lls
 : 1670005199:0;gdu
 : 1670005229:0;run_chezmoi
+: 1670005278:0;ls
+: 1670005283:0;cd
+: 1670005289:0;c add Dev
+: 1670005298:0;ls
+: 1670005303:0;c cd
+: 1670005304:0;g
+: 1670005307:0;gdu
+: 1670005363:0;pacseek
+: 1670005424:0;cd 
+: 1670005424:0;ls
+: 1670005437:0;n pkglist.txt
+: 1670007341:0;pacseek
+: 1670007475:0;ls
+: 1670007482:0;n .zshrc
+: 1670008571:0;exit
+: 1670008574:0;clear
+: 1670008746:0;ls
+: 1670008748:0;clear
+: 1670008749:0;ls
+: 1670008751:0;ps ax
+: 1670008753:0;clear
+: 1670008756:0;c cd
+: 1670008758:0;ls
+: 1670008760:0;clear
+: 1670008765:0;ls
+: 1670008768:0;cd
+: 1670008769:0;ls
+: 1670008773:0;gdu
+: 1670008814:0;n .xsession-errors
+: 1670009059:0;ls
+: 1670009065:0;n .xsession-errors
+: 1670009091:0;n
+: 1670009265:0;ls
+: 1670009274:0;rm .xsession-errors
+: 1670009275:0;ls
+: 1670012207:0;cd .config
+: 1670012208:0;gdu
+: 1670012223:0;c add .
+: 1670012252:0;rm -rf lapce-stable
+: 1670012254:0;c add .
+: 1670012269:0;ls
+: 1670012274:0;cd
+: 1670012275:0;ls
+: 1670012495:0;pacseek
+: 1670012677:0;nnn
+: 1670012687:0;n
+: 1670012730:0;ls
+: 1670012737:0;gdu
+: 1670012953:0;c add .config
+: 1670012960:0;ls
+: 1670013092:0;sudo reboot
+: 1670013153:0;yay -Syu
+: 1670013286:0;nvim
+: 1670013310:0;sudo reboot
+: 1670014854:0;n .zshrc
+: 1670014869:0;c add .zshrc
+: 1670014885:0;c add .xprofile
+: 1670015371:0;run_chezmoi
