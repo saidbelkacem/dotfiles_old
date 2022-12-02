@@ -1,0 +1,764 @@
+{
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA3QAAAWAAAAEKAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "book_info_dialog_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABXgAAAV4B/////wEAAAABAA=="
+  },
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "card_a_view books view state": {
+    "column_alignment": {
+      "size": "center",
+      "timestamp": "center"
+    },
+    "column_positions": {
+      "authors": 2,
+      "collections": 5,
+      "inlibrary": 0,
+      "size": 4,
+      "timestamp": 3,
+      "title": 1
+    },
+    "column_sizes": {
+      "authors": 86,
+      "collections": 96,
+      "inlibrary": 89,
+      "size": 52,
+      "timestamp": 70,
+      "title": 56
+    },
+    "hidden_columns": [],
+    "languages_injected": true,
+    "last_modified_injected": true,
+    "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ]
+    ]
+  },
+  "card_b_view books view state": {
+    "column_alignment": {
+      "size": "center",
+      "timestamp": "center"
+    },
+    "column_positions": {
+      "authors": 2,
+      "collections": 5,
+      "inlibrary": 0,
+      "size": 4,
+      "timestamp": 3,
+      "title": 1
+    },
+    "column_sizes": {
+      "authors": 86,
+      "collections": 96,
+      "inlibrary": 89,
+      "size": 52,
+      "timestamp": 70,
+      "title": 56
+    },
+    "hidden_columns": [],
+    "languages_injected": true,
+    "last_modified_injected": true,
+    "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ]
+    ]
+  },
+  "convert_bulk_dialog_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAgAAAALwAACd8AAAVwAAAAIwAAADIAAAncAAAFbQAAAAAAAAAACgAAAAAjAAAAMgAACdwAAAVt"
+  },
+  "cover_browser_splitter_vertical_state": [
+    false,
+    300
+  ],
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAP+AAACDwAABgEAAAOQAAAEAQAAAhIAAAX+AAADjQAAAAAAAAAACgAAAAQBAAACEgAABf4AAAON"
+  },
+  "edit-css-transform-rule-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAObAAACgAAABmMAAAMfAAADngAAAoMAAAZgAAADHAAAAAAAAAAACgAAAAOeAAACgwAABmAAAAMc"
+  },
+  "geometry-of-book_info_dialog_geometry": {
+    "frame_geometry": {
+      "height": 1344,
+      "width": 1234,
+      "x": 663,
+      "y": 48
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1340,
+      "width": 1230,
+      "x": 665,
+      "y": 50
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1340,
+      "width": 1230,
+      "x": 665,
+      "y": 50
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAKXAAAAMAAAB2gAAAVvAAACmQAAADIAAAdmAAAFbQAAAAAAAAAACgAAAAKZAAAAMgAAB2YAAAVt"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 1401,
+      "width": 1323,
+      "x": 5,
+      "y": 34
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1397,
+      "width": 1319,
+      "x": 7,
+      "y": 36
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1397,
+      "width": 1319,
+      "x": 7,
+      "y": 36
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAIgAABS8AAAWaAAAABwAAACQAAAUtAAAFmAAAAAAAAAAACgAAAAAHAAAAJAAABS0AAAWY"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 1344,
+      "width": 2494,
+      "x": 33,
+      "y": 48
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1340,
+      "width": 2490,
+      "x": 35,
+      "y": 50
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1340,
+      "width": 2490,
+      "x": 35,
+      "y": 50
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAhAAAAMAAACd4AAAVvAAAAIwAAADIAAAncAAAFbQAAAAAAAAAACgAAAAAjAAAAMgAACdwAAAVt"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-jobs_dialog_geometry": {
+    "frame_geometry": {
+      "height": 546,
+      "width": 637,
+      "x": 961,
+      "y": 447
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 542,
+      "width": 633,
+      "x": 963,
+      "y": 449
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 542,
+      "width": 633,
+      "x": 963,
+      "y": 449
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPBAAABvwAABj0AAAPgAAADwwAAAcEAAAY7AAAD3gAAAAAAAAAACgAAAAPDAAABwQAABjsAAAPe"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metasingle_window_geometry3": {
+    "frame_geometry": {
+      "height": 1394,
+      "width": 2494,
+      "x": 33,
+      "y": 23
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1390,
+      "width": 2490,
+      "x": 35,
+      "y": 25
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1390,
+      "width": 2490,
+      "x": 35,
+      "y": 25
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAhAAAAFwAACd4AAAWIAAAAIwAAABkAAAncAAAFhgAAAAAAAAAACgAAAAAjAAAAGQAACdwAAAWG"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 724,
+      "width": 934,
+      "x": 813,
+      "y": 358
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 815,
+      "y": 360
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 815,
+      "y": 360
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAMtAAABZgAABtIAAAQ5AAADLwAAAWgAAAbQAAAENwAAAAAAAAAACgAAAAMvAAABaAAABtAAAAQ3"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-regex_builder_geometry": {
+    "frame_geometry": {
+      "height": 360,
+      "width": 626,
+      "x": 967,
+      "y": 540
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 356,
+      "width": 622,
+      "x": 969,
+      "y": 542
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 356,
+      "width": 622,
+      "x": 969,
+      "y": 542
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPHAAACHAAABjgAAAODAAADyQAAAh4AAAY2AAADgQAAAAAAAAAACgAAAAPJAAACHgAABjYAAAOB"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "gpm_template_editor_font": "Sans Serif",
+  "gpm_template_editor_word_wrap_mode": true,
+  "grid view visible": false,
+  "jobs view column layout3": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+  },
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAPAAAABvgAABj4AAAPhAAADwwAAAcEAAAY7AAAD3gAAAAAAAAAACgAAAAPDAAABwQAABjsAAAPe"
+  },
+  "library_usage_stats": {
+    "/home/said/Calibre Library": 12,
+    "/home/said/Documents/Calibre Library": 31
+  },
+  "memory_view books view state": {
+    "column_alignment": {
+      "size": "center",
+      "timestamp": "center"
+    },
+    "column_positions": {
+      "authors": 2,
+      "collections": 5,
+      "inlibrary": 0,
+      "size": 4,
+      "timestamp": 3,
+      "title": 1
+    },
+    "column_sizes": {
+      "authors": 350,
+      "collections": 96,
+      "inlibrary": 89,
+      "size": 246,
+      "timestamp": 89,
+      "title": 350
+    },
+    "hidden_columns": [],
+    "languages_injected": true,
+    "last_modified_injected": true,
+    "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ]
+    ]
+  },
+  "metadata-download-identify-widget-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAACAAAAAQAA/////wEAAAABAA=="
+  },
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAANTAAABoAAABqwAAAP/AAADVwAAAaQAAAaoAAAD+wAAAAAAAAAACgAAAANXAAABpAAABqgAAAP7"
+  },
+  "metasingle_window_size": [
+    2490,
+    1390
+  ],
+  "preferences dialog geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAMrAAABZAAABtQAAAQ7AAADLwAAAWgAAAbQAAAENwAAAAAAAAAACgAAAAMvAAABaAAABtAAAAQ3"
+  },
+  "previous_sort_order_BooksView": {
+    "tags": true
+  },
+  "questions_to_auto_skip": [
+    "tag_item_delete"
+  ],
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "recently_used_languages": [
+    "German",
+    "English"
+  ],
+  "replace_scene_breaks_history": [
+    "",
+    "<hr />",
+    "∗ ∗ ∗",
+    "• • •",
+    "♦ ♦ ♦",
+    "† †",
+    "‡ ‡ ‡",
+    "∞ ∞ ∞",
+    "¤ ¤ ¤"
+  ],
+  "search bar visible": true,
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    483
+  ],
+  "template_functions_prefs_st_show_help": true,
+  "template_functions_prefs_tf_show_help": true
+}

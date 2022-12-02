@@ -1,0 +1,223 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1401,
+      "width": 1222,
+      "x": 1333,
+      "y": 34
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1397,
+      "width": 1218,
+      "x": 1335,
+      "y": 36
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1397,
+      "width": 1218,
+      "x": 1335,
+      "y": 36
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAU1AAAAIgAACfoAAAWaAAAFNwAAACQAAAn4AAAFmAAAAAAAAAAACgAAAAU3AAAAJAAACfgAAAWY"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN T27h-2L-",
+      "name": "DisplayPort-0",
+      "serial": "VNA60A4H-",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAU0AAAAIAAACfwAAAWcAAAFOAAAACQAAAn4AAAFmAAAAAAAAAAACgAAAAU4AAAAJAAACfgAAAWY"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAEwgAABXUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 22,
+    "book_scrollbar": false,
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "sepia-light",
+    "footer": {
+      "right": "progress"
+    },
+    "header": {},
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "margin_left": 100,
+    "margin_right": 100,
+    "read_mode": "flow",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "skipped_dialogs": {},
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Die verratene Revolution -Die deutsche Revolution 1918-19"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Die verratene Revolution -Die deutsche Revolution 1918-19/Sebastian Haffner (233)/Sebastian Haffner - Die verratene Revolution -Die deutsche Rev.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Die verratene Revolution -Die deutsche Revolution 1918-19/Sebastian Haffner (233)/Sebastian Haffner - Die verratene Revolution -Die deutsche Rev.epub",
+        "timestamp": "2022-12-02T15:12:10.837Z",
+        "title": "Sebastian Haffner"
+      },
+      {
+        "authors": [
+          "Pro Go The Complete Guide to Programming Reliable",
+          "Efficient Software Using Golang-Apress (2022)"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Pro Go The Complete Guide to Programming Reliable/Adam Freeman (234)/Adam Freeman - Pro Go The Complete Guide to Programming R.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Pro Go The Complete Guide to Programming Reliable/Adam Freeman (234)/Adam Freeman - Pro Go The Complete Guide to Programming R.epub",
+        "timestamp": "2022-11-30T19:33:01.079Z",
+        "title": "Adam Freeman"
+      },
+      {
+        "authors": [
+          "Sebastian Haffner"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler (232)/Von Bismarck zu Hitler - Sebastian Haffner.mobi",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler (232)/Von Bismarck zu Hitler - Sebastian Haffner.mobi",
+        "timestamp": "2022-11-30T11:40:43.384Z",
+        "title": "Von Bismarck zu Hitler"
+      },
+      {
+        "authors": [
+          "Sebastian Haffner"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler (232)/Von Bismarck zu Hitler - Sebastian Haffner.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler (232)/Von Bismarck zu Hitler - Sebastian Haffner.epub",
+        "timestamp": "2022-11-30T11:27:01.896Z",
+        "title": "Von Bismarck zu Hitler / Ein Rückblick"
+      },
+      {
+        "authors": [
+          "Lippman, Stanley B.",
+          "Moo, Barbara E.",
+          "JoséLajoie, e"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Lippman, Stanley B_/C__ Primer, 5_e (178)/C__ Primer, 5_e - Lippman, Stanley B_.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Lippman, Stanley B_/C__ Primer, 5_e (178)/C__ Primer, 5_e - Lippman, Stanley B_.epub",
+        "timestamp": "2022-11-27T11:14:33.584Z",
+        "title": "C++ Primer, 5/e"
+      },
+      {
+        "authors": [
+          "Bjarne Stroustrup"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Bjarne Stroustrup/Programming_ Principles and Practice Using C__ (2nd Edition) (176)/Programming_ Principles and Practice Using - Bjarne Stroustrup.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Bjarne Stroustrup/Programming_ Principles and Practice Using C__ (2nd Edition) (176)/Programming_ Principles and Practice Using - Bjarne Stroustrup.epub",
+        "timestamp": "2022-11-25T03:46:36.867Z",
+        "title": "Programming: Principles and Practice Using C++ (2nd Edition)"
+      },
+      {
+        "authors": [
+          "Sebastian Haffner"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler _ Ein Ruckblick (206)/Von Bismarck zu Hitler _ Ein Ruckblick - Sebastian Haffner.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Sebastian Haffner/Von Bismarck zu Hitler _ Ein Ruckblick (206)/Von Bismarck zu Hitler _ Ein Ruckblick - Sebastian Haffner.epub",
+        "timestamp": "2022-11-02T14:38:22.798Z",
+        "title": "Von Bismarck zu Hitler / Ein Rückblick"
+      },
+      {
+        "authors": [
+          "Golo Mann"
+        ],
+        "key": "/home/said/Documents/Calibre Library/Golo Mann/Deutsche Geschichte des 19. und 20. Jahrhunderts (220)/Deutsche Geschichte des 19. und 20. Jahrhu - Golo Mann.epub",
+        "pathtoebook": "/home/said/Documents/Calibre Library/Golo Mann/Deutsche Geschichte des 19. und 20. Jahrhunderts (220)/Deutsche Geschichte des 19. und 20. Jahrhu - Golo Mann.epub",
+        "timestamp": "2022-11-02T14:33:56.696Z",
+        "title": "Deutsche Geschichte des 19. und 20. Jahrhunderts"
+      },
+      {
+        "authors": [
+          "Sebastian Haffner"
+        ],
+        "key": "/home/said/Documents/Books/History-EPUB/Von Bismarck zu Hitler _ Ein Rückblick.epub",
+        "pathtoebook": "/home/said/Documents/Books/History-EPUB/Von Bismarck zu Hitler _ Ein Rückblick.epub",
+        "timestamp": "2022-10-29T21:30:22.992Z",
+        "title": "Von Bismarck zu Hitler / Ein Rückblick"
+      },
+      {
+        "authors": [
+          "Oliver Kiddle, Jerry Peek",
+          "Peter Stephenson"
+        ],
+        "key": "/home/said/Documents/Books/Linux-EPUB/From Bash to Z Shell_ Conquering the Command Line.epub",
+        "pathtoebook": "/home/said/Documents/Books/Linux-EPUB/From Bash to Z Shell_ Conquering the Command Line.epub",
+        "timestamp": "2022-10-29T21:27:55.798Z",
+        "title": "From Bash to Z Shell: Conquering the Command Line"
+      },
+      {
+        "authors": [
+          "Scott Meyers"
+        ],
+        "key": "/home/said/Documents/Books/C-CPP-EPUB/Effective Modern C__.epub",
+        "pathtoebook": "/home/said/Documents/Books/C-CPP-EPUB/Effective Modern C__.epub",
+        "timestamp": "2022-10-29T21:17:11.970Z",
+        "title": "Effective Modern C++"
+      },
+      {
+        "authors": [
+          "Getting Started"
+        ],
+        "key": "/home/said/Calibre Library/Getting Started/Getting Started With JUCE (210)/Getting Started With JUCE - Getting Started.epub",
+        "pathtoebook": "/home/said/Calibre Library/Getting Started/Getting Started With JUCE (210)/Getting Started With JUCE - Getting Started.epub",
+        "timestamp": "2022-10-28T08:57:22.681Z",
+        "title": "Getting Started With JUCE"
+      },
+      {
+        "authors": [
+          "Oliver Kiddle, Jerry Peek",
+          "Peter Stephenson"
+        ],
+        "key": "/home/said/Calibre Library/Oliver Kiddle, Jerry Peek/From Bash to Z Shell_ Conquering the Command Line (180)/From Bash to Z Shell_ Conquering the Comma - Oliver Kiddle, Jerry Peek.epub",
+        "pathtoebook": "/home/said/Calibre Library/Oliver Kiddle, Jerry Peek/From Bash to Z Shell_ Conquering the Command Line (180)/From Bash to Z Shell_ Conquering the Comma - Oliver Kiddle, Jerry Peek.epub",
+        "timestamp": "2022-10-28T08:24:02.681Z",
+        "title": "From Bash to Z Shell: Conquering the Command Line"
+      }
+    ],
+    "user_stylesheet": "body {color:rgb(0,0,0);\nbackground-color:rgb(174,174,174);\ntext-align:justify;\nline-spacing:1.8;\nmargin-top:0px;\nmargin-bottom:4px;\nmargin-right:50px;\nmargin-left:50px;\ntext-indent:3em;}\nh1, h2, h3, h4, h5, h6\n{color:black;\ntext-align:center;\nfont-style:italic;\nfont-weight:bold;}\nThanks, using this verbatim.\n"
+  }
+}

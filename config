@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+; [remote "upstream"]
+	; url = git@github.com:saidbelkacem/dotfiles.git
+	; fetch = +refs/heads/*:refs/remotes/upstream/*
+[gui]
+	wmstate = normal
+	geometry = 1274x633+-6+730 174 168
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "origin"]
+	url = git@github.com:saidbelkacem/dotfiles.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

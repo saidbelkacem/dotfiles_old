@@ -1,0 +1,89 @@
+0000000000000000000000000000000000000000 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 said <Said Belkacem> 1663836852 +0300	commit (initial): first commit two functions
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 git stash <Said Belkacem> 1664044507 +0300	reset: moving to HEAD
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 3461a09643bdb590d35050031467bd0a39e3d8cb said <Said Belkacem> 1664192676 +0300	commit: changed numbers
+3461a09643bdb590d35050031467bd0a39e3d8cb 1e540cb685ad1c5101b329310fe859cd536e2415 said <Said Belkacem> 1664192807 +0300	commit: new numbers
+1e540cb685ad1c5101b329310fe859cd536e2415 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 said <Said Belkacem> 1664192818 +0300	rebase (start): checkout 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 59a812970505d8f13b9d1a3c652b847653c819e0 said <Said Belkacem> 1664192987 +0300	rebase (continue): new numbers
+59a812970505d8f13b9d1a3c652b847653c819e0 59a812970505d8f13b9d1a3c652b847653c819e0 said <Said Belkacem> 1664192987 +0300	rebase (continue) (finish): returning to refs/heads/master
+59a812970505d8f13b9d1a3c652b847653c819e0 4dcf702c3d3d0ee46d00e049a058e1563a623868 said <Said Belkacem> 1664403227 +0300	commit: two functions
+4dcf702c3d3d0ee46d00e049a058e1563a623868 4dcf702c3d3d0ee46d00e049a058e1563a623868 said <Said Belkacem> 1664434267 +0300	reset: moving to HEAD
+4dcf702c3d3d0ee46d00e049a058e1563a623868 064efa42c5eccbc49c0a5e916a8629fd2db36e1b said <admin@belkacem.ch> 1664823920 +0300	commit: begin clang extension setup
+064efa42c5eccbc49c0a5e916a8629fd2db36e1b 5e107433f9e9befe05d05d76d970817cab3b45a0 said <admin@belkacem.ch> 1664915406 +0300	commit: header test
+5e107433f9e9befe05d05d76d970817cab3b45a0 4a6cf2176da5ff78b3415d6b2e5d04b7f510e876 said <admin@belkacem.ch> 1664918513 +0300	commit: cmake tests
+4a6cf2176da5ff78b3415d6b2e5d04b7f510e876 1fb0caea3868d2fbd89ba447865d9ced17ece8e9 said <admin@belkacem.ch> 1665075494 +0300	commit (amend): header file for add function
+1fb0caea3868d2fbd89ba447865d9ced17ece8e9 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665075617 +0300	rebase (start): checkout 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 4dcf702c3d3d0ee46d00e049a058e1563a623868 said <admin@belkacem.ch> 1665075617 +0300	rebase: fast-forward
+4dcf702c3d3d0ee46d00e049a058e1563a623868 0b5d13507ffd51facf39f8643057394738c6b6f4 said <admin@belkacem.ch> 1665075617 +0300	rebase (reword): this is a commit
+0b5d13507ffd51facf39f8643057394738c6b6f4 539e7272d34f139bcd6288887e1837881b30baa1 said <admin@belkacem.ch> 1665075684 +0300	rebase (pick): begin clang extension setup
+539e7272d34f139bcd6288887e1837881b30baa1 fb79c3f3d80d3d4f0020197b665bd8720c797249 said <admin@belkacem.ch> 1665075684 +0300	rebase (pick): header test
+fb79c3f3d80d3d4f0020197b665bd8720c797249 fb489cb0fc45272b36ec620fe896dcf7b4cf014a said <admin@belkacem.ch> 1665075684 +0300	rebase (pick): header file for add function
+fb489cb0fc45272b36ec620fe896dcf7b4cf014a fb489cb0fc45272b36ec620fe896dcf7b4cf014a said <admin@belkacem.ch> 1665075684 +0300	rebase (finish): returning to refs/heads/master
+fb489cb0fc45272b36ec620fe896dcf7b4cf014a 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665075719 +0300	rebase (start): checkout 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 0b5d13507ffd51facf39f8643057394738c6b6f4 said <admin@belkacem.ch> 1665075719 +0300	rebase: fast-forward
+0b5d13507ffd51facf39f8643057394738c6b6f4 82812ebf910b055a02331e558c11e2e2c79999d5 said <admin@belkacem.ch> 1665075719 +0300	rebase (reword): this is a commit
+82812ebf910b055a02331e558c11e2e2c79999d5 a32c1b6f0cb411df604df8d21022fc7936ec79dc said <admin@belkacem.ch> 1665075736 +0300	rebase (pick): begin clang extension setup
+a32c1b6f0cb411df604df8d21022fc7936ec79dc 5d50d0603687c97480f0151f4086ffeb30d6f78c said <admin@belkacem.ch> 1665075736 +0300	rebase (pick): header test
+5d50d0603687c97480f0151f4086ffeb30d6f78c b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665075736 +0300	rebase (pick): header file for add function
+b4f51dff773d87fcc659f2d0e2fae62629198e64 b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665075736 +0300	rebase (finish): returning to refs/heads/master
+b4f51dff773d87fcc659f2d0e2fae62629198e64 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665135668 +0300	commit: json format
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 git stash <admin@belkacem.ch> 1665136009 +0300	reset: moving to HEAD
+a98388a4d33049d65ef5451c4aea1eacf90dee57 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 said <admin@belkacem.ch> 1665136009 +0300	checkout: moving from master to 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136109 +0300	checkout: moving from 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 to a98388a4d33049d65ef5451c4aea1eacf90dee57
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136163 +0300	checkout: moving from a98388a4d33049d65ef5451c4aea1eacf90dee57 to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136176 +0300	checkout: moving from master to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136262 +0300	checkout: moving from 59a812970505d8f13b9d1a3c652b847653c819e0 to two-funcitons
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136287 +0300	rebase (start): checkout master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136287 +0300	rebase (finish): returning to refs/heads/two-funcitons
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136314 +0300	checkout: moving from two-funcitons to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665136339 +0300	rebase (start): checkout b4f51dff773d87fcc659f2d0e2fae62629198e64
+b4f51dff773d87fcc659f2d0e2fae62629198e64 b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665136339 +0300	rebase (finish): returning to refs/heads/master
+b4f51dff773d87fcc659f2d0e2fae62629198e64 5d50d0603687c97480f0151f4086ffeb30d6f78c said <admin@belkacem.ch> 1665136340 +0300	rebase (start): checkout 5d50d0603687c97480f0151f4086ffeb30d6f78c
+5d50d0603687c97480f0151f4086ffeb30d6f78c 5d50d0603687c97480f0151f4086ffeb30d6f78c said <admin@belkacem.ch> 1665136340 +0300	rebase (finish): returning to refs/heads/master
+5d50d0603687c97480f0151f4086ffeb30d6f78c a32c1b6f0cb411df604df8d21022fc7936ec79dc said <admin@belkacem.ch> 1665136340 +0300	rebase (start): checkout a32c1b6f0cb411df604df8d21022fc7936ec79dc
+a32c1b6f0cb411df604df8d21022fc7936ec79dc a32c1b6f0cb411df604df8d21022fc7936ec79dc said <admin@belkacem.ch> 1665136340 +0300	rebase (finish): returning to refs/heads/master
+a32c1b6f0cb411df604df8d21022fc7936ec79dc 82812ebf910b055a02331e558c11e2e2c79999d5 said <admin@belkacem.ch> 1665136341 +0300	rebase (start): checkout 82812ebf910b055a02331e558c11e2e2c79999d5
+82812ebf910b055a02331e558c11e2e2c79999d5 82812ebf910b055a02331e558c11e2e2c79999d5 said <admin@belkacem.ch> 1665136341 +0300	rebase (finish): returning to refs/heads/master
+82812ebf910b055a02331e558c11e2e2c79999d5 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136342 +0300	rebase (start): checkout 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136342 +0300	rebase (finish): returning to refs/heads/master
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136415 +0300	checkout: moving from master to two-funcitons
+a98388a4d33049d65ef5451c4aea1eacf90dee57 0000000000000000000000000000000000000000 said <admin@belkacem.ch> 1665136456 +0300	Branch: renamed refs/heads/two-funcitons to refs/heads/master
+0000000000000000000000000000000000000000 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136456 +0300	Branch: renamed refs/heads/two-funcitons to refs/heads/master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136510 +0300	checkout: moving from master to function-branch
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136525 +0300	checkout: moving from function-branch to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136538 +0300	checkout: moving from master to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136554 +0300	rebase (start): checkout function-branch
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136559 +0300	checkout: moving from a98388a4d33049d65ef5451c4aea1eacf90dee57 to function-branch
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136564 +0300	checkout: moving from function-branch to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136575 +0300	checkout: moving from master to function-branch
+a98388a4d33049d65ef5451c4aea1eacf90dee57 b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665136596 +0300	rebase (start): checkout b4f51dff773d87fcc659f2d0e2fae62629198e64
+b4f51dff773d87fcc659f2d0e2fae62629198e64 b4f51dff773d87fcc659f2d0e2fae62629198e64 said <admin@belkacem.ch> 1665136596 +0300	rebase (finish): returning to refs/heads/function-branch
+b4f51dff773d87fcc659f2d0e2fae62629198e64 5d50d0603687c97480f0151f4086ffeb30d6f78c said <admin@belkacem.ch> 1665136597 +0300	rebase (start): checkout 5d50d0603687c97480f0151f4086ffeb30d6f78c
+5d50d0603687c97480f0151f4086ffeb30d6f78c 5d50d0603687c97480f0151f4086ffeb30d6f78c said <admin@belkacem.ch> 1665136597 +0300	rebase (finish): returning to refs/heads/function-branch
+5d50d0603687c97480f0151f4086ffeb30d6f78c a32c1b6f0cb411df604df8d21022fc7936ec79dc said <admin@belkacem.ch> 1665136598 +0300	rebase (start): checkout a32c1b6f0cb411df604df8d21022fc7936ec79dc
+a32c1b6f0cb411df604df8d21022fc7936ec79dc a32c1b6f0cb411df604df8d21022fc7936ec79dc said <admin@belkacem.ch> 1665136598 +0300	rebase (finish): returning to refs/heads/function-branch
+a32c1b6f0cb411df604df8d21022fc7936ec79dc 82812ebf910b055a02331e558c11e2e2c79999d5 said <admin@belkacem.ch> 1665136598 +0300	rebase (start): checkout 82812ebf910b055a02331e558c11e2e2c79999d5
+82812ebf910b055a02331e558c11e2e2c79999d5 82812ebf910b055a02331e558c11e2e2c79999d5 said <admin@belkacem.ch> 1665136598 +0300	rebase (finish): returning to refs/heads/function-branch
+82812ebf910b055a02331e558c11e2e2c79999d5 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136599 +0300	rebase (start): checkout 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136599 +0300	rebase (finish): returning to refs/heads/function-branch
+59a812970505d8f13b9d1a3c652b847653c819e0 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 said <admin@belkacem.ch> 1665136599 +0300	rebase (start): checkout 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 said <admin@belkacem.ch> 1665136599 +0300	rebase (finish): returning to refs/heads/function-branch
+7bb8792e7c3aad334e1aa7ec46952dbd89eea1f7 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136621 +0300	checkout: moving from function-branch to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136636 +0300	checkout: moving from master to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136647 +0300	checkout: moving from feature to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136664 +0300	checkout: moving from 59a812970505d8f13b9d1a3c652b847653c819e0 to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136671 +0300	checkout: moving from feature to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136687 +0300	checkout: moving from master to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136753 +0300	checkout: moving from 59a812970505d8f13b9d1a3c652b847653c819e0 to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136793 +0300	checkout: moving from feature to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136831 +0300	checkout: moving from 59a812970505d8f13b9d1a3c652b847653c819e0 to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136836 +0300	checkout: moving from feature to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136841 +0300	checkout: moving from master to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665136887 +0300	checkout: moving from feature to 59a812970505d8f13b9d1a3c652b847653c819e0
+59a812970505d8f13b9d1a3c652b847653c819e0 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136971 +0300	checkout: moving from 59a812970505d8f13b9d1a3c652b847653c819e0 to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136974 +0300	checkout: moving from master to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136983 +0300	checkout: moving from feature to master
+a98388a4d33049d65ef5451c4aea1eacf90dee57 a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665136989 +0300	checkout: moving from master to feature
+a98388a4d33049d65ef5451c4aea1eacf90dee57 59a812970505d8f13b9d1a3c652b847653c819e0 said <admin@belkacem.ch> 1665137087 +0300	checkout: moving from feature to test
+59a812970505d8f13b9d1a3c652b847653c819e0 6be11e8bf9f9205f578734e6678195e20b1b58fa said <admin@belkacem.ch> 1665137139 +0300	commit: ein kommentar
+6be11e8bf9f9205f578734e6678195e20b1b58fa ad5bf63f66cf2220369fc5b5267eed33acd07e2b said <admin@belkacem.ch> 1665137152 +0300	commit (amend): comment
+ad5bf63f66cf2220369fc5b5267eed33acd07e2b a98388a4d33049d65ef5451c4aea1eacf90dee57 said <admin@belkacem.ch> 1665163322 +0300	checkout: moving from test to master

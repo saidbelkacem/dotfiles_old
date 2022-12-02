@@ -1,0 +1,12 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/said/.local/share/chezmoi
+- /home/said/Dev/cpp/CppPrimer
+- /home/said/Dev/c/richie
+- /home/said/Dev/lua/plugins/stackmap.nvim
+- /home/said/Dev/cpp/Classes
+- /home/said/Dev/cpp/Cpp_Exercices
+startuppopupversion: 5
+customcommandshistory:
+- q
+hidecommandlog: false

@@ -1,0 +1,49 @@
+[Data Source]
+DisplayName=admin@belkacem.ch
+Enabled=true
+Parent=083467176f30bdcb6aef991e6637f2158ed3a3e9
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=1c58c3393e8ab1d03ee51deb37cbf41c1d52efb3
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://324878fa155eb39ef5ecc8c34d174237486620d4/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=admin@belkacem.ch
+Aliases=
+Name=Said Belkacem
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

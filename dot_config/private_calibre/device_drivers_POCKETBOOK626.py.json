@@ -1,0 +1,20 @@
+{
+  "extra_customization": null,
+  "format_map": [
+    "epub",
+    "pdf",
+    "fb2",
+    "txt",
+    "pdf",
+    "html",
+    "djvu",
+    "doc",
+    "docx",
+    "rtf",
+    "chm"
+  ],
+  "read_metadata": true,
+  "save_template": "{tags}/{title}",
+  "use_author_sort": false,
+  "use_subdirs": true
+}

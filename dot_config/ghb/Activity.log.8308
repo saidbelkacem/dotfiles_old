@@ -1,0 +1,45 @@
+[15:52:48] gtkgui: HandBrake 1.5.1 (2022012300) - Linux x86_64 - https://handbrake.fr
+[15:52:48] Compile-time hardening features are enabled
+Cannot load libnvidia-encode.so.1
+Cannot load libnvidia-encode.so.1
+Cannot load libnvidia-encode.so.1
+Cannot load libnvidia-encode.so.1
+[15:52:48] hb_init: starting libhb thread
+[15:52:48] hb_init: starting libhb thread
+[15:52:48] hb_init: starting libhb thread
+[15:52:49] CPU: AMD Ryzen 5 PRO 4650GE with Radeon Graphics
+[15:52:49]  - logical processor count: 12
+[15:52:49] Intel Quick Sync Video support: no
+[15:52:49] hb_scan: path=/home/said/Pictures/video_2022-09-24_23-53-57.mp4, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/said/Pictures/video_2022-09-24_23-53-57.mp4
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2646: nav_get_title_list(/home/said/Pictures/video_2022-09-24_23-53-57.mp4/) failed
+[15:52:49] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[15:52:49] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/said/Pictures/video_2022-09-24_23-53-57.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2022-09-24T17:32:19.000000Z
+  Duration: 00:00:11.35, start: 0.000000, bitrate: 253 kb/s
+  Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 65 kb/s (default)
+    Metadata:
+      creation_time   : 2022-09-24T17:32:08.000000Z
+      handler_name    : SoundHandle
+      vendor_id       : [0][0][0][0]
+  Stream #0:1(eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, unknown/bt470bg/unknown), 640x360, 181 kb/s, 30 fps, 30 tbr, 90k tbn, 180k tbc (default)
+    Metadata:
+      creation_time   : 2022-09-24T17:32:08.000000Z
+      handler_name    : VideoHandle
+      vendor_id       : [0][0][0][0]
+[15:52:49] scan: decoding previews for title 1
+[15:52:49] scan: audio 0x0: aac, rate=48000Hz, bitrate=65259 English (AAC LC) (2.0 ch) (65 kbps)
+[15:52:49] scan: 10 previews, 640x360, 30.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 5-1-6, chroma location: left
+[15:52:49] libhb: scan thread found 1 valid title(s)
+[15:52:49] decomb: deinterlaced 1 | blended 0 | unfiltered 0 | total 1
+[15:52:49] decomb: deinterlaced 1 | blended 0 | unfiltered 0 | total 1

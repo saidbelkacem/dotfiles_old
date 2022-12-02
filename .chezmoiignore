@@ -1,0 +1,12 @@
+.config/REAPER
+.config/REAPER/**
+.config/skypeforlinux
+.config/skypeforlinux/**
+.config/google-chrome
+.config/google-chrome/**
+.config/obs-studio
+.config/obs-studio/**
+.config/chezmoi/chezmoistate.boltdb
+Dev/go
+Dev/go/**
+

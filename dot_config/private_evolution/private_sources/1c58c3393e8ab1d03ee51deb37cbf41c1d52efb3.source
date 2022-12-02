@@ -1,0 +1,23 @@
+[Data Source]
+DisplayName=admin@belkacem.ch
+Enabled=true
+Parent=083467176f30bdcb6aef991e6637f2158ed3a3e9
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=admin@belkacem.ch
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Mail Transport]
+BackendName=smtp
+
+[Smtp Backend]
+ReencodeData=false

@@ -1,0 +1,36 @@
+#!/bin/sh
+# HISTFILE="$XDG_DATA_HOME"/zsh/history
+HISTSIZE=1000000
+SAVEHIST=1000000
+export PATH="$HOME/.local/bin":$PATH
+export MANPAGER='nvim +Man!'
+export MANWIDTH=999
+export PATH="$HOME/.local/share/neovim/bin":$PATH
+export GOPATH=/home/said/Dev/go
+export PATH=$PATH:$GOPATH/bin
+export GOPATH=$GOPATH:/home/Dev/gocode
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+eval "$(zoxide init zsh)"
+
+export FZF_DEFAULT_OPTS="
+--layout=reverse
+--info=inline
+--height=80%
+--multi
+--preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+--color='hl:148,hl+:154,pointer:032,marker:010,bg+:237,gutter:008'
+--prompt='∼ ' --pointer='▶' --marker='✓'
+--bind '?:toggle-preview'
+--bind 'ctrl-a:select-all'
+--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+--bind 'ctrl-e:execute(echo {+} | xargs nvim)'
+--bind 'ctrl-v:execute(code {+})'
+"
+# fzf's command
+# export FZF_DEFAULT_COMMAND="fd"
+# CTRL-T's command
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+# ALT-C's command
+# export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND --type d"
+export FZF_ALT_C_COMMAND="fd -t d --hidden --follow --exclude \'.git\' . $HOME"

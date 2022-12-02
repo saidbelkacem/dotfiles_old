@@ -1,0 +1,36 @@
+# This is a combination of 2 commits.
+# This is the 1st commit message:
+
+fahrenheit2
+
+# This is the commit message #2:
+
+json
+
+bla
+
+bla
+
+bla
+
+test
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri Nov 11 20:47:17 2022 +0200
+#
+# interactive rebase in progress; onto 6f9cd6c
+# Last commands done (2 commands done):
+#    pick 32d5290 fahrenheit2
+#    squash 45709e6 json
+# No commands remaining.
+# You are currently rebasing branch 'master' on '6f9cd6c'.
+#
+# Changes to be committed:
+#	modified:   CMakeLists.txt
+#	new file:   compile_commands.json
+#	deleted:    fahrenheit.c
+#	new file:   fahrenheit2.c
+#	new file:   neovim.json
+#

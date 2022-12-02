@@ -1,0 +1,8 @@
+
+cmd        "xdg-open"
+oc-cmd     "evince;icon:evince"
+oc-cmd     "gimp;icon:gimp"
+depth      1
+
+open-parent-as-self
+only-files

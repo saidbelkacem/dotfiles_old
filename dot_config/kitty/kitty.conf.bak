@@ -1,0 +1,76 @@
+include Tokyo Night.conf
+font_family   JetBrainsMono Nerd Font Mono
+bold_font    JetBrainsMono Nerd Font Mono
+bold_italic_font JetBrainsMono Nerd Font Mono
+
+font_size 13.0
+
+#: Font size (in pts)
+allow_remote_control yes
+listen_on unix:@mykitty
+
+
+force_ltr no
+adjust_line_height 2
+adjust_column_width 0
+disable_ligatures always
+
+confirm_os_window_close 0
+
+cursor_blink_interval 0
+
+repaint_delay 5
+
+inactive_text_alpha 0.3
+
+single_window_margin_width 0
+
+# The width (in pts) of window borders. Will be rounded to the nearest number of pixels based on screen resolution.
+window_border_width 0
+
+# The window margin (in pts) (blank area outside the border)
+window_margin_width 0
+
+# The window padding (in pts) (blank area between the text and the window border)
+window_padding_width 0
+
+# Shift + Enter
+map shift+enter send_text all \x1b[13;2u
+
+# Ctrl + I Remaps
+map ctrl+i send_text all \x1b[105;5u
+
+## Tab Bar
+tab_bar_edge top
+tab_bar_style fade
+tab_fade 0 1 1 1
+
+active_tab_foreground  #abb2bf
+active_tab_background  #32363e
+active_tab_font_style  bold-italic
+inactive_tab_foreground #6b727f 
+inactive_tab_background #282c34
+inactive_tab_font_style normal
+
+enabled_layouts splits
+
+
+map ctrl+shift+t new_tab
+map ctrl+shift+w close_tab
+map ctrl+shift+n next_tab
+map ctrl+shift+v vsplit_window 
+map ctrl+space>h launch --location=hsplit --cwd=current
+map ctrl+space>v launch --location=vsplit --cwd=current
+
+map ctrl+j kitten pass_keys.py neighboring_window bottom ctrl+j
+map ctrl+k kitten pass_keys.py neighboring_window top    ctrl+k
+map ctrl+h kitten pass_keys.py neighboring_window left   ctrl+h
+map ctrl+l kitten pass_keys.py neighboring_window right  ctrl+l
+
+
+map ctrl+c copy_or_interrupt
+map ctrl+v paste_from_clipboard
+
+copy_on_select clipboard
+
+ 

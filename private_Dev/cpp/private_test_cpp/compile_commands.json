@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/said/Dev/cpp/test_cpp/build/debug",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/Testproject.dir/main.cpp.o -c /home/said/Dev/cpp/test_cpp/main.cpp",
+  "file": "/home/said/Dev/cpp/test_cpp/main.cpp"
+},
+{
+  "directory": "/home/said/Dev/cpp/test_cpp/build/debug",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/Testproject.dir/test.cpp.o -c /home/said/Dev/cpp/test_cpp/test.cpp",
+  "file": "/home/said/Dev/cpp/test_cpp/test.cpp"
+}
+]

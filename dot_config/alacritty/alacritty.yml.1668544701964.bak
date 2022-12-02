@@ -1,0 +1,11 @@
+font:
+  size: 13
+  # x: 0
+  # y: 0
+  normal:
+    family: Iosevka Nerd Font Mono
+    style: Regular
+  bold:
+    style: Bold
+  italic:
+    style: Italic
