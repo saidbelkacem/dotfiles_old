@@ -51,7 +51,6 @@ downgrade
 duf
 dunst
 e2fsprogs
-easytag-git
 efibootmgr
 efitools
 endeavouros-keyring
@@ -247,7 +246,7 @@ tmux
 tmux-resurrect
 transmission-gtk
 tree
-ttf-iosevka-term
+ttf-iosevka-nerd
 ttf-liberation
 ttf-nerd-fonts-symbols-2048-em-mono
 ttf-opensans
