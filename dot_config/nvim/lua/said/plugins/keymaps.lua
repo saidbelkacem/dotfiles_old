@@ -14,11 +14,7 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
--- and for terminal
--- vim.keymap.set("t", "<C-h>", "<C-w>h", opts)
--- vim.keymap.set("t", "<C-j>", "<C-w>j", opts)
--- vim.keymap.set("t", "<C-k>", "<C-w>k %:p:h", opts)
--- vim.keymap.set("t", "<C-l>", "<C-w>l", opts)
+keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
 
 -- handy kemaps
 vim.keymap.set("n", "<leader>q", "<cmd>qa!<CR>", opts)
@@ -54,8 +50,6 @@ vim.keymap.set("t", "<leader>e", "<cmd>NnnPicker<CR>", opts)
 vim.keymap.set("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<CR>", opts)
 vim.keymap.set("n", "<leader>th", "<cmd>ToggleTerm size=20 direction=horizontal<CR>", opts)
 vim.keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", opts)
-
-vim.keymap.set("n", "<leader>gg", "<cmd>lua os.execute('kitty @launch --cwd=oldest --type=overlay lazygit')<CR>", opts)
 
 -- Resize with arrows
 vim.keymap.set("n", "<C-Up>", ":resize -2<CR>", opts)

@@ -1,11 +1,11 @@
 export ZSH="/usr/share/oh-my-zsh"
-ZSH_THEME="theunraveler"
-ZSH_THEME="gnzh"
+# ZSH_THEME="theunraveler"
+# ZSH_THEME="gnzh"
 export VI_MODE_SET_CURSOR=true
 ZSH_THEME="arrow"
 ZSH_TMUX_AUTOSTART="true"
 ZSH_TMUX_CONFIG=$HOME/.config/tmux/tmux.conf
-plugins=(git fzf vi-mode tmux)
+plugins=(git fzf vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 export GOPATH=/home/said/go

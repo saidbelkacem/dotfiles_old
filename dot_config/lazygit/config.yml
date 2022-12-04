@@ -1,8 +1,8 @@
 gui:
   theme:
     activeBorderColor:
-      - blue
       - bold
+      - red
     inactiveBorderColor:
       - white
     optionsTextColor:

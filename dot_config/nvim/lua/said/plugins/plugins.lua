@@ -43,6 +43,7 @@ return packer.startup(function(use)
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
 	use("akinsho/toggleterm.nvim")
+	use("CRAG666/code_runner.nvim")
 
 	-- essential plugins
 	use("numToStr/Comment.nvim")

@@ -45,6 +45,10 @@ local on_attach = function(client, bufnr)
 		keymap.set("n", "<leader>oi", ":TypescriptOrganizeImports<CR>") -- organize imports (not in youtube nvim video)
 		keymap.set("n", "<leader>ru", ":TypescriptRemoveUnused<CR>") -- remove unused variables (not in youtube nvim video)
 	end
+
+	if client.name == "gopls" then
+		keymap.set("n", "<leader>dd", ":DapContinue<CR>") -- rename file and update imports
+	end
 	if client.name == "clangd" then
 		keymap.set("n", "<leader>rr", ":CMake run<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>dd", ":CMake debug<CR>") -- rename file and update imports

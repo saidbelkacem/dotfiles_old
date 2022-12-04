@@ -2,12 +2,15 @@ package main
 
 import (
 	"fmt"
-	// "math/rand"
+	"strconv"
 )
 
 func main(){
-  const price, tax float32 = 275.00, 28.0
-  const quantity, inStock = 2, true
-  fmt.Println("sum:", quantity * (price + tax))
-  fmt.Println("In stock:",inStock)
+  myString := "0"
+
+  if bool1, b1error := strconv.ParseBool(myString); b1error == nil {
+    fmt.Println("Parsed value:", bool1)
+  } else {
+    fmt.Println("cannot parse")
+  }
 }

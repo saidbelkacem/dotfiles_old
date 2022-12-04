@@ -17,6 +17,7 @@ require("said.plugins.fzf-lua")
 require("said.plugins.nnn")
 require("said.plugins.neovim-cmake")
 require("said.plugins.toggleterm")
+require("said.plugins.code_runner")
 
 -- require("/home/said/Dev/lua/plugins/stackmap.nvim")
 
