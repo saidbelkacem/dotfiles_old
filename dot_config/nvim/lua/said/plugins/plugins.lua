@@ -36,9 +36,10 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("rafi/awesome-vim-colorschemes")
-	use("luisiacc/gruvbox-baby")
-	use({ "folke/tokyonight.nvim" })
+	-- use("luisiacc/gruvbox-baby")
+	use("folke/tokyonight.nvim")
+	use("ellisonleao/gruvbox.nvim")
+	use("navarasu/onedark.nvim")
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
@@ -57,6 +58,8 @@ return packer.startup(function(use)
 	use("ibhagwan/fzf-lua")
 
 	use("luukvbaal/nnn.nvim") -- nnn plugin
+	use("akinsho/bufferline.nvim") -- nnn plugin
+	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
 
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
@@ -72,31 +75,22 @@ return packer.startup(function(use)
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
 	use("williamboman/mason-lspconfig.nvim") -- bridges gap b/w mason & lspconfig
 	use("mfussenegger/nvim-dap") -- bridges gap b/w mason & lspconfig
-	use({ "rcarriga/nvim-dap-ui" })
-	use({ "theHamsta/nvim-dap-virtual-text" })
+	use("rcarriga/nvim-dap-ui")
+	use("theHamsta/nvim-dap-virtual-text")
 	-- use({ "civitasv/cmake-tools.nvim" })
-	use({ "shatur/neovim-cmake" })
+	use("shatur/neovim-cmake")
 	-- use("jbyuki/one-small-step-for-vimkind")
-	-- use("CRAG666/code_runner.nvim")
 
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
 	use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
-	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 	use("fladson/vim-kitty")
-	use({
-		"jghauser/kitty-runner.nvim",
-		config = function()
-			require("kitty-runner").setup()
-		end,
-	})
-	-- use("knubie/vim-kitty-navigator")
 
 	-- treesitter configuration
 	use({

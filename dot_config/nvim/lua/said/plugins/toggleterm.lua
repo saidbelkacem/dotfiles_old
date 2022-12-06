@@ -4,7 +4,13 @@ if not status_ok then
 end
 
 toggleterm.setup({
-	size = 20,
+	function(term)
+		if term.direction == "horizontal" then
+			return 15
+		elseif term.direction == "vertical" then
+			return vim.o.columns * 0.2
+		end
+	end,
 	open_mapping = [[<c-\>]],
 	hide_numbers = true,
 	shade_terminals = true,
@@ -17,6 +23,12 @@ toggleterm.setup({
 	shell = vim.o.shell,
 	float_opts = {
 		border = "curved",
+	},
+	winbar = {
+		enabled = false,
+		name_formatter = function(term) --  term: Terminal
+			return term.name
+		end,
 	},
 })
 

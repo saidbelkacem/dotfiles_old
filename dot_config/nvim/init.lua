@@ -23,7 +23,9 @@ require("said.plugins.code_runner")
 
 vim.cmd("FzfLua register_ui_select")
 vim.api.nvim_set_hl(0, "WinSeparator", { bg = "none" })
-vim.cmd("set winbar=%F")
+-- vim.cmd("set winbar=%F")
+require("bufferline").setup({})
+
 P = function(v)
 	print(vim.inspect(v))
 	return v

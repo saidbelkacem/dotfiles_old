@@ -1,6 +1,15 @@
 require("code_runner").setup({
-	-- mode = "toggleterm",
+
 	mode = "term",
+	-- mode = "toggleterm",
+
+	term = {
+		--  Position to open the terminal, this option is ignored if mode ~= term
+		position = "bot",
+		-- window size, this option is ignored if mode == tab
+		size = 20,
+	},
+
 	-- put here the commands by filetype
 	filetype = {
 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
