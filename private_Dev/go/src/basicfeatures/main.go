@@ -1,16 +1,14 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
-func main(){
-  myString := "0"
-
-  if bool1, b1error := strconv.ParseBool(myString); b1error == nil {
-    fmt.Println("Parsed value:", bool1)
-  } else {
-    fmt.Println("cannot parse")
-  }
+func main() {
+	var count int
+  fmt.Println("number for count")
+  fmt.Scan(&count)
+	for i := 0; i < count; i++ {
+    if i % 2 == 0 && i < 5000 {
+		fmt.Println(i)
+    }
+	}
 }

@@ -149,6 +149,7 @@ man-db
 man-pages
 mdadm
 mesa-utils
+mixxx
 mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-nfs-utils
