@@ -50,11 +50,12 @@ local on_attach = function(client, bufnr)
 		keymap.set("n", "<leader>dd", ":DapContinue<CR>") -- rename file and update imports
 	end
 	if client.name == "clangd" then
+		keymap.set("n", "<leader>cc", ":CMake configure<CR>") -- rename file and update imports
+		keymap.set("n", "<leader>cb", ":CMake build<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>rr", ":CMake run<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>dd", ":CMake debug<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>bd", ":CMake build_and_debug<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>br", ":CMake build_and_run<CR>") -- rename file and update imports
-		keymap.set("n", "<leader>cc", ":CMake configure<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>st", ":CMake select_target<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>sb", ":CMake select_build_type<CR>") -- rename file and update imports
 	end

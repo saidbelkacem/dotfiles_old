@@ -46,7 +46,6 @@ dap.adapters.delve = {
 	},
 }
 
--- https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv_dap.md
 dap.configurations.go = {
 	{
 		type = "delve",
@@ -73,8 +72,8 @@ dap.configurations.go = {
 
 vim.keymap.set("n", "<leader>b", "<cmd>lua require'dap'.toggle_breakpoint()<cr>")
 
-vim.fn.sign_define("DapBreakpoint", { text = ">", texthl = "DiagnosticInfo" })
-vim.fn.sign_define("DapStopped", { text = ">", texthl = "DiagnosticWarn" })
+vim.fn.sign_define("DapBreakpoint", { text = "⚫", texthl = "DiagnosticError" })
+vim.fn.sign_define("DapStopped", { text = "➔", texthl = "DiagnosticWarn" })
 vim.fn.sign_define("DapBreakpointCondition", { text = "", texthl = "DiagnosticInfo" })
 vim.fn.sign_define("DapLogPoint", { text = ".>", texthl = "DiagnosticInfo" })
 
@@ -128,7 +127,7 @@ dapui.setup({
 				"repl",
 			},
 			position = "bottom",
-			size = 25,
+			size = 15,
 		},
 	},
 	controls = {

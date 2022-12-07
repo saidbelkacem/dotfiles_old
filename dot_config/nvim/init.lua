@@ -15,16 +15,18 @@ require("said.plugins.treesitter")
 require("said.plugins.gitsigns")
 require("said.plugins.fzf-lua")
 require("said.plugins.nnn")
-require("said.plugins.neovim-cmake")
 require("said.plugins.toggleterm")
 require("said.plugins.code_runner")
+require("said.plugins.lualine")
+require("said.plugins.neovim-cmake")
+
+-- require("go").setup()
 
 -- require("/home/said/Dev/lua/plugins/stackmap.nvim")
 
 vim.cmd("FzfLua register_ui_select")
 vim.api.nvim_set_hl(0, "WinSeparator", { bg = "none" })
 -- vim.cmd("set winbar=%F")
-require("bufferline").setup({})
 
 P = function(v)
 	print(vim.inspect(v))

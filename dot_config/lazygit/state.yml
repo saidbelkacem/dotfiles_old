@@ -1,8 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/said/Dev/cpp/CppPrimer
 - /home/said/Dev/go/src/basicfeatures
 - /home/said/.local/share/chezmoi
-- /home/said/Dev/cpp/CppPrimer
 - /home/said/Dev/c/richie
 - /home/said/Dev/lua/plugins/stackmap.nvim
 - /home/said/Dev/cpp/Classes

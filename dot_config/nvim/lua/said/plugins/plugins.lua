@@ -45,10 +45,12 @@ return packer.startup(function(use)
 
 	use("akinsho/toggleterm.nvim")
 	use("CRAG666/code_runner.nvim")
+	use("nvim-lualine/lualine.nvim")
 
 	-- essential plugins
 	use("numToStr/Comment.nvim")
 	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
+	-- use("machakann/vim-sandwich") -- add, delete, change surroundings (it's awesome)
 	use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 
 	-- vs-code like icons
@@ -58,13 +60,13 @@ return packer.startup(function(use)
 	use("ibhagwan/fzf-lua")
 
 	use("luukvbaal/nnn.nvim") -- nnn plugin
-	use("akinsho/bufferline.nvim") -- nnn plugin
-	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
 
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
 	use("hrsh7th/cmp-buffer") -- source for text in buffer
 	use("hrsh7th/cmp-path") -- source for file system paths
+
+	use("ray-x/go.nvim") -- source for file system paths
 
 	-- snippets
 	use("L3MON4D3/LuaSnip") -- snippet engine
