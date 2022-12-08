@@ -1,8 +1,8 @@
-sw_volume: 60
+sw_volume: 74
 audio_device_state:1:My MPD PulseAudio Output
-state: play
-current: 136
-time: 117.868000
+state: pause
+current: 385
+time: 304.651000
 random: 0
 repeat: 0
 single: 0
@@ -387,8 +387,8 @@ playlist_begin
 373:Dancetracks/198 - Hooked on Your Love.m4a
 374:Dancetracks/203 - Hot shot [Album Version].m4a
 375:Dancetracks/206 - I Ain't Jivin', I'm Jammin'.m4a
-376:Dancetracks/208 - I Believe In Miracles.m4a
-377:Dancetracks/213 - I Feel Love (Original 12_ Version).m4a
+376:Dancetracks/213 - I Feel Love (Original 12_ Version).m4a
+377:Dancetracks/208 - I Believe In Miracles.m4a
 378:Dancetracks/214 - I Follow Rivers (the Magician Remix).m4a
 379:Dancetracks/215 - I Found Lovin'.m4a
 380:Dancetracks/220 - I Love Music.m4a
