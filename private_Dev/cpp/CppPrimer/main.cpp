@@ -1,11 +1,21 @@
 #include <iostream>
 
-int main (int argc, char *argv[])
-{
-  double myNumber1, myNumber2;
-  std::cout << "enter number" << std::endl;
-  // std::cin >> myNumber1 >> myNumber2;
-  std::cout << "The result is: " << myNumber1 + myNumber2 << std::endl;
+int main() {
 
+  int currentValue = 0;
+  int value = 0;
+  if (std::cin >> currentValue) {
+    int count = 1; // store count for currentVal
+    while (std::cin >> value)
+    {
+       if (value == currentValue) {
+          ++count;
+       }else {
+          std::cout << currentValue << " occurs " << count << " times" << std::endl;
+          currentValue = value;
+          count =1;
+       } 
+    }
+  }
   return 0;
 }
