@@ -1,28 +1,28 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 1401,
-      "width": 1222,
-      "x": 1333,
-      "y": 34
+      "height": 1410,
+      "width": 1002,
+      "x": 1553,
+      "y": 25
     },
     "full_screened": false,
     "geometry": {
-      "height": 1397,
-      "width": 1218,
-      "x": 1335,
-      "y": 36
+      "height": 1406,
+      "width": 998,
+      "x": 1555,
+      "y": 27
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1397,
-      "width": 1218,
-      "x": 1335,
-      "y": 36
+      "height": 1406,
+      "width": 998,
+      "x": 1555,
+      "y": 27
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAU1AAAAIgAACfoAAAWaAAAFNwAAACQAAAn4AAAFmAAAAAAAAAAACgAAAAU3AAAAJAAACfgAAAWY"
+      "__value__": "AdnQywADAAAAAAYRAAAAGQAACfoAAAWaAAAGEwAAABsAAAn4AAAFmAAAAAAAAAAACgAAAAYTAAAAGwAACfgAAAWY"
     },
     "screen": {
       "depth": 24,
@@ -56,7 +56,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAEwgAABXUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAABDgAABX78AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABX4AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAARzAAABCwAAANIA////AAAD5gAABX4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -73,6 +73,25 @@
       "right": "progress"
     },
     "header": {},
+    "hide_tooltips": null,
+    "keyboard_shortcuts": {
+      "back": [
+        {
+          "altKey": true,
+          "ctrlKey": false,
+          "key": "ArrowLeft",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "j",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
     "left-margin": {
       "left": "empty",
       "middle": "empty",
@@ -89,10 +108,7 @@
     "skipped_dialogs": {},
     "standalone_font_settings": {},
     "standalone_misc_settings": {
-      "remember_last_read": true,
-      "remember_window_geometry": false,
-      "save_annotations_in_ebook": true,
-      "singleinstance": false
+      "remember_window_geometry": true
     },
     "standalone_recently_opened": [
       {
@@ -103,7 +119,7 @@
         ],
         "key": "/home/said/Documents/Calibre Library/Lippman, Stanley B_/C__ Primer, 5_e (178)/C__ Primer, 5_e - Lippman, Stanley B_.epub",
         "pathtoebook": "/home/said/Documents/Calibre Library/Lippman, Stanley B_/C__ Primer, 5_e (178)/C__ Primer, 5_e - Lippman, Stanley B_.epub",
-        "timestamp": "2022-12-07T18:49:32.780Z",
+        "timestamp": "2022-12-09T02:05:58.535Z",
         "title": "C++ Primer, 5/e"
       },
       {

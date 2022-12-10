@@ -79,7 +79,6 @@ return packer.startup(function(use)
 	use("mfussenegger/nvim-dap") -- bridges gap b/w mason & lspconfig
 	use("rcarriga/nvim-dap-ui")
 	use("theHamsta/nvim-dap-virtual-text")
-	-- use({ "civitasv/cmake-tools.nvim" })
 	use("shatur/neovim-cmake")
 	-- use("jbyuki/one-small-step-for-vimkind")
 

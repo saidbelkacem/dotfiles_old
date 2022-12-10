@@ -1,8 +1,8 @@
-sw_volume: 74
+sw_volume: 46
 audio_device_state:1:My MPD PulseAudio Output
 state: pause
-current: 385
-time: 304.651000
+current: 157
+time: 26.256000
 random: 0
 repeat: 0
 single: 0
