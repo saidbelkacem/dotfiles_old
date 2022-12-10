@@ -10461,3 +10461,5 @@ ne https://gitlab.com/gabmus/nvpunk ~/.config/nvim
 : 1670640836:0;clear
 : 1670640850:0;c add .config
 : 1670640862:0;c re-add
+: 1670640875:0;clear
+: 1670640926:0;run_chezmoi

@@ -175,6 +175,7 @@ nfs-utils
 nilfs-utils
 ninja
 nitrogen
+nitroshare
 nmap
 nnn-icons
 npm
