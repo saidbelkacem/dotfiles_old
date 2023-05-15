@@ -67,22 +67,6 @@
       [
         "timestamp",
         false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
       ]
     ]
   },
@@ -111,22 +95,6 @@
     "languages_injected": true,
     "last_modified_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
@@ -324,28 +292,28 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1410,
-      "width": 1222,
-      "x": 1331,
-      "y": 23
+      "height": 1376,
+      "width": 2552,
+      "x": 4,
+      "y": 60
     },
     "full_screened": false,
     "geometry": {
-      "height": 1406,
-      "width": 1218,
-      "x": 1333,
-      "y": 25
+      "height": 1376,
+      "width": 2552,
+      "x": 4,
+      "y": 60
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1406,
-      "width": 1218,
-      "x": 1333,
-      "y": 25
+      "height": 1376,
+      "width": 2552,
+      "x": 4,
+      "y": 60
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAUzAAAAFwAACfgAAAWYAAAFNQAAABkAAAn2AAAFlgAAAAAAAAAACgAAAAU1AAAAGQAACfYAAAWW"
+      "__value__": "AdnQywADAAAAAAAEAAAAPAAACfsAAAWbAAAABAAAADwAAAn7AAAFmwAAAAAAAAAACgAAAAAEAAAAPAAACfsAAAWb"
     },
     "screen": {
       "depth": 24,
@@ -641,7 +609,7 @@
   },
   "library_usage_stats": {
     "/home/said/Calibre Library": 12,
-    "/home/said/Documents/Calibre Library": 37
+    "/home/said/Documents/Calibre Library": 43
   },
   "memory_view books view state": {
     "column_alignment": {
@@ -668,22 +636,6 @@
     "languages_injected": true,
     "last_modified_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false

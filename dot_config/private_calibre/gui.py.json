@@ -46,7 +46,10 @@
   ],
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
-  "main_search_history": [],
+  "main_search_history": [
+    "lua",
+    "languages:false"
+  ],
   "main_window_geometry": {
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAAADAAAAIAAACfwAAAWcAAAABwAAACQAAAn4AAAFmAAAAAAAAAAACgAAAAAHAAAAJAAACfgAAAWY"

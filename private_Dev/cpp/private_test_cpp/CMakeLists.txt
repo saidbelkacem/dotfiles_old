@@ -8,7 +8,7 @@ add_executable(${PROJECT_NAME}
     main.cpp
     test.cpp 
 )
-
+set_source_files_properties(main.cpp test.cpp)
 # add_custom_target(run
 #     COMMAND binary
 #     DEPENDS binary

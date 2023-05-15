@@ -110,7 +110,6 @@ ls
 
 : 1668615558:0;sudo pacman -Rs $(pacman -Qdtq)
 : 1668615558:0;pacman -Scc
-: 1668615558:0;sudo pacman -Scc
 : 1668615558:0;which oh-my-zsh
 : 1668615558:0;which zsh
 : 1668615558:0;yaourt -Qdt
@@ -127,7 +126,6 @@ ls
 : 1668615558:0;sudo timeshift --create --target /dev/sda1
 : 1668615558:0;sudo timeshift --create --snapshot-device  /dev/sda1
 : 1668615558:0;cd backup
-: 1668615558:0;du 
 : 1668615558:0;sudo mount /dev/sda1 /mnt/backup
 : 1668615558:0;timeshift-launcher
 : 1668615558:0;sudo timeshift-launcher
@@ -246,7 +244,6 @@ q
 : 1668615558:0;sudo pacman -Scc\
 
 : 1668615558:0;l;s
-: 1668615558:0;cd .steam
 : 1668615558:0;seq
 : 1668615558:0;man seq
 : 1668615558:0;rofi-theme-selector
@@ -401,7 +398,6 @@ exit
 : 1668615558:0;git restore all
 : 1668615558:0;git checkout neovim-said
 : 1668615558:0;git checkout -f neovim-said
-: 1668615558:0;cd te
 : 1668615558:0;j loc
 : 1668615558:0;j lo nvi
 : 1668615558:0;mv plugins Plugins
@@ -631,19 +627,16 @@ exit
 : 1668615558:0;vi .zshrc
 : 1668615558:0;rm vi-mode.plugin.zsh
 : 1668615558:0;cd .oh-my-zsh/custom/plugins
-: 1668615558:0;cd custom
 : 1668615558:0;kasdksdkf source helloworld
 : 1668615558:0;n .zshr
 : 1668615558:0;über den Wolken, möchte ich schweben.
 : 1668615558:0;git branch -a
 : 1668615558:0;git -c
-: 1668615558:0;purge
 : 1668615558:0;sudo purge
 : 1668615558:0;git stats
 : 1668615558:0;git s
 : 1668615558:0;git add all
 : 1668615558:0;git add -a
-: 1668615558:0;git add *
 : 1668615558:0;status
 : 1668615558:0;git add -f .gitignore
 : 1668615558:0;git commit -m "second commit"
@@ -671,7 +664,6 @@ exit
 : 1668615558:0;git restore --staged .gitignore
 : 1668615558:0;git rebase master
 : 1668615558:0;cd n
-: 1668615558:0;j nvi
 : 1668615558:0;mv init.lua init.lua.bak
 : 1668615558:0;cat user_example
 : 1668615558:0;git checkout ac0e509 
@@ -683,10 +675,8 @@ exit
 : 1668615558:0;cd ../nvim.bak
 : 1668615558:0;cd lua/users
 : 1668615558:0;cp init.lua.bak ../../../nvim/lua/
-: 1668615558:0;mkdir user
 : 1668615558:0;cp init.lua.bak ./user/init.lua
 : 1668615558:0;cd ../co
-: 1668615558:0;cd utils
 : 1668615558:0;pacman '
 : 1668615558:0;pacman -S openshot
 : 1668615558:0;sudo pacman -S openshot
@@ -711,7 +701,6 @@ exit
 : 1668615558:0;skldjasdfPf
 : 1668615558:0;asdfa
 : 1668615558:0;asdfasd
-: 1668615558:0;fa
 : 1668615558:0;vi packer_compiled.lua
 : 1668615558:0;n packer_compiled.lua
 : 1668615558:0;sudo pacman -S cheese
@@ -1013,9 +1002,7 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;j said root
 : 1668615558:0;n fstab
 : 1668615558:0;n default/grub
-: 1668615558:0;cd efi
 : 1668615558:0;cd boo
-: 1668615558:0;cd boot
 : 1668615558:0;cd endeavouros-5242
 : 1668615558:0;cd grub
 : 1668615558:0;cp -a /boot/efi/* /run/media/said/NO_LABEL/*
@@ -1042,7 +1029,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;pacman -S reaper
 : 1668615558:0;sudo pacman -S reaper
 : 1668615558:0;cp init.lua init.bak
-: 1668615558:0;mv user user.bak
 : 1668615558:0;git clone -b -f another_method https://github.com/datamonsterr/astrovim_config ~/.config/nvim/lua/user\
 
 : 1668615558:0;git clone -b another_method https://github.com/datamonsterr/astrovim_config ~/.config/nvim/lua/user\
@@ -1079,16 +1065,13 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;pacman -Qe | grep reaper
 : 1668615558:0;pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h
 : 1668615558:0;uname /a
-: 1668615558:0;cd /boot
 : 1668615558:0;grub-install --target=x86_64-efi --efi-directory=<em>/boot/efi</em> --bootloader-id=GRUB
-: 1668615558:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 : 1668615558:0;sudo pacman -U /var/cache/pacman/pkg/grub-2:2.06.r297.g0c6c1aff2-1-x86_64.pkg.tar.zst
 : 1668615558:0;ls -l /var/cache/pacman/pkg/grub*
 : 1668615558:0;grub-bios-setup
 : 1668615558:0;grub ?
 : 1668615558:0;grub-mkconfig 
 : 1668615558:0;sudo grub-mkconfig 
-: 1668615558:0;grub-install
 : 1668615558:0;efibootmgr -v
 : 1668615558:0;grub-mkconfig -o /boot/grub/grub.cfg
 : 1668615558:0;efibootmgr
@@ -1100,8 +1083,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;teamviewer --deamon start
 : 1668615558:0;sudo teamviewer --deamon start
 : 1668615558:0;sudo nvim /etc/default/grub
-: 1668615558:0;sudo grub-install
-: 1668615558:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
 : 1668615558:0;astrovim
 : 1668615558:0;time
 : 1668615558:0;j te
@@ -1110,7 +1091,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;yay -S sitala
 : 1668615558:0;yay -U sitala-bin
 : 1668615558:0;yay -S sitala-bin
-: 1668615558:0;sudo dmesg
 : 1668615558:0;j pict
 : 1668615558:0;cd Headlines
 : 1668615558:0;cd /run/media/said/root/home
@@ -1134,7 +1114,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;sudo rm -rf GRUB
 : 1668615558:0;efibootmgr -b 0001 -B
 : 1668615558:0;sudo efibootmgr -b 0001 -B
-: 1668615558:0;uname -a
 : 1668615558:0;yay -S viber
 : 1668615558:0;sudo rsync -a /home/ /run/media/said/home
 : 1668615558:0;ps -d
@@ -1188,19 +1167,14 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;mv nvim ~/
 : 1668615558:0;mv ~/nvim ~/.config 
 : 1668615558:0;cd loca
-: 1668615558:0;mv nvim nvim.bak
 : 1668615558:0;n init lua
 : 1668615558:0;mv nvim.bak nvim
 : 1668615558:0;cd .co
 : 1668615558:0;umount /dev/sda1
-: 1668615558:0;hto
 : 1668615558:0;sudo cp -a /home/said /run/media/said/home/
 : 1668615558:0;sudo rsync -a /home/ /run/media/said/home/ 
 : 1668615558:0;umount /dev/sda*
 : 1668615558:0;mv nvim nvim.astro.bak
-: 1668615558:0;git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim\
-\
-
 : 1668615558:0;mkdir custom
 : 1668615558:0;pacman -S npm
 : 1668615558:0;sudo pacman -S npm
@@ -1241,7 +1215,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;pacman -S handbrake
 : 1668615558:0;sudo pacman -S handbrake
 : 1668615558:0;sudo pacman -S soundkonverter
-: 1668615558:0;neovim
 : 1668615558:0;n -v\ 
 : 1668615558:0;n -v
 : 1668615558:0;dir -l
@@ -1273,7 +1246,6 @@ cp /etc/resolv.conf etc/resolv.conf\
 : 1668615558:0;sudo mount /dev/sdb3 /mnt
 : 1668615558:0;rm -rf .config/nvim/lua/user
 : 1668615558:0;git clone https://code.mehalter.com/AstroNvim_user ~/.config/nvim/lua/user
-: 1668615558:0;n README.md
 : 1668615558:0;j \'/home/said/Documents/Dev/test_cpp\'
 : 1668615558:0;cd co
 : 1668615558:0;cd sha
@@ -1295,7 +1267,6 @@ nvim +PackerSync\
 : 1668615558:0;tree | nvim -
 : 1668615558:0;j tes
 : 1668615558:0;j movi
-: 1668615558:0;rm -rf ~/.config/nvim
 : 1668615558:0;git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
 nvim
 : 1668615558:0;rm -rf astronvim
@@ -1313,7 +1284,6 @@ nvim
 : 1668615558:0;git clone --depth=1 https://github.com/jdhao/nvim-config.git .
 : 1668615558:0;n ginit.vim
 : 1668615558:0;rm -rf .*
-: 1668615558:0;touch init.lua
 : 1668615558:0;mkdir config
 : 1668615558:0;touch plugins.lua
 : 1668615558:0;git clone git@github.com:ChristianChiarulli/Neovim-from-scratch.git ~/.config/nvim
@@ -1321,7 +1291,6 @@ nvim
 : 1668615558:0;git branch --list
 : 1668615558:0;git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim\
 
-: 1668615558:0;rm -rf .github
 : 1668615558:0;cat .local/share/nvim/mason/packages/lua-language-server/mason-receipt.json
 : 1668615558:0;exitr
 : 1668615558:0;cd lua/
@@ -1380,7 +1349,6 @@ nvim +PackerSync
 : 1668615558:0;n telescope-file-browser.lua
 : 1668615558:0;rls
 : 1668615558:0;rm telescope-file-browser.lua
-: 1668615558:0;n null-ls.lua
 : 1668615558:0;mv nvim nvim.said
 : 1668615558:0;git clone --depth 1 https://github.com/dark-Jedi2108/nvide ~/.config/nvim
 : 1668615558:0;n warm.lua
@@ -1388,7 +1356,6 @@ nvim +PackerSync
 : 1668615558:0;n +PackerSync
 : 1668615558:0;rm -rf plugin
 : 1668615558:0;git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
-: 1668615558:0;nvim -v
 : 1668615558:0;n configs.lua
 : 1668615558:0;lazygit\\
 exit
@@ -1401,10 +1368,8 @@ exit:q
 : 1668615558:0;git log -oneline
 : 1668615558:0;mv keymaps.lua mappings.lua
 : 1668615558:0;kls
-: 1668615558:0;n mappings.lua
 : 1668615558:0;rm mappings.lua
 : 1668615558:0;cat toggleterm.lua
-: 1668615558:0;n cmake.lua
 : 1668615558:0;mv cmake.lua cmake-tools.lua
 : 1668615558:0;pacman -S lldb-vscode
 : 1668615558:0;sudo pacman -S lldb-vscode
@@ -1417,7 +1382,6 @@ exit:q
 : 1668615558:0;cd linux-relwithdebinfo
 : 1668615558:0;echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 : 1668615558:0;rm compile_commands.json
-: 1668615558:0;rm neovim.json
 : 1668615558:0;n whichkey.lua
 : 1668615558:0;mv dapui.lua lua/user/
 : 1668615558:0;n dapui
@@ -1428,7 +1392,6 @@ exit:q
 : 1668615558:0;cd extension
 : 1668615558:0;cd server
 : 1668615558:0;chmod +x lua-language-server
-: 1668615558:0;n cmp.lua
 : 1668615558:0;n lspconfig.lua
 : 1668615558:0;git checkout 00eb698
 : 1668615558:0;git checkout 18e0c22
@@ -1437,7 +1400,6 @@ exit:q
 : 1668615558:0;j re
 : 1668615558:0;rm -rf nvim.said
 : 1668615558:0;mv nvim nvim.bak.said
-: 1668615558:0;mkdir nvim
 : 1668615558:0;mv init.lua nvim/
 : 1668615558:0;touch options.lua
 : 1668615558:0;touch mappings.lua
@@ -1446,11 +1408,8 @@ exit:q
 : 1668615558:0;rm whichkey.lua
 : 1668615558:0;rm -rf lsp
 : 1668615558:0;nvim lualine.lua
-: 1668615558:0;n nvim-tree.lua
-: 1668615558:0;n comment.lua
 : 1668615558:0;n lsp
 : 1668615558:0;j vin
-: 1668615558:0;n telescope.lua
 : 1668615558:0;n l
 : 1668615558:0;rm -rf build .git
 : 1668615558:0;mv dap nvim-dap.lua
@@ -1462,7 +1421,6 @@ exit:q
 : 1668615558:0;sudo pacman -S neovim
 : 1668615558:0;sudo pacman -S neovim-git
 : 1668615558:0;yay -S neovim-git
-: 1668615558:0;n lsp.lua
 : 1668615558:0;cd /*
 : 1668615558:0;rg
 : 1668615558:0;rg test
@@ -1566,7 +1524,6 @@ exit:q
 : 1668615558:0;npm
 : 1668615558:0;sudo cat /proc/cpu
 : 1668615558:0;sudo cat /proc/cpuinfo
-: 1668615558:0;jn
 : 1668615558:0;n clangd_extension.lua
 : 1668615558:0;git log
 : 1668615558:0;pacman -S docker
@@ -1660,7 +1617,6 @@ exit:q
 : 1668615558:0;yay -S - < .pkglist.txt
 : 1668615558:0;yay -S --needed - < .pkglist.txt
 : 1668615558:0;rm -rf neovim
-: 1668615558:0;cd CmakeLearn
 : 1668615558:0;cd GLFW
 : 1668615558:0;rm -rf GLFW
 : 1668615558:0;cd Gitfiles
@@ -2138,7 +2094,6 @@ p
 : 1668615558:0;echo $FG
 : 1668615558:0;echo $fzf_default_completion
 : 1668615558:0;fzf +m -q
-: 1668615558:0;fzf +m -q surge
 : 1668615558:0;yes
 : 1668615558:0;yes 10
 : 1668615558:0;yes | head 10
@@ -2274,12 +2229,10 @@ p
 : 1668615558:0;j gole
 : 1668615558:0;j ler go
 : 1668615558:0;j lerngo
-: 1668615558:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
 : 1668615558:0;vi init.lua
 : 1668615558:0;j \'/home/said/.config/nvim\'
 : 1668615558:0;j goler
 : 1668615558:0;g learngo
-: 1668615558:0;n dap.lua
 : 1668615558:0;n learngo
 : 1668615558:0;cat nnn.lua
 : 1668615558:0;cp nvim-dap.lua ../../../lua/user/
@@ -2310,9 +2263,7 @@ p
 : 1668615558:0;git clone https://github.com/pop-os/shell.git\
 
 : 1668615558:0;cd shell
-: 1668615558:0;make local-install
 : 1668615558:0;git remote -v
-: 1668615558:0;cat init.lua
 : 1668615558:0;cat lua/user/keymaps.lua
 : 1668615558:0;j conf chez
 : 1668615558:0;cat chezmoi
@@ -2340,7 +2291,6 @@ p
 : 1668615558:0;cd packages/codelldb
 : 1668615558:0;lldb-vscode
 : 1668615558:0;wheris lldb-vscode
-: 1668615558:0;n cmake-tools.lua
 : 1668615558:0;rm -rf
 : 1668615558:0;rm build
 : 1668615558:0;c re-add 
@@ -2349,7 +2299,6 @@ p
 : 1668615558:0;rm test.txt
 : 1668615558:0;n auto
 : 1668615558:0;n .config/alacritty
-: 1668615558:0;mkdir plugins
 : 1668615558:0;mkdir stackmap.nvim
 : 1668615558:0;mv Dev ..
 : 1668615558:0;cd dl
@@ -2531,7 +2480,6 @@ exit
 : 1668615558:0;cd .config/deadbeef
 : 1668615558:0;chmod 744 freac-1.1.6-linux-x86_64.AppImage
 : 1668615558:0;./freac-1.1.6-linux-x86_64.AppImage
-: 1668615558:0;thunar
 : 1668615558:0;pacseed
 : 1668615558:0;pacman -S
 : 1668615558:0;mkdir DOT
@@ -2547,7 +2495,6 @@ exit
 : 1668615558:0;git clone --bare https://github.com/clarkx86/dotfiles.git
 : 1668615558:0;cd dotfiles.git
 : 1668615558:0;cd con
-: 1668615558:0;cd config
 : 1668615558:0;cd branches
 : 1668615558:0;dotfiles checkout
 : 1668615558:0;pacman -S lxappearance
@@ -2597,7 +2544,6 @@ exit
 : 1668615558:0;rm -rf DOT
 : 1668615558:0;rm tmux-*
 : 1668615558:0;rm -rf bspwm
-: 1668615558:0;sudo pacman -Syu
 : 1668615558:0;cd sxhkd/
 : 1668615558:0;cat /etc/locale.conf
 : 1668615558:0;setxkbmap -print -query
@@ -2852,7 +2798,6 @@ Chapter 16, Understanding Timekeeping with systemd, looks at the various ways to
 : 1668615558:0;docker ps -
 : 1668615558:0;sudo docker ps -a
 : 1668615558:0;sudo docker commit 00746353b270 arch_said
-: 1668615558:0;lazygit
 : 1668615558:0;docker images
 : 1668615558:0;docker container ls
 : 1668615558:0;sudo docker container ls
@@ -3019,7 +2964,6 @@ Chapter 16, Understanding Timekeeping with systemd, looks at the various ways to
 : 1668615558:0;cp .zshrc .zshrc.bak
 : 1668615558:0;H
 : 1668615558:0;fzf_killps goo
-: 1668615558:0;j test
 : 1668615558:0;git commit
 : 1668615558:0;rm .zshrc
 : 1668615558:0;mv .zshrc.bak .zshrc
@@ -3352,7 +3296,6 @@ Chapter 16, Understanding Timekeeping with systemd, looks at the various ways to
 : 1668615558:0;csd
 : 1668615558:0;cd \ 
 : 1668615558:0;./build/CMakeCache.txt 
-: 1668615558:0;j main
 : 1668615558:0;pacman -S fasd
 : 1668615558:0;sudo pacman -S fasd
 : 1668615558:0;fasd_cd
@@ -3387,7 +3330,6 @@ Chapter 16, Understanding Timekeeping with systemd, looks at the various ways to
 : 1668615558:0;paru
 : 1668615558:0;\
 iddkdkd
-: 1668615558:0;yay
 : 1668615558:0;cd .config/zsh/plugins
 : 1668615558:0;yay -R zsh-vi-mode
 : 1668615558:0;sudo pacman -R FASD
@@ -3398,7 +3340,6 @@ iddkdkd
 : 1668615558:0;J
 : 1668615558:0;cd Dev/ls
 : 1668615558:0;cd Dev/
-: 1668615558:0;df 
 : 1668615558:0;Ls
 : 1668615558:0;lS
 : 1668615558:0;n chezmoistate.toml
@@ -3409,7 +3350,6 @@ iddkdkd
 
 : 1668615558:0;sudo  pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))\
 
-: 1668615558:0;pacman -Syy
 : 1668615558:0;update-desktop-database
 : 1668615558:0;c re-add'
 : 1668615558:0;evtest
@@ -3505,7 +3445,6 @@ iddkdkd
 : 1668615558:0;touch .xinitrc
 : 1668615558:0;n .xinitrc
 : 1668615558:0;sh .xinitrc
-: 1668615558:0;n .Xresources
 : 1668615558:0;sh ./.Xresources
 : 1668615558:0;n .xprofile \ 
 : 1668615558:0;c update
@@ -3537,7 +3476,6 @@ hallo das ein  stiein ein test test
 : 1668615558:0;pacman -Syyu
 : 1668615558:0;eos-rankmirrors
 : 1668615558:0;sudo pacman -Syyu
-: 1668615558:0;clean
 : 1668615558:0;eos-apps-info
 : 1668615558:0;cd Pictures
 : 1668615558:0;cd Wallpapers
@@ -3625,13 +3563,10 @@ hallo das ein  stiein ein test test
 : 1668615558:0;ffddfdf
 : 1668615558:0;my_function my_function
 : 1668615558:0;j scri
-: 1668615558:0;cd lua/user
-: 1668615558:0;n treesitter.lua
 : 1668615558:0;j script
 : 1668615558:0;source find_books_rofi.sh
 : 1668615558:0;openbooks
 : 1668615558:0;mkdir scripts
-: 1668615558:0;cd scripts
 : 1668615558:0;pacman-conf
 : 1668615558:0;pacman-conf | n -
 : 1668615558:0;dir | sort | pr -t -l1
@@ -3753,7 +3688,6 @@ end
 : 1668615558:0;ls /bin /usr/bin | grep -v '/usr/bin' | n -
 : 1668615558:0;ls -l
 : 1668615558:0;ls -O
-: 1668615558:0;ls -a
 : 1668615558:0;ls -h
 : 1668615558:0;ls -Ha
 : 1668615558:0;-file-browser-oc-cmd "deadbeef --queue;icon:deadbeef;name:deadbeef <i>(queue)</i>"\
@@ -3872,7 +3806,6 @@ end
 : 1668615558:0;mpc stop
 : 1668615558:0;grep -i installed /var/log/pacman.log\
 
-: 1668615558:0;sudo pacman -R kcrash
 : 1668615558:0;sudo pacman -R knewstuff
 : 1668615558:0;yay -R knewstuff
 : 1668615558:0;yay -R kwayland
@@ -3897,7 +3830,6 @@ end
 : 1668615558:0;systemctl --user status mpd.socket\
 
 : 1668615558:0;c add ncmpcpp
-: 1668615558:0;cd systemd
 : 1668615558:0;cd sockets.target.wants
 : 1668615558:0;c add .config/systemd
 : 1668615558:0;c add .config/mpd
@@ -3974,8 +3906,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;rm -rf Music
 : 1668615558:0;rsync -a --delete ~/ /run/media/said/home/said/
 : 1668615558:0;sudo rsync -a --delete ~/ /run/media/said/home/said/
-: 1668615558:0;blkid
-: 1668615558:0;sudo blkid
 : 1668615558:0;flameshot gui
 : 1668615558:0;cd /etc/lightdm/lightdm.conf.d
 : 1668615558:0;n lightdm-gtk-greeter.conf
@@ -4116,7 +4046,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;git branch -M master
 : 1668615558:0;git push -u origin master
 : 1668615558:0;chezmoi init
-: 1668615558:0;git push --set-upstream origin master
 : 1668615558:0;git remote add origin git@github.com:saidbelkacem/dotfiles.git
 : 1668615558:0;chezmoi init git@github.com:saidbelkacem/dofiles.git
 : 1668615558:0;git remote set-url git@github.com:saidbelkacem/dofiles.git
@@ -4268,7 +4197,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;sudo pacman -R nbd
 : 1668615558:0;sudo pacman -R mpv
 : 1668615558:0;sudo pacman -R jump-bin
-: 1668615558:0;sudo pacman -R sof-firmware
 : 1668615558:0;sudo pacman -R smartmontools
 : 1668615558:0;sudo pacman -R scrot
 : 1668615558:0;sudo pacman -R snail
@@ -4301,7 +4229,6 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;cat .xprofile
 : 1668615558:0;cd /mnt/said
 : 1668615558:0;umount /mnt
-: 1668615558:0;sudo umount /mnt
 : 1668615558:0;cd /var/cache/pacman/pkg
 : 1668615558:0;ls libx*
 : 1668615558:0;ls libxc*
@@ -4395,14 +4322,11 @@ https://secure-appldnld.apple.com/itunes12/041-02279-20180912-24D8EE3A-AC7A-11E8
 : 1668615558:0;tmux lsk -N| xargs nvim
 : 1668615558:0;tmux lsk -N| nvim -
 : 1668615558:0;tmx ls
-: 1668615558:0;j alac
 : 1668615558:0;cp alacritty.yml alacritty.yml .bak
 : 1668615558:0;cp alacritty.yml alacritty.yml.bak
-: 1668615558:0;n alacritty.yml
 : 1668615558:0;fd --type f --hidden --exclude .git | fzf | xargs nvim
 : 1668615558:0;fd --type f --hidden --exclude .git | fzf-tmux | xargs nvim
 : 1668615558:0;tmux run-shell -b 'command -v fzf'
-: 1668615558:0;fzf
 : 1668615558:0;idkdkd dkjdkjd
 : 1668615558:0;mkdir tmux
 : 1668615558:0;tmux kill-all
@@ -4415,7 +4339,6 @@ tmux
 : 1668615558:0;tmus
 : 1668615558:0;ranger
 : 1668615558:0;tmus la
-: 1668615558:0;sudo pacman -Syy
 : 1668615558:0;cd Debug
 : 1668615558:0;f fahrenheit2
 : 1668615558:0;rm .dmrc
@@ -4428,17 +4351,13 @@ tmux
 : 1668615558:0;mv josean said
 : 1668615558:0;cat keymaps.lua
 : 1668615558:0;n plugins-setup.lua
-: 1668615558:0;j user
 : 1668615558:0;j vim said
 : 1668615558:0;j nv said
 : 1668615558:0;j nv sai
 : 1668615558:0;cd lsp
 : 1668615558:0;n mason.lua
-: 1668615558:0;codelldb
 : 1668615558:0;whereis lldb
-: 1668615558:0;lldb
 : 1668615558:0;vscode-lldb
-: 1668615558:0;cd mason
 : 1668615558:0;cd bi
 : 1668615558:0;sudo pacman -S lldb
 : 1668615558:0;git clone https://github.com/tmux-plugins/tpm ~/.config/plugins/tpm
@@ -4451,7 +4370,6 @@ tmux
 : 1668615558:0;c add .config/nvim
 : 1668615558:0;tmux new -s hello
 : 1668615558:0;tmux new -s hello2
-: 1668615558:0;cd .local/share/nvim
 : 1668615558:0;whereis clangd
 : 1668615558:0;pacman -R clang
 : 1668615558:0;sudo pacman -R lldb 
@@ -4506,7 +4424,6 @@ tmux
 : 1668615558:0;kitty +runpy 'from kitty.config import *; print(commented_out_default_config())' | nvim\
 
 : 1668615558:0;f -e
-: 1668615558:0;cd .config/nvim
 : 1668615558:0;cd .config/nvim/lua/said
 : 1668615558:0;lslslls lsjk
 : 1668615558:0;e
@@ -4585,7 +4502,6 @@ tmux
 : 1668615558:0;cd /usr/lib/
 : 1668615558:0;ls libguile*
 : 1668615558:0;sudo pacman -S guile
-: 1668615558:0;gdb
 : 1668615558:0;chezmoi apply
 : 1668615558:0;cd .local/share/
 : 1668615558:0;cd rich
@@ -4594,9 +4510,7 @@ tmux
 : 1668615558:0;rm -rf ftplugin
 : 1668615558:0;cat .stylua.toml
 : 1668615558:0;rm .stylua.toml
-: 1668615558:0;rm -rf user
 : 1668615558:0;cd .config/nvim.old
-: 1668615558:0;cd user
 : 1668615558:0;rm neighboring_window.py
 : 1668615558:0;rm pass_keys.py
 : 1668615558:0;n myconfig.conf
@@ -4608,7 +4522,6 @@ tmux
 : 1668615558:0;cd /usr/share/fonts/
 : 1668615558:0;nnn -e
 : 1668615558:0;tree | grep toggle
-: 1668615558:0;cd c
 : 1668615558:0;cd richie
 : 1668615558:0;n fahrenheit2.c
 : 1668615558:0;mv tasks.json /home/said/Dev
@@ -4672,7 +4585,6 @@ tmux
 : 1668615558:0;git clone https://github.com/Shatur/neovim-cmake.git
 : 1668615558:0;mv neovim-cmake cmakebuddy
 : 1668615558:0;cd .github
-: 1668615558:0;n config
 : 1668615558:0;date -u -Iseconds -d@100
 : 1668615558:0;date -u -Iseconds -d@10
 : 1668615558:0;date -u -Iseconds -d@1
@@ -4686,8 +4598,6 @@ tmux
 : 1668615558:0;cat picom.conf
 : 1668615558:0;n .gitconfig 
 : 1668615558:0;n .gitconfig
-: 1668615558:0;cd core
-: 1668615558:0;cd said
 : 1668615558:0;mv plugins-setup.lua plugins/plugins.lua
 : 1668615558:0;rm -rf core
 : 1668615558:0;chezmoi add .config/nvim
@@ -4704,8 +4614,6 @@ tmux
 : 1668615558:0;fc-cache -f 
 : 1668615558:0;chezmoi add pkglist.txt
 : 1668615558:0;hostname
-: 1668615558:0;j conf
-: 1668615558:0;j .con
 : 1668615558:0;j chezmoi
 : 1668615558:0;n chezmoi.toml
 : 1668615558:0;rm -rf private_Dev
@@ -4718,2275 +4626,344 @@ tmux
 : 1668615558:0;cd private_Dev/
 : 1668615558:0;terminal
 : 1668615558:0;n .config/alacritty/alacritty.yml
-: 1668615558:0;cd .config
-: 1668615558:0;ls
 : 1668615558:0;cd fontconfig
-: 1668615558:0;ls
-: 1668615558:0;cd conf.d
-: 1668615558:0;ls
 : 1668615558:0;n 78-Reject.conf
-: 1668615558:0;pacseek
-: 1668615558:0;nnn
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;nvim
-: 1668615558:0;n
-: 1668615558:0;cd .config
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;fc-cache
-: 1668615558:0;fc-cache -f -v
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;pacseek
 : 1668615558:0;pacseek -V
 : 1668615558:0;pacseek -v
 : 1668615558:0;pacseek -i
-: 1668615558:0;pacseek
-: 1668615558:0;fc-cache -r
-: 1668615558:0;fc-cache -r
 : 1668615558:0;fc-list | less
-: 1668615558:0;fc-list 
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;n
 : 1668615558:0;kitty list-fonts
 : 1668615558:0;kitty --debug-font-fallback
-: 1668615558:0;n
 : 1668615558:0;a
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ps ax
-: 1668615558:0;clear
-: 1668615558:0;pacseek
 : 1668615558:0;rm -rf .config/kitty
-: 1668615558:0;ls
 : 1668615558:0;rm -rf Machfiles
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;htop
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;sudo reboot
 : 1668615558:0;locale -a
 : 1668615558:0;locale
 : 1668615558:0;pacseek LANG=C.UTF-8
-: 1668615558:0;ping 8.8.8.8
-: 1668615558:0;pacseek
 : 1668615558:0;yay -R pacseek
 : 1668615558:0;yay -S pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;fc-cache
 : 1668615558:0;fc-cache -v
-: 1668615558:0;fc-cache -v -r
 : 1668615558:0;cd /var/cache/fontconfig/
-: 1668615558:0;ls
-: 1668615558:0;rm -rf *
-: 1668615558:0;sudo rm -rf *
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;g
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;cd .config/fontconfig
-: 1668615558:0;ls
 : 1668615558:0;cd conf.d
-: 1668615558:0;ls
 : 1668615558:0;n fonts.conf
 : 1668615558:0;rm 78-Reject.conf
-: 1668615558:0;ls
-: 1668615558:0;g
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;htop
-: 1668615558:0;htop
-: 1668615558:0;n
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;j nvim
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;cd lua/said/plugins
-: 1668615558:0;ls
 : 1668615558:0;n bufferline.lua
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
 : 1668615558:0;htops
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;pacseek
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;ls
-: 1668615558:0;pacseek
 : 1668615558:0;reset
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;g
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;htop
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;ls -la
-: 1668615558:0;ls -la
-: 1668615558:0;j nvim
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;bash
-: 1668615558:0;su
-: 1668615558:0;su
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
 : 1668615558:0;cd /usr/share/fontconfig
-: 1668615558:0;ls
-: 1668615558:0;gdu
-: 1668615558:0;ls
 : 1668615558:0;cd conf.default
-: 1668615558:0;ls
 : 1668615558:0;cp 50-user.conf ~/.config/fontconfig
-: 1668615558:0;n 50-user.conf
-: 1668615558:0;cd
 : 1668615558:0;fc-list -r
-: 1668615558:0;fc
-: 1668615558:0;fc-list -r
-: 1668615558:0;fc-conflist
-: 1668615558:0;fc-cache -v -r
 : 1668615558:0;sudo pacman -U fontconfig
 : 1668615558:0;yay pacman -U fontconfig
 : 1668615558:0;pacman -Qo /etc/fonts/fonts.conf
 : 1668615558:0;yay pacman -S fontconfig
-: 1668615558:0;pacseek
 : 1668615558:0;pacman -R font-manager
 : 1668615558:0;sudo pacman -R font-manager
 : 1668615558:0;pacman -S fontconfig
 : 1668615558:0;sudo pacman -S fontconfig
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;sl
-: 1668615558:0;ls
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;pacseek
 : 1668615558:0;pacman -S icons-in-terminal
 : 1668615558:0;sudo pacman -S icons-in-terminal
 : 1668615558:0;yay -S icons-in-terminal
-: 1668615558:0;sl
-: 1668615558:0;ls
-: 1668615558:0;fc-list
 : 1668615558:0;fc-list |grep menlo
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;nvim
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;n
 : 1668615558:0;cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty
-: 1668615558:0;ls
 : 1668615558:0;kkk
-: 1668615558:0;pacseek
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;ls
-: 1668615558:0;n 
-: 1668615558:0;clear
-: 1668615558:0;fc-list
 : 1668615558:0;i
-: 1668615558:0;n
 : 1668615558:0;fc-list |grep fira
 : 1668615558:0;fc-list |grep Fira
-: 1668615558:0;pacseek
-: 1668615558:0;clear
 : 1668615558:0;fc-list | iosevka
 : 1668615558:0;fc-list | gre[] iosevka
 : 1668615558:0;fc-list | grepiosevka
 : 1668615558:0;fc-list | grep iosevka
 : 1668615558:0;rm -rf /var/cache/fontconfig
 : 1668615558:0;sudo rm -rf /var/cache/fontconfig
-: 1668615558:0;sudo reboot
-: 1668615558:0;ls
-: 1668615558:0;pacseek
 : 1668615558:0;cd .config/pacseek
-: 1668615558:0;ls
 : 1668615558:0;n config.json
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
 : 1668615558:0;fc-list | grep nerd
 : 1668615558:0;fc-list | grep Nerd
-: 1668615558:0;n
-: 1668615558:0;n
 : 1668615558:0;pacman -Qs nerd
 : 1668615558:0;sudo pacman -Qs nerd
 : 1668615558:0;sudo pacman -Rs ttf-iosevka-nerd
 : 1668615558:0;sudo pacman -Rs ttf-iosevka
 : 1668615558:0;sudo pacman -S ttf-nerd-fonts-symbols-2048-em
-: 1668615558:0;n
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;exit
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;alacritty-themes 
 : 1668615558:0;yay -S alacritty-themes
 : 1668615558:0;alacritty-themes 
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;htop
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;pacseek
-: 1668615558:0;g
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;j nvim
-: 1668615558:0;ls
 : 1668615558:0;j plugin
-: 1668615558:0;ls
-: 1668615558:0;cd ..
 : 1668615558:0;j said
-: 1668615558:0;ls
-: 1668615558:0;cd plugins
-: 1668615558:0;ls
-: 1668615558:0;n colorscheme.lua
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;htop
-: 1668615558:0;htop
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;fc-list | grep Jet
-: 1668615558:0;ls
-: 1668615558:0;top
-: 1668615558:0;clear
-: 1668615558:0;g
-: 1668615558:0;exit
-: 1668615558:0;ls
 : 1668615558:0;echo $XDG_CONFIG_HOME
-: 1668615558:0;clear
-: 1668615558:0;g
-: 1668615558:0;exit
-: 1668615558:0;n
-: 1668615558:0;g
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;cd /usr/share/fonts
-: 1668615558:0;gdu
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j plugins
-: 1668615558:0;ls
-: 1668615558:0;n toggleterm.lua
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;clear
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j plugins
-: 1668615558:0;ls
-: 1668615558:0;n keymaps.lua
-: 1668615558:0;n toggleterm.lua
-: 1668615558:0;n
-: 1668615558:0;fc-list
-: 1668615558:0;cd /usr/share/fonts
-: 1668615558:0;ls
 : 1668615558:0;cd otf
-: 1668615558:0;ls
 : 1668615558:0;cd OTF
-: 1668615558:0;ls
-: 1668615558:0;cd ..
-: 1668615558:0;ls
-: 1668615558:0;fc-list | grep Fira
-: 1668615558:0;n
-: 1668615558:0;fc-list | grep Fira
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;n
-: 1668615558:0;j rich
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;n
 : 1668615558:0;fc-list | grep Victor
 : 1668615558:0;fc-list | grep Fira
 : 1668615558:0;fc-list | grep fira
 : 1668615558:0;fc-list 
-: 1668615558:0;n
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;ls
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;j nvim
-: 1668615558:0;c cd
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ps ax
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;f
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ps ax
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;g
-: 1668615558:0;ls
-: 1668615558:0;cd
-: 1668615558:0;cd
-: 1668615558:0;n
-: 1668615558:0;c cd
-: 1668615558:0;du -ch *
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;cd
 : 1668615558:0;j zsh
-: 1668615558:0;ls
 : 1668615558:0;n zsh-promt
-: 1668615558:0;nnn
-: 1668615558:0;c cd
-: 1668615558:0;g
-: 1668615558:0;ls
-: 1668615558:0;cd .git
-: 1668615558:0;ls
-: 1668615558:0;du -ch *
-: 1668615558:0;cd ..
-: 1668615558:0;ls
-: 1668615558:0;cd .git
-: 1668615558:0;ls
 : 1668615558:0;n config.bak
 : 1668615558:0;cp config config.bak
-: 1668615558:0;git init
-: 1668615558:0;ls
-: 1668615558:0;rm -rf .git
-: 1668615558:0;cd ..
-: 1668615558:0;git init
-: 1668615558:0;g
-: 1668615558:0;ls
 : 1668615558:0;cp .git/config .
-: 1668615558:0;ls
-: 1668615558:0;rm -rf .git
-: 1668615558:0;git init
-: 1668615558:0;ls
-: 1668615558:0;g
-: 1668615558:0;cp config .git
-: 1668615558:0;g
 : 1668615558:0;cd dot_config/nvim/]
 : 1668615558:0;cd dot_config/nvim/
-: 1668615558:0;ls
-: 1668615558:0;n init.lua
-: 1668615558:0;pwd
 : 1668615558:0;cd lua/said/plugins
-: 1668615558:0;ls
-: 1668615558:0;n autocommands.lua
-: 1668615558:0;ls
-: 1668615558:0;pwd
-: 1668615558:0;c cd
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j plugins
-: 1668615558:0;ls
-: 1668615558:0;n autocommands.lua
-: 1668615558:0;n
-: 1668615558:0;n autocommands.lua
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;chezmoi re-add
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j nvim
-: 1668615558:0;ls
-: 1668615558:0;du -ch *
 : 1668615558:0;cd lua/said/plugins/lsp
-: 1668615558:0;ls
-: 1668615558:0;rm -rf build
-: 1668615558:0;ls
-: 1668615558:0;j nvim
-: 1668615558:0;ls
-: 1668615558:0;du -ch *
-: 1668615558:0;c re-add
-: 1668615558:0;c cd
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ps ax
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;pacseek 
-: 1668615558:0;fc-cache -v -r
-: 1668615558:0;ls
-: 1668615558:0;fc-list
 : 1668615558:0;fc-list | grep cas
 : 1668615558:0;fc-list | grep Cas
 : 1668615558:0;fc-list | grep jet 
-: 1668615558:0;fc-list | grep Jet
-: 1668615558:0;pacseek
-: 1668615558:0;kitty
-: 1668615558:0;ls
-: 1668615558:0;clear
 : 1668615558:0;cd .config/kitty
-: 1668615558:0;ls
 : 1668615558:0;n kitty.conf
-: 1668615558:0;n
-: 1668615558:0;fc-list | grep Jet
 : 1668615558:0;kitty @launch --location=neighbor lazygit
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ping 8.8.8.8
-: 1668615558:0;ping 8.8.8.8
-: 1668615558:0;n
-: 1668615558:0;ls
 : 1668615558:0;kitty +kitten themes
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls -la
-: 1668615558:0;htop
-: 1668615558:0;n
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;n
-: 1668615558:0;pacseek
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;ls
 : 1668615558:0;fc
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;fc-list | nvim -
-: 1668615558:0;sl
-: 1668615558:0;ls
-: 1668615558:0;ls
 : 1668615558:0;fc-list | grep Jet
 : 1668615558:0;fc-list | nvim -
 : 1668615558:0;fc-list | grep JetBrainsMonoNL | nvim -
 : 1668615558:0;fc-list | grep JetBrains | nvim -
-: 1668615558:0;ls
 : 1668615558:0;fc-cache -v -r
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;ps ax
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;pacseek
-: 1668615558:0;cd /usr/share/fonts
-: 1668615558:0;gdu
-: 1668615558:0;du -ch *
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j dev lua
-: 1668615558:0;ls
-: 1668615558:0;cd ..
-: 1668615558:0;ls
-: 1668615558:0;cd plugins
-: 1668615558:0;ls
-: 1668615558:0;pwd
-: 1668615558:0;cd stackmap.nvim
-: 1668615558:0;tree
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j nvim
-: 1668615558:0;n init.lua
 : 1668615558:0;j -
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;clear
-: 1668615558:0;n
-: 1668615558:0;j -
-: 1668615558:0;j stack
-: 1668615558:0;ls
-: 1668615558:0;cd plugin
-: 1668615558:0;ls
-: 1668615558:0;n test.lua
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;pwd
-: 1668615558:0;cd ..
-: 1668615558:0;ls
 : 1668615558:0;mv plugin plugins
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;n init.lua
-: 1668615558:0;n
-: 1668615558:0;n
 : 1668615558:0;j site
-: 1668615558:0;ls
-: 1668615558:0;pwd
 : 1668615558:0;cd pack
-: 1668615558:0;ls
 : 1668615558:0;cd packer
-: 1668615558:0;ls
 : 1668615558:0;cd start
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;j lua
-: 1668615558:0;ls
-: 1668615558:0;j dev lua
-: 1668615558:0;ls
-: 1668615558:0;cd plugins
-: 1668615558:0;ls
 : 1668615558:0;cd stackmap.nvim
-: 1668615558:0;ls
-: 1668615558:0;cd plugins
-: 1668615558:0;ls
-: 1668615558:0;cd ..
-: 1668615558:0;ls
 : 1668615558:0;mv init.lua init.lua.exammple
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;cd plugins
-: 1668615558:0;ls
 : 1668615558:0;mv test.lua init.lua
-: 1668615558:0;n
-: 1668615558:0;n init.lua
-: 1668615558:0;cd ..
-: 1668615558:0;ls
 : 1668615558:0;mv plugins plugin
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;cd plugin
-: 1668615558:0;ls
 : 1668615558:0;mv init.lua test.lua
-: 1668615558:0;ls
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;exit
-: 1668615558:0;exit
-: 1668615558:0;htop
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;n
-: 1668615558:0;ls
-: 1668615558:0;htop
-: 1668615558:0;ls
 : 1668615558:0;cd dot_config
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;c cd
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;clear
-: 1668615558:0;clear
-: 1668615558:0;ls
 : 1668615558:0;mv .zshrc .zshrc.old
-: 1668615558:0;ls
-: 1668615558:0;n .zshrc
-: 1668615558:0;pacseek
-: 1668615558:0;ls
-: 1668615558:0;clear
-: 1668615558:0;ls
-: 1668615558:0;n .zshrc
-: 1668615566:0;nvim .zshrc
-: 1668616111:0;f
-: 1668616128:0;ls
-: 1668616130:0;clear
-: 1668616133:0;n
-: 1668616361:0;c cd
-: 1668616363:0;ls
-: 1668616377:0;df
-: 1668616379:0;ls
 : 1668616381:0;lcs
-: 1668616390:0;j nvim
-: 1668616391:0;ls
-: 1668616394:0;clear
-: 1668616396:0;ls
-: 1668616416:0;ls -la
-: 1668616418:0;ls
-: 1668616508:0;j nvim
-: 1668616509:0;ls
-: 1668616545:0;c cd
-: 1668616547:0;ls
-: 1668616558:0;f
 : 1668616588:0;f said
-: 1668616589:0;f
-: 1668617541:0;ls
-: 1668617587:0;cd .oh-my-zsh
-: 1668617587:0;ls
-: 1668617590:0;du -ch *
-: 1668617661:0;n
-: 1668626479:0;ls
-: 1668626481:0;ps ax
-: 1668626483:0;df
-: 1668626490:0;ls -la
-: 1668626494:0;df
-: 1668626496:0;clera
-: 1668626497:0;clear
 : 1668627115:0;cd .local/share/nvim/site/pack/packer/start/vim-kitty-navigator
-: 1668627116:0;ls
 : 1668627133:0;cp *.py ~/.config/kitty
 : 1668627137:0;j kitty
-: 1668627137:0;ls
-: 1668627140:0;ps ax
-: 1668627150:0;n
 : 1668627544:0;j kitt
-: 1668627545:0;ls
 : 1668627561:0;chmod 755 neighboring_window.py pass_keys.py
-: 1668627561:0;ls
-: 1668627566:0;n
-: 1668627647:0;f
-: 1668627716:0;n
-: 1668627777:0;ls
-: 1668627779:0;j lua
-: 1668627779:0;ls
 : 1668627795:0;j dev stack
-: 1668627796:0;ls
-: 1668627799:0;git init
-: 1668627802:0;clear
-: 1668627807:0;n
-: 1668627918:0;clear
-: 1668627919:0;ls
-: 1668627921:0;clear
-: 1668628026:0;alacritty
-: 1668628028:0;f
-: 1668628043:0;exit
-: 1668628091:0;ls
-: 1668628098:0;clear
-: 1668628101:0;htop
-: 1668628115:0;n
-: 1668628155:0;ls
-: 1668629202:0;n
-: 1668629221:0;clear
-: 1668629224:0;n
-: 1668629291:0;ls
-: 1668629292:0;clear
-: 1668629304:0;n
-: 1668629473:0;ls
-: 1668629475:0;clear
-: 1668629479:0;ls
-: 1668629912:0;clear
-: 1668629923:0;ls
-: 1668629926:0;clear
-: 1668629929:0;n
-: 1668630046:0;ls
-: 1668630084:0;n
-: 1668630134:0;ls
-: 1668630166:0;n
-: 1668630239:0;ls
-: 1668630240:0;clear
-: 1668630242:0;ls
-: 1668630244:0;htp
-: 1668630246:0;htop
-: 1668630250:0;n
-: 1668630260:0;tmux
-: 1668630263:0;n
-: 1668630287:0;ls
-: 1668630371:0;cd .tmux
-: 1668630371:0;ls
-: 1668630374:0;cd plugins
-: 1668630374:0;ls
-: 1668630396:0;n
-: 1668630483:0;clear
-: 1668630488:0;top
-: 1668630493:0;clear
-: 1668630495:0;ls
-: 1668630526:0;clear
-: 1668630539:0;cd
-: 1668630544:0;n .tmux.conf
-: 1668630594:0;tmux
-: 1668630604:0;nvim
-: 1668630629:0;n
-: 1668630737:0;clear
-: 1668630747:0;f
-: 1668630765:0;n
-: 1668630866:0;exit
-: 1668630924:0;n
-: 1668630939:0;tmux
 : 1668630949:0;n .tmux
-: 1668630984:0;cd .config
-: 1668630984:0;ls
-: 1668630994:0;n
-: 1668631362:0;tmux kill-server
-: 1668631364:0;tmux
-: 1668631372:0;n
 : 1668631418:0;n .tmux.conf
-: 1668631462:0;exit
-: 1668631467:0;tumux
-: 1668631470:0;tmux
-: 1668631470:0;n
-: 1668631477:0;tmux kill-server
-: 1668631480:0;tmux
-: 1668631482:0;n
-: 1668635710:0;ls
-: 1668635712:0;clear
-: 1668636681:0;n
-: 1668636731:0;ls
-: 1668636911:0;tmux kill-server
-: 1668637214:0;n
-: 1668639103:0;m
-: 1668637938:0;n
-: 1668638174:0;ps ax
-: 1668638216:0;tmux -V
 : 1668638280:0;tmux info
-: 1668638286:0;tmux
-: 1668638337:0;tmux ls
 : 1668638649:0;;d
-: 1668638650:0;ls
-: 1668638735:0;tmux ls
-: 1668638772:0;ls
 : 1668638824:0;lllls
 : 1668638827:0;kdjkkjsdf
 : 1668638828:0;sjdkff
 : 1668638831:0;sssss
-: 1668638840:0;hello
-: 1668638842:0;n
-: 1668638982:0;clear
-: 1668639010:0;ps ax
-: 1668639082:0;tmux ls
 : 1668639102:0;exi
-: 1668639103:0;exit
-: 1668639109:0;tmux ls
-: 1668639113:0;tmux a
-: 1668639124:0;tmux
-: 1668639171:0;ls
-: 1668639239:0;n
-: 1668639249:0;tmux ls
-: 1668639258:0;ls
-: 1668639260:0;clear
-: 1668639262:0;ps ax
-: 1668639310:0;clear
-: 1668639314:0;ls
-: 1668639324:0;cd .config
-: 1668639324:0;ls
-: 1668639372:0;cd
 : 1668639392:0;cd .tmux/plugins
-: 1668639394:0;ls
-: 1668639423:0;cd ..
-: 1668639424:0;ls
 : 1668639457:0;cd plugins/tpm/bin
-: 1668639458:0;ls
-: 1668639462:0;cd ..
-: 1668639462:0;ls
-: 1668639465:0;cd ..
-: 1668639466:0;ls
-: 1668639492:0;n
-: 1668639573:0;tmux ls
-: 1668639583:0;ls
-: 1668639616:0;clear
-: 1668639672:0;n
-: 1668639730:0;ls
-: 1668639732:0;clear
-: 1668639747:0;n
-: 1668639846:0;clear
-: 1668639885:0;exit
-: 1668639895:0;cd
-: 1668639918:0;n
 : 1668639949:0;reboot
-: 1668639987:0;clear
-: 1668640003:0;n
-: 1668640022:0;logout
-: 1668640034:0;sudo reboot
-: 1668640076:0;clear
-: 1668640087:0;n
-: 1668640095:0;ls
-: 1668640097:0;clear
-: 1668647940:0;tmux ls
 : 1668647950:0;tmus sessions
 : 1668647956:0;tmux ?
 : 1668647959:0;?
 : 1668648164:0;kd
-: 1668648165:0;n
-: 1668648603:0;clear
-: 1668648610:0;n
 : 1668648691:0;cmake -v
 : 1668648700:0;cmake --V
 : 1668648704:0;cmake
 : 1668648709:0;cmake --version
-: 1668648839:0;n
-: 1668648917:0;clear
-: 1668649194:0;n
-: 1668649697:0;ls
-: 1668649698:0;ps ax
-: 1668649701:0;clear
-: 1668673236:0;ls
 : 1668673236:0;s
-: 1668673240:0;tmux
-: 1668673243:0;exit
 : 1668673317:0;tmux kill-session
-: 1668673328:0;tmux kill-server
-: 1668673331:0;nvim
-: 1668673762:0;ls
-: 1668673767:0;cd .tmux
-: 1668673768:0;ls
-: 1668673770:0;cd plugins
-: 1668673770:0;ls
-: 1668673774:0;cd tmux-resurrect
-: 1668673775:0;ls
-: 1668673927:0;nvim
-: 1668674255:0;n
-: 1668674309:0;ls
-: 1668674573:0;clear
-: 1668674787:0;n
-: 1668675084:0;tmux kill-server
-: 1668675086:0;nvim
-: 1668675091:0;n
-: 1668675131:0;tmux kill-server
-: 1668675137:0;n
-: 1668675287:0;n .zshrc
-: 1668675326:0;n
-: 1668675348:0;tmux kill-server
-: 1668675352:0;n
-: 1668675445:0;j nvim
-: 1668675446:0;n
-: 1668675555:0;tmux kill-server
-: 1668675558:0;n
-: 1668675936:0;tmux kill-server
-: 1668675939:0;n
-: 1668676101:0;tmux kill-server
-: 1668676104:0;n
-: 1668676175:0;ls
-: 1668676176:0;n
-: 1668676805:0;tmux
-: 1668676807:0;n
-: 1668676859:0;tmux kill-server
-: 1668676862:0;tmux
-: 1668676864:0;n
-: 1668676897:0;n .zshrc
-: 1668676907:0;tmux
-: 1668676913:0;exit
-: 1668676922:0;tmux kill-server
-: 1668676925:0;tmux
-: 1668676928:0;n
-: 1668677145:0;tmux kill-server
-: 1668677148:0;tmux
-: 1668677149:0;n
-: 1668677203:0;tmux kill-server
-: 1668677207:0;tmux
-: 1668677209:0;n
-: 1668678988:0;tmux ls
 : 1668679057:0;cwbnddkwhjkidkdjjk
-: 1668679060:0;n .zshrc
-: 1668679894:0;n
-: 1668680375:0;n .zshrc
 : 1668680421:0;hallo ahlll kasdjf hallo
-: 1668680621:0;clear
-: 1668680643:0;ls
-: 1668680674:0;j nvim
-: 1668680675:0;ls
-: 1668680677:0;n
-: 1668680702:0;tmux la
-: 1668680711:0;tmux ls
-: 1668687766:0;n init.lua
-: 1668687887:0;n
 : 1668687925:0;tmux\
 
-: 1668687973:0;tmux
-: 1668687976:0;exit
-: 1668687981:0;n 
-: 1668688020:0;n
-: 1668688180:0;exit
-: 1668688191:0;n
-: 1668688194:0;ls
-: 1668688224:0;n
-: 1668688322:0;ls
-: 1668688338:0;exit
-: 1668688923:0;clear
-: 1668689662:0;ls
-: 1668690343:0;clear
-: 1668690473:0;n
-: 1668690680:0;ls
-: 1668690681:0;clear
-: 1668690683:0;ls
-: 1668690686:0;ps ax
-: 1668690706:0;clear
-: 1668692541:0;n
-: 1668692591:0;tmux ls
-: 1668692602:0;tmux kill-server
-: 1668692603:0;ls
-: 1668692610:0;pacseek
-: 1668692671:0;yay -Syy
-: 1668692684:0;UpdateInTerminal
-: 1668692766:0;clear
-: 1668692883:0;z
-: 1668692884:0;ls
-: 1668692886:0;clear
-: 1668692908:0;zellij
-: 1668692916:0;q
-: 1668692922:0;z
 : 1668692925:0;zellij
-: 1668692927:0;n
-: 1668692985:0;f
 : 1668693033:0;builtin cd -- /home/said/Documents/
-: 1668693034:0;exit
-: 1668693049:0;clear
 : 1668693051:0;ksdjds
-: 1668693051:0;fasd
-: 1668693051:0;f
-: 1668700145:0;ls
 : 1668700150:0;kitty
-: 1668700152:0;ls
-: 1668700159:0;n
-: 1668700175:0;ls
-: 1668700177:0;n
-: 1668700187:0;ls
-: 1668700196:0;n
-: 1668700206:0;htop
-: 1668700357:0;pacseek
-: 1668700379:0;n
 : 1668700805:0;j stack
-: 1668700806:0;ls
-: 1668700808:0;cd lua
-: 1668700809:0;ls
-: 1668700821:0;pwd
-: 1668700824:0;ls
 : 1668700833:0;tee
-: 1668700838:0;cd ..
-: 1668700839:0;ls
-: 1668700840:0;tree
-: 1668700874:0;cd plugin
-: 1668700875:0;ls
 : 1668700887:0;chmod 755 test.lua
-: 1668700887:0;ls
-: 1668700892:0;n
-: 1668700896:0;n test.lua
-: 1668700921:0;n
-: 1668701024:0;n test.lua
-: 1668701040:0;n
-: 1668701056:0;n test.lua
-: 1668701061:0;n
-: 1668710549:0;clear
-: 1668710550:0;n
-: 1668719604:0;ls
 : 1668719616:0;j vim plugi
-: 1668719617:0;ls
-: 1668719621:0;n options.lua
-: 1668719805:0;n
-: 1668720996:0;j
-: 1668721000:0;n
-: 1668722142:0;ls
-: 1668722143:0;n
-: 1668722428:0;m
-: 1668722443:0;n
-: 1668727302:0;exit
-: 1668727854:0;n
-: 1668728342:0;ls
-: 1668728372:0;n
-: 1668728439:0;j rich
 : 1668728441:0;n testsession
 : 1668728452:0;n -s testsession
-: 1668728538:0;n
-: 1668729152:0;ls
-: 1668729153:0;n
-: 1668729271:0;ls
 : 1668729282:0;n -e source testsession
-: 1668729305:0;ls
-: 1668729308:0;j rich
-: 1668729309:0;ls
-: 1668729310:0;clear
 : 1668729323:0;n -S testsession
-: 1668731614:0;tmux
-: 1668731626:0;clear
-: 1668731637:0;n
-: 1668731640:0;htop
-: 1668731654:0;ls
-: 1668731659:0;clear
-: 1668731661:0;n
-: 1668731888:0;tmux
-: 1668731980:0;tmux kill-server
-: 1668731981:0;nvim
-: 1668732016:0;clear
-: 1668732024:0;ls
-: 1668732026:0;clear
-: 1668732048:0;n
-: 1668734745:0;ls
-: 1668734747:0;clear
-: 1668734755:0;n
-: 1668734844:0;tmux
 : 1668734872:0;tumux
-: 1668734874:0;tmux
-: 1668734882:0;exit
-: 1668734962:0;n
-: 1668734975:0;clear
-: 1668735001:0;n
-: 1668735059:0;ls
-: 1668735322:0;tmux kill-server
-: 1668735323:0;nvim
-: 1668735329:0;clear
-: 1668735335:0;ls
-: 1668735337:0;g
-: 1668735344:0;clear
-: 1668735410:0;n
 : 1668735517:0;tmux show-options -g | grep status
-: 1668735626:0;clear
-: 1668735628:0;ls
-: 1668735631:0;top
-: 1668735634:0;clear
-: 1668735635:0;ls
-: 1668735637:0;clear
-: 1668735638:0;ls
-: 1668735640:0;clear
-: 1668735707:0;ps ax
-: 1668735738:0;w
-: 1668756797:0;ls
-: 1668756819:0;w
-: 1668756821:0;ls
-: 1668757684:0;n
-: 1668757842:0;ls
-: 1668757849:0;tmux
-: 1668757872:0;tmux kill-server
-: 1668757874:0;nvim
-: 1668757904:0;n
-: 1668757998:0;ls
-: 1668758044:0;n
-: 1668758077:0;fc-cache -r
-: 1668758087:0;c cd
-: 1668758097:0;cd
-: 1668758103:0;j rich
 : 1668758280:0;tmux kill a
 : 1668758370:0;tmux kill-window -a -t 1
-: 1668758650:0;n
-: 1668758726:0;tmux kill-server
-: 1668758730:0;nvim
-: 1668758796:0;ls
 : 1668759230:0;tmus ls
-: 1668759233:0;tmux ls
-: 1668759345:0;nvim
-: 1668759458:0;n
-: 1668759513:0;ls
-: 1668759718:0;clear
-: 1668759734:0;htop
-: 1668759784:0;ls
-: 1668759785:0;clear
 : 1668759835:0;tmux rename-session
 : 1668759844:0;tmux rename-session nvim settings
 : 1668759853:0;tmux rename-session nvim-settings
-: 1668759858:0;n
-: 1668763582:0;j resu
-: 1668763583:0;ls
 : 1668763593:0;n re
-: 1668763599:0;n resurrect.tmux
 : 1668763629:0;cd save_command_strategies
-: 1668763629:0;ls
 : 1668763645:0;sh ps.sh
-: 1668763647:0;ls
-: 1668763656:0;cd ..
-: 1668763656:0;ls
 : 1668763664:0;cd video
-: 1668763664:0;ls
-: 1668763669:0;cd ..
-: 1668763669:0;ls
 : 1668763696:0;cd docs
-: 1668763697:0;ls
-: 1668763762:0;pwd
-: 1668763767:0;cd ..
-: 1668763770:0;ls
-: 1668763773:0;cd ..
-: 1668763774:0;ls
-: 1668763777:0;cd plugins
-: 1668763777:0;ls
-: 1668763780:0;cd ..
-: 1668763782:0;pwd
-: 1668763801:0;ls
-: 1668763890:0;ls -la
-: 1668763892:0;cd plugins
-: 1668763893:0;ls
 : 1668763899:0;cd tmux-continuum
-: 1668763899:0;ls
-: 1668763905:0;cd ..
-: 1668763910:0;cd tmux-resurrect
-: 1668763910:0;ls
-: 1668763914:0;tree
-: 1668763973:0;cd
-: 1668763973:0;ls
-: 1668764327:0;n
-: 1668764517:0;tmux kill-server
-: 1668764527:0;cd .tmux
-: 1668764527:0;ls
-: 1668764557:0;ls -la
-: 1668764563:0;n
-: 1668764579:0;sudo reboot
-: 1668764628:0;n
 : 1668764654:0;test
-: 1668764655:0;ls
-: 1668764658:0;cd .tmux
-: 1668764658:0;ls
-: 1668764661:0;cd plugins
-: 1668764662:0;ls
-: 1668764664:0;cd ..
-: 1668764665:0;ls
-: 1668764672:0;n
-: 1668764998:0;ls
 : 1668765029:0;mkdir -p .config/tmux
 : 1668765097:0;mv .tmux.conf .config/tmux/tmux.conf
 : 1668765111:0;rm .tmux
-: 1668765118:0;rm -rf .tmux
-: 1668765122:0;ls
 : 1668765147:0;cat .Xauthority
-: 1668765151:0;ls
-: 1668765219:0;tmux kill-server
-: 1668765222:0;ls
-: 1668765261:0;cd .config/tmux
-: 1668765261:0;ls
-: 1668765264:0;n tmux.conf
-: 1668765305:0;n
-: 1668765328:0;pacseek
-: 1668765763:0;clear
-: 1668765770:0;tmux kill-server
-: 1668765803:0;cd /usr/share/tmux-resurrect
-: 1668765804:0;ls
 : 1668765920:0;echo $XDG_DATA_HOME
 : 1668765936:0;cd /home/said/.local/share/tmux
-: 1668765937:0;ls
-: 1668765939:0;cd resurrect
-: 1668765940:0;ls
-: 1668765982:0;n
-: 1668766056:0;tmux kill-server
-: 1668766100:0;n
-: 1668766223:0;tmux kill-server
-: 1668766226:0;tmux ls
 : 1668766241:0;cd /usr/share
-: 1668766242:0;ls
 : 1668766248:0;cd tmux-resurrect
-: 1668766248:0;ls
-: 1668766257:0;tmux
-: 1668766308:0;rm -rf /tmp/tmux-1000
-: 1668766313:0;tmux
-: 1668766332:0;cd .config/tmux
-: 1668766332:0;ls
-: 1668766334:0;n tmux.conf
-: 1668767213:0;tmux kill-server
-: 1668767217:0;tmux
-: 1668767232:0;ls
-: 1668767235:0;pwd
-: 1668767322:0;ls
-: 1668767331:0;sudo reboot
-: 1668767359:0;ls
-: 1668767366:0;cd .config
-: 1668767366:0;ls
-: 1668767369:0;cd tmux
-: 1668767370:0;ls
-: 1668767373:0;tmux
-: 1668767698:0;quit
-: 1668767701:0;d
-: 1668767712:0;tmux kill-server
-: 1668767713:0;ls
-: 1668767717:0;tmux ls
-: 1668767720:0;pacseek
-: 1668767794:0;clear
-: 1668767796:0;tmux
-: 1668767810:0;tmux kill-server
-: 1668767812:0;ls
-: 1668767814:0;pwd
-: 1668767825:0;n tmux.conf
 : 1668767845:0;j locas sha res
 : 1668767849:0;j local sha res
-: 1668767850:0;ls
-: 1668767853:0;cd ..
 : 1668767857:0;rm -rf resurrect
-: 1668767866:0;ls
-: 1668767872:0;cd ..
-: 1668767873:0;ls
 : 1668767895:0;rm -rf /tmp/tmux-1000
-: 1668767898:0;tmux
-: 1668767909:0;n
-: 1668768059:0;cd
-: 1668768069:0;tmux kill-server
-: 1668768070:0;ls
-: 1668768071:0;clear
 : 1668768098:0;tmux source-file /home/said/.config/tmux/tmux.conf
-: 1668768124:0;tmux
-: 1668768329:0;n
-: 1668768417:0;tmux kill-server
-: 1668768420:0;tmux
-: 1668768553:0;tmux kill-server
 : 1668768569:0;tmux -f ~/.config/tmux/tmux.conf
-: 1668768584:0;ls
-: 1668768591:0;n
-: 1668768684:0;tmux
-: 1668768692:0;n
-: 1668768700:0;ls
-: 1668775760:0;lsblk
 : 1668775842:0;dd if=Downloads/archlinux-2022.11.01-x86_64.iso of=/dev/sda bs=1M
 : 1668775864:0;sudo dd if=Downloads/archlinux-2022.11.01-x86_64.iso of=/dev/sda bs=1M
 : 1668775916:0;lspi -k
 : 1668775923:0;lspci -k
-: 1668776306:0;ls
 : 1668776572:0;sudo pacman -S yay
 : 1668776602:0;cat .zshrc
-: 1668776629:0;yay -Qqe > ~/pkglist.txt
-: 1668776630:0;ls
-: 1668776635:0;n pkglist.txt
-: 1668776960:0;sudo reboot
-: 1668784978:0;df
-: 1668784996:0;n
-: 1668785007:0;clear
-: 1668790617:0;tmux
-: 1668790636:0;exit
-: 1668790645:0;n
-: 1668791214:0;tmux ls
-: 1668791221:0;tmux a
-: 1668791231:0;tmux
-: 1668791252:0;tmux a
-: 1668791286:0;ls
-: 1668791288:0;f
-: 1668791295:0;clear
-: 1668791326:0;n
-: 1668791600:0;tmux kill-server
-: 1668791720:0;tmux -n -s config
 : 1668791728:0;tmux -ns -s config
 : 1668791732:0;tmux -n -s config
 : 1668791749:0;tmux -newsession -s name
 : 1668791861:0;tmux list-keys
 : 1668791902:0;tmux new-session -s tmuxconfig
-: 1668792057:0;clear
-: 1668792069:0;n
-: 1668792090:0;clear
-: 1668792098:0;t
-: 1668792103:0;n .zshrc
-: 1668792124:0;t
 : 1668792131:0;t 
-: 1668792140:0;n .zshrc
 : 1668792198:0;t new -s said
-: 1668792250:0;n
-: 1668792347:0;t ls
 : 1668792412:0;tmux a said
 : 1668792417:0;tmux a 0
-: 1668792422:0;tmux a
-: 1668797676:0;tmux kill-server
-: 1668797691:0;ls
-: 1668797693:0;clear
-: 1668797695:0;tmux
-: 1668797711:0;j tmux
-: 1668797712:0;ls
-: 1668797720:0;j resu
-: 1668797720:0;ls
-: 1668797726:0;ls -la
-: 1668797747:0;pwd
 : 1668797759:0;j local tmux
-: 1668797760:0;ls
-: 1668797761:0;pwd
-: 1668797762:0;ls
-: 1668797765:0;cd ..
-: 1668797765:0;ls
-: 1668797825:0;nvim
-: 1668798153:0;t
-: 1668798187:0;n 
 : 1668798251:0;d
-: 1668798261:0;tmux kill-server
-: 1668798263:0;t
-: 1668798333:0;n
-: 1668798555:0;f
-: 1668798841:0;clear
 : 1668798919:0;echo 1
 : 1668798922:0;echo 2
 : 1668798930:0;echo 3
-: 1668799020:0;n
 : 1668802977:0;kdkd
 : 1668803043:0;
-: 1668803059:0;clear
 : 1668803220:0;k
-: 1668803220:0;sdf
-: 1668803220:0;sd
-: 1668803277:0;f
-: 1668803315:0;ps ax
-: 1668803434:0;t a
-: 1668803471:0;htop
-: 1668803474:0;ps ax
-: 1668803491:0;clear
-: 1668803493:0;asdf
-: 1668803493:0;asd
-: 1668803494:0;f
-: 1668803500:0;clear
-: 1668803502:0;ls
-: 1668803695:0;exit
-: 1668803700:0;ls
-: 1668803702:0;tmux
-: 1668803712:0;exit
-: 1668803716:0;clear
-: 1668803719:0;ls
-: 1668803907:0;clear
-: 1668803907:0;n
-: 1668804146:0;asdf
-: 1668804147:0;sd
-: 1668804147:0;fasd
-: 1668804147:0;f
-: 1668804160:0;clear
-: 1668804262:0;ls
-: 1668804269:0;j rich
-: 1668804295:0;ls
-: 1668804298:0;clear
-: 1668804485:0;n
-: 1668804513:0;cd
-: 1668804517:0;source .zshrc
-: 1668804518:0;ls
-: 1668804520:0;clear
-: 1668804522:0;ls
-: 1668804527:0;c cd
-: 1668804529:0;ls
 : 1668804544:0;git status
-: 1668804595:0;n
-: 1668804613:0;source .zshrc
-: 1668804616:0;cd
-: 1668804619:0;source .zshrc
-: 1668804621:0;ls
-: 1668804622:0;clear
-: 1668804623:0;ls
-: 1668804628:0;c cd
-: 1668804634:0;ps ax
-: 1668804637:0;f
-: 1668804679:0;ls
-: 1668804681:0;clear
-: 1668804707:0;j rich
-: 1668804710:0;clear
 : 1668804716:0;llllllllllllllllllllllllllllllllllllllllllllllllllfasdfasdf
-: 1668804717:0;asdf
-: 1668804825:0;source .zshrc
-: 1668804828:0;cd 
-: 1668804829:0;source .zshrc
-: 1668804837:0;clear
-: 1668804841:0;ls
-: 1668804845:0;ps ax
-: 1668804905:0;source .zshrc
-: 1668804908:0;cd
-: 1668804909:0;source .zshrc
-: 1668804925:0;ls
-: 1668804926:0;clear
-: 1668804935:0;c cd
-: 1668804978:0;cd
-: 1668804981:0;source .zshrc
-: 1668804983:0;clear
-: 1668805004:0;ps ax
-: 1668805008:0;clear
-: 1668805013:0;j rich
-: 1668805026:0;n
-: 1668805074:0;source .zshrc
-: 1668805076:0;clear
-: 1668805078:0;ls
-: 1668805103:0;j go
-: 1668805105:0;ls
-: 1668805113:0;f
-: 1668805132:0;clear
-: 1668805140:0;ls
 : 1668805157:0;tumx
-: 1668805162:0;t
-: 1668805181:0;cd
-: 1668805203:0;source .zshrc
-: 1668805204:0;ls
-: 1668805209:0;j rich
-: 1668805210:0;ls
-: 1668805213:0;clear
-: 1668806589:0;dmesg
-: 1668806593:0;clear
-: 1668806599:0;ls
-: 1668806605:0;ps ax
-: 1668807117:0;ls
-: 1668807119:0;ps ax
-: 1668807123:0;ls
-: 1668807125:0;ps ax
-: 1668807126:0;cleare
 : 1668807181:0;cleeear
-: 1668807183:0;clear
-: 1668807292:0;ls -la
-: 1668807317:0;ls
-: 1668807320:0;clear
-: 1668807326:0;ls
-: 1668807639:0;ps ax
-: 1668807645:0;clear
-: 1668808010:0;ls
-: 1668808013:0;dir
-: 1668809920:0;clear
-: 1668810002:0;n
-: 1668810054:0;cd
-: 1668810059:0;source .zshrc
-: 1668810062:0;clear
 : 1668810067:0;j richie
-: 1668810068:0;ls
-: 1668810070:0;clear
-: 1668810071:0;pwd
-: 1668810076:0;clear
-: 1668810078:0;c cd
-: 1668810082:0;ls
-: 1668810088:0;clear
-: 1668810185:0;ls
-: 1668810187:0;clear
-: 1668810188:0;f
-: 1668810193:0;cd
-: 1668810214:0;source .zshrc
-: 1668810229:0;clear
-: 1668810232:0;c cd
-: 1668810238:0;ls
-: 1668810255:0;
-: 1668810258:0;n
-: 1668810290:0;source .zshrc
-: 1668810293:0;clear
-: 1668810298:0;c cd
-: 1668810323:0;f
-: 1668810333:0;clear
-: 1668810347:0;t
-: 1668810359:0;ls
-: 1668810361:0;clear
-: 1668810509:0;exit
-: 1668810512:0;n
-: 1668810523:0;
-: 1668810527:0;source .zshrc
-: 1668810529:0;clear
-: 1668810531:0;c cd
-: 1668810540:0;ls
-: 1668810541:0;clear
-: 1668810543:0;ls
 : 1668810631:0;source .zshrc
-: 1668810633:0;clear
-: 1668810650:0;ls
-: 1668810845:0;pacseek
-: 1668811045:0;cd .oh-my-zsh
-: 1668811052:0;du -ch *
-: 1668811054:0;ls
 : 1668811058:0;cd themes
-: 1668811059:0;ls
 : 1668811065:0;wc .
-: 1668811074:0;cd ..
-: 1668811075:0;ls
 : 1668811083:0;wc themes
-: 1668811100:0;clear
-: 1668811108:0;j rich
-: 1668811117:0;j nvim
-: 1668811127:0;n
-: 1668811138:0;clear
-: 1668811141:0;j rich
-: 1668811150:0;ls
-: 1668811152:0;clear
 : 1668811156:0;c rich
-: 1668811163:0;j rich
-: 1668811165:0;clear
-: 1668811246:0;tmux
-: 1668811253:0;t
-: 1668811256:0;exit
-: 1668811265:0;t kill-server
-: 1668811266:0;tmux
-: 1668811308:0;n
-: 1668811433:0;t
-: 1668811443:0;n
-: 1668811454:0;t
-: 1668811467:0;n
-: 1668811490:0;exit
-: 1668811496:0;t
-: 1668811517:0;tmux kill-server
-: 1668811521:0;ls
-: 1668811522:0;clear
-: 1668811528:0;t
-: 1668811540:0;n
-: 1668812011:0;clear
 : 1668812020:0;HHHH
-: 1668812022:0;cd
-: 1668812023:0;clear
 : 1668812025:0;adsf
-: 1668812026:0;sd
-: 1668812026:0;f
-: 1668812034:0;ls
-: 1668812036:0;clear
-: 1668812475:0;n
-: 1668812504:0;t kill-server
-: 1668812507:0;clear
-: 1668812508:0;t
-: 1668812511:0;n
-: 1668812973:0;f
-: 1668812978:0;clear
-: 1668813177:0;ls
-: 1668813179:0;clear
-: 1668813181:0;ps ax
-: 1668813187:0;clear
-: 1668836177:0;n
-: 1668836181:0;clear
-: 1668836182:0;n
-: 1668838609:0;ls
-: 1668838611:0;clear
-: 1668838612:0;ls
-: 1668838615:0;clear
-: 1668838619:0;c cd
-: 1668838620:0;ls
-: 1668838625:0;j rich
-: 1668838626:0;sl
-: 1668838628:0;ls
 : 1668838670:0;rm testsession
-: 1668838671:0;ls
-: 1668838697:0;clear
-: 1668838905:0;t a
-: 1668838928:0;n
-: 1668841058:0;df
-: 1668841064:0;ls
-: 1668841067:0;n
-: 1668844177:0;clear
-: 1668844182:0;tmux ls
-: 1668844191:0;tmux a
-: 1668844221:0;htop
-: 1668845005:0;g
-: 1668845065:0;f
-: 1668845077:0;n
 : 1668845164:0;
-: 1668845223:0;ls
-: 1668845306:0;g
-: 1668845309:0;htop
-: 1668845315:0;gdu
-: 1668845370:0;t kill-server
-: 1668845375:0;t
-: 1668845384:0;htop
-: 1668845384:0;nvim
-: 1668845424:0;n
-: 1668845449:0;t kill-server
-: 1668845455:0;t
-: 1668845458:0;nvim
-: 1668845458:0;htop
-: 1668845458:0;nvim
-: 1668846325:0;ping 8.8.8.8
-: 1668846528:0;m
-: 1668852392:0;n
-: 1668852428:0;t ls
-: 1668852434:0;t kill-server
-: 1668852438:0;t a
-: 1668852510:0;n .zshrc
-: 1668852571:0;n
-: 1668852629:0;nvim
-: 1668852629:0;htop
-: 1668852629:0;nvim
 : 1668852704:0;jlhl
-: 1668852706:0;clear
-: 1668852774:0;n .zshrc
-: 1668852821:0;n
-: 1668852833:0;ls
-: 1668852834:0;clear
-: 1668852840:0;t ls
 : 1668852868:0;t a TMUX
 : 1668852871:0;t TMUX
-: 1668852875:0;t
-: 1668852916:0;f
-: 1668852923:0;t kill-server
-: 1668852925:0;t
-: 1668853103:0;asdf
-: 1668853104:0;asd
-: 1668853104:0;f
-: 1668853111:0;n
-: 1668854349:0;t ls
-: 1668854355:0;t
-: 1668854371:0;t ls
 : 1668854382:0;t 0
 : 1668854385:0;t -a 0
 : 1668854395:0;t -v 0
 : 1668854407:0;t attach-session 0
 : 1668854411:0;t attach-session 
 : 1668854455:0;t as
-: 1668854463:0;t attach-session
-: 1668854475:0;ls
-: 1668854477:0;clear
-: 1668854479:0;top
-: 1668854483:0;clear
-: 1668854488:0;t ls
-: 1668854492:0;t attach-session
-: 1668854513:0;n
-: 1668854552:0;t kill-server
-: 1668854555:0;t
-: 1668854558:0;nvim
-: 1668854914:0;clear
-: 1668854917:0;cler
-: 1668854918:0;clear
 : 1668855183:0;t -ls
-: 1668855185:0;n
 : 1668855248:0;t attach-session
-: 1668855309:0;t kill-server
-: 1668855310:0;t
-: 1668855318:0;nvim
 : 1668855472:0;cd /tmp
-: 1668855473:0;ls
-: 1668855489:0;rm -rf *
-: 1668855497:0;sudo rm -rf *
-: 1668855502:0;sudo reboot
-: 1668855536:0;t
-: 1668855538:0;nvim
-: 1668855609:0;ls
-: 1668855615:0;clear
-: 1668855622:0;t ls
-: 1668855627:0;t kill-server
 : 1668855634:0;j resu
-: 1668855635:0;ls
-: 1668855641:0;pwd
 : 1668855649:0;j local re
-: 1668855650:0;ls
 : 1668855657:0;j local resur
-: 1668855664:0;ls
-: 1668855722:0;cd
-: 1668855724:0;n
 : 1668855743:0;j rich
-: 1668855746:0;clear
-: 1668855755:0;t ls
-: 1668855760:0;t
-: 1668855764:0;n
-: 1668855788:0;nvim
-: 1668856217:0;cd
-: 1668856235:0;cd .local/share/tmux
-: 1668856236:0;ls
-: 1668856238:0;ls -la
-: 1668856514:0;ls
-: 1668856518:0;cd
-: 1668856518:0;ls
-: 1668856522:0;cd .tmux
-: 1668856523:0;ls
-: 1668856526:0;cd resurrect
-: 1668856526:0;ls
-: 1668856535:0;rm -rf *
-: 1668856573:0;ls
-: 1668856587:0;nvim
-: 1668856600:0;ls
-: 1668856606:0;clear
-: 1668856607:0;ls
-: 1668856623:0;c cd
-: 1668856633:0;cd -
-: 1668856640:0;ls
-: 1668856643:0;cd
 : 1668856647:0;cd .tmux
-: 1668856650:0;clear
-: 1668856653:0;ls
 : 1668856657:0;cd resurrect
-: 1668856657:0;ls
-: 1668856659:0;clear
-: 1668856661:0;ls
 : 1668856667:0;n tmux_resurrect_20221119T131636.txt
 : 1668856931:0;cd /usr/share/tmux-resurrect/strategies
-: 1668856932:0;ls
 : 1668856937:0;n nvim_session.sh
-: 1668860375:0;n
 : 1668860599:0;j learn go
-: 1668860606:0;n
 : 1668860760:0;j go learn
-: 1668860762:0;ls
 : 1668860771:0;n -S 
-: 1668860782:0;n
-: 1668860790:0;n -S
-: 1668860794:0;cd
 : 1668860796:0;n -S
-: 1668861182:0;t
-: 1668861210:0;w
-: 1668861216:0;t
-: 1668861224:0;ls
 : 1668861232:0;echo %TMUX
 : 1668861243:0;echo env
-: 1668861245:0;env
-: 1668861263:0;n .zshrc
-: 1668861302:0;t kill-server
-: 1668861306:0;t
-: 1668861315:0;t ls
-: 1668861319:0;t
-: 1668861339:0;t kill-server
-: 1668861341:0;t
-: 1668861350:0;t ls
-: 1668861354:0;t kill-server
-: 1668861358:0;t
-: 1668861363:0;t kill-server
-: 1668861365:0;t ls
-: 1668861376:0;env
-: 1668861380:0;t
-: 1668861402:0;nvim
-: 1668861429:0;clear
-: 1668861433:0;t
-: 1668861470:0;t kill-server
-: 1668861472:0;t
-: 1668861484:0;nvim
-: 1668861508:0;env
-: 1668861554:0;n .zshrc
-: 1668861609:0;ls
-: 1668861625:0;n
-: 1668861699:0;ps ax
-: 1668861703:0;env
-: 1668861718:0;clear
-: 1668861720:0;ls
-: 1668861721:0;clear
-: 1668861736:0;n
-: 1668870760:0;j dev lua
-: 1668870761:0;ls
 : 1668870766:0;cd stack lua
 : 1668870772:0;j stack lua
-: 1668870772:0;ls
-: 1668870779:0;tree
-: 1668870804:0;ls
 : 1668870820:0;n new.lua
-: 1668870881:0;n
-: 1668871195:0;pwd
-: 1668871198:0;cd ..
-: 1668871201:0;nvim
-: 1668871463:0;pwd
-: 1668871468:0;tree
-: 1668871474:0;n
 : 1668871942:0;tmux new-window
-: 1668872018:0;t kill-server
-: 1668872021:0;t
-: 1668872121:0;top
 : 1668872125:0;q
-: 1668872132:0;t ls
-: 1668872137:0;nvim
-: 1668872203:0;pwd
-: 1668872205:0;clear
-: 1668872588:0;n
-: 1668877617:0;ls
-: 1668877619:0;cleear
-: 1668877621:0;clear
-: 1668877637:0;pacseek
-: 1668877965:0;clear
-: 1668877967:0;fc-list
-: 1668878007:0;pacseek
-: 1668878034:0;fc-list
-: 1668878047:0;pacseek
-: 1668878071:0;clear
-: 1668878073:0;pacseek
-: 1668878078:0;fc-list
-: 1668878092:0;pacseek
-: 1668878356:0;yay -Scc
-: 1668878361:0;df
-: 1668878371:0;ls
-: 1668884495:0;cd
-: 1668884500:0;clear
 : 1668884512:0;cd .config/fontconfig
-: 1668884512:0;ls
 : 1668884517:0;n 50-user.conf
-: 1668884606:0;fc-list
-: 1668885244:0;ls
-: 1668885247:0;cd
-: 1668885247:0;ls
-: 1668885252:0;nnn
 : 1668885304:0;fc-chache -f
-: 1668885308:0;fc-cache -f
-: 1668885318:0;fc-list
 : 1668885387:0;fc-list | grep local
-: 1668885417:0;n
-: 1668885510:0;pacseek
-: 1668885514:0;ls
-: 1668885527:0;cd .local/share/fonts
-: 1668885527:0;ls
 : 1668885534:0;cd Unknown\ Vendor
-: 1668885534:0;ls
 : 1668885538:0;cd TrueType
-: 1668885539:0;ls
-: 1668885541:0;cd ..
-: 1668885541:0;ls
-: 1668885543:0;cd ..
-: 1668885544:0;ls
 : 1668885551:0;rm -rf Unknown\ Vendor
-: 1668885553:0;ls
-: 1668885565:0;du -ch *
-: 1668885696:0;pacseek
-: 1668885764:0;clear
-: 1668885766:0;nnn
-: 1668886147:0;n
-: 1668886344:0;ls
-: 1668886355:0;pacseek
-: 1668886385:0;clear
 : 1668886394:0;fc-cache -f
-: 1668886403:0;fc-list
-: 1668886432:0;nnn
-: 1668886485:0;pacseek
-: 1668886501:0;df
-: 1668886508:0;yay -Scc
-: 1668886513:0;df
-: 1668886516:0;cleasr
-: 1668886518:0;clear
-: 1668886529:0;exit
-: 1668886698:0;clear
-: 1668886704:0;n
 : 1668887066:0;tmux display-pop -E 'ls | fzf'
 : 1668887278:0;tmux display-pop -E -w 80% 'ls | fzf'
 : 1668887329:0;tmux display-pop -E -w 80% '~ | fzf'
 : 1668887336:0;tmux display-pop -E -w 80% '~/ | fzf'
-: 1668887356:0;tmux display-pop -E -w 80% 'fzf'
-: 1668887437:0;ls
-: 1668887439:0;clear
-: 1668887465:0;t
-: 1668887508:0;clear
 : 1668887534:0;t kill-server
-: 1668887538:0;pacseek
 : 1668888177:0;tmux display-pop -E -w 80% 'fzf'
 : 1668888196:0;tmux display-pop -E -w 80% -p '~/ | fzf'
-: 1668888224:0;fzf-tmux
-: 1668888301:0;t a
-: 1668888331:0;clear
 : 1668888345:0;fzf-tmux
-: 1668888432:0;t a
-: 1668888439:0;ls
-: 1668888441:0;clear
 : 1668888447:0;fzf-tmux -p
-: 1668888653:0;fzf-tmux -s
 : 1668888664:0;fzf-tmux -p -s
 : 1668888669:0;fzf-tmux -S
 : 1668888671:0;fzf-tmux -s
-: 1668888935:0;clear
 : 1668888938:0;fzf-tmux 
-: 1668889234:0;clear
-: 1668889293:0;fd --type f --hidden --exclude .git | fzf-tmux| xargs nvim
 : 1668889352:0;fd --type f --hidden --exclude .git | fzf-tmux -p | xargs nvim
 : 1668889396:0;fd --type f --hidden --exclude .git | fzf-tmux| xargs nvim
 : 1668889840:0;fclist
-: 1668889854:0;clear
-: 1668889864:0;n
-: 1668890060:0;clear
-: 1668890066:0;ls
-: 1668890068:0;clear
-: 1668890128:0;n
-: 1668890153:0;clear
 : 1668890177:0;tmux la
-: 1668890180:0;tmux ls
-: 1668890191:0;t a
-: 1668890240:0;t ls
-: 1668890369:0;n
-: 1668890887:0;t a
 : 1668890935:0;tmux -g
 : 1668890952:0;tmux split-window "htop"
 : 1668890987:0;j dev plug
-: 1668890988:0;ls
-: 1668890991:0;cd cmakebuddy
-: 1668890992:0;ls
-: 1668890999:0;tree
-: 1668891014:0;nnn
 : 1668892078:0;copen
-: 1668893155:0;nnn
-: 1668893289:0;ls
-: 1668893291:0;clear
-: 1668894547:0;cd ../..
-: 1668894547:0;ls
-: 1668894552:0;cd luafiles
-: 1668894552:0;ls
-: 1668894555:0;n test.lua
-: 1668894637:0;exit
-: 1668896065:0;t a
-: 1668896104:0;n test.lua
-: 1668896128:0;n
-: 1668896186:0;clear
-: 1668897890:0;n test.lua
-: 1668898358:0;pacseek
-: 1668898381:0;n
 : 1668898447:0;soure ~/.zshrc
-: 1668898459:0;source ~/.zshrc
-: 1668898461:0;clear
-: 1668898462:0;ls
-: 1668898466:0;ls -la
-: 1668898476:0;cd
-: 1668898477:0;ls
-: 1668898518:0;n
-: 1668898535:0;source ~/.zshrc
-: 1668898537:0;ls
-: 1668898697:0;n
-: 1668898712:0;source ~/.zshrc
-: 1668898713:0;ls
-: 1668898785:0;n .zshrc
-: 1668898814:0;source ~/.zshrc
-: 1668898815:0;ls
-: 1668898869:0;source ~/.zshrc
-: 1668898873:0;n .zshrc
 : 1668899500:0;j luafile
-: 1668899502:0;ls
-: 1668899527:0;n
 : 1668899549:0;source ~/.zshrc
-: 1668899551:0;ls
-: 1668899554:0;clear
-: 1668899554:0;ls
-: 1668899556:0;clear
-: 1668899566:0;lua test.lua
-: 1668902422:0;n
-: 1668904433:0;t ls
-: 1668904441:0;t a
-: 1668906173:0;n
-: 1668906179:0;clear
-: 1668906186:0;n
-: 1668906230:0;cler
-: 1668906232:0;claer
-: 1668906234:0;clear
-: 1668908571:0;n
 : 1668908699:0;print("Hello bla")
-: 1668908743:0;lua
-: 1668909848:0;lua test.lua
 : 1668909915:0;lua test.lua\\
 exit
-: 1668909924:0;lua test.lua
-: 1668910006:0;t
-: 1668910049:0;sudo reboot
-: 1668910099:0;nnn
 : 1668910385:0;cd Pictures/Wallpapers
-: 1668910386:0;la
-: 1668910387:0;ls
 : 1668910415:0;sudo cp sgs_1_quiet_before_the_storm.jpg /usr/share/endeavouros/backgrounds/
-: 1668910422:0;su
 : 1668910542:0;t ls
-: 1668910559:0;su
-: 1668910590:0;nvim
-: 1668910603:0;clear
-: 1668910688:0;lua test.lua
-: 1668910885:0;clear
-: 1668910906:0;t
-: 1668910929:0;t a
-: 1668910946:0;clear
-: 1668910948:0;t a
-: 1668910951:0;n
-: 1668910977:0;lua test.lua
-: 1668911028:0;exit
-: 1668911050:0;lua test.lua
 : 1668935316:0;print("Said " .. 7)
-: 1668935326:0;lua
-: 1668936188:0;ls
-: 1668936224:0;n
-: 1668936410:0;clear
-: 1668936411:0;n
-: 1668936439:0;cd
-: 1668936463:0;c cd
-: 1668936464:0;ls
 : 1668936468:0;cat .chezmoiignore
-: 1668936486:0;cd private_Dev
-: 1668936490:0;cd Dev
 : 1668936494:0;j Dev
-: 1668936495:0;ls
-: 1668936496:0;clear
-: 1668936498:0;ls
-: 1668936558:0;gdu
-: 1668936575:0;j .conf
-: 1668936577:0;gdu
-: 1668936637:0;clear
-: 1668936671:0;c cd
-: 1668936672:0;ls
 : 1668936682:0;n .chezmoiignore
-: 1668936829:0;cd 
-: 1668936834:0;c add .config
-: 1668936885:0;du
-: 1668936890:0;du -ch *
-: 1668936892:0;sl
-: 1668936892:0;ls
-: 1668936894:0;clear
 : 1668936918:0;cd ../fonts
-: 1668936919:0;ls
-: 1668936922:0;du -ch *
-: 1668936938:0;fc-cache -r
-: 1668936945:0;fc-list
-: 1668936975:0;pacseek 
-: 1668936998:0;fc-cache -r
-: 1668937002:0;fc-list
-: 1668937061:0;ls
 : 1668937074:0;c add .local/share/fonts
-: 1668937111:0;n
-: 1668937147:0;cd .oh-my-zsh
-: 1668937148:0;ls
-: 1668937154:0;du -ch *
-: 1668937456:0;n
-: 1668937713:0;tmux kill-server
 : 1668937893:0;w
-: 1668937937:0;env
-: 1668937983:0;t
 : 1668937985:0;ts
 : 1668940552:0;tmux ls
 : 1668940595:0;tmux show-environment
-: 1668940952:0;ls
-: 1668940959:0;clear
-: 1668940976:0;ls
-: 1668940980:0;cd .config
-: 1668940980:0;ls
-: 1668940984:0;cd tmux
-: 1668940984:0;ls
-: 1668940987:0;du -ch *
-: 1668940995:0;clear
-: 1668941001:0;n
-: 1668941092:0;pacseek
-: 1668941133:0;tmux
-: 1668941141:0;n
-: 1668941173:0;ls
-: 1668941232:0;n
-: 1668941243:0;ls
-: 1668941301:0;clear
-: 1668941303:0;exit
-: 1668941313:0;n
-: 1668941464:0;clear
-: 1668941470:0;n
-: 1668941680:0;exit
-: 1668941745:0;n
-: 1668941845:0;pwd
 : 1668941865:0;ext
-: 1668941867:0;exit
-: 1668941890:0;n
-: 1668941931:0;exit
-: 1668941950:0;n
-: 1668941956:0;exit
-: 1668941962:0;ls
-: 1668941964:0;clear
-: 1668942038:0;n
-: 1668942084:0;echo %
-: 1668942095:0;exit
-: 1668942129:0;echo %
-: 1668942169:0;exit
 : 1668942180:0;echo %
-: 1668942182:0;exit
-: 1668942352:0;lua
-: 1668942493:0;n
 : 1668942785:0;2
-: 1668942813:0;n
-: 1668943073:0;ls
-: 1668943086:0;n
 : 1668944005:0;kjdf
 : 1668944006:0;sdfs
-: 1668944006:0;df
-: 1668944307:0;exit
 : 1668944318:0;echo toggleterm.lua
 : 1668944400:0;ikdkdkikdk
 : 1668944448:0;kidkdk
-: 1668944449:0;clear
-: 1668944487:0;exit
-: 1668945606:0;n
 : 1668945684:0;kasdkfjsddkdkdkbbdiiiiasdfas sdfsdfib
-: 1668947124:0;clear
-: 1668947886:0;c cd
-: 1668947888:0;ls
-: 1668947901:0;n
-: 1668948175:0;lua
-: 1668948368:0;exit
-: 1668948401:0;lua test.lua
-: 1668948433:0;clear | lua test.lua
 : 1668948444:0;reset | lua test.lua
-: 1668948467:0;clear
 : 1668948499:0;clear | lua test.lua
-: 1668949293:0;n
-: 1668949312:0;ls
-: 1668949316:0;n
-: 1668949485:0;exit
-: 1668949589:0;clear
-: 1668949591:0;n
-: 1668949596:0;clear
-: 1668949645:0;htop
-: 1668949675:0;clear
-: 1668949776:0;ls
-: 1668949782:0;g
-: 1668949791:0;pacseek
-: 1668954880:0;ls
-: 1668954882:0;clear
-: 1668955794:0;f
-: 1668955815:0;gdu
-: 1668955879:0;clear
-: 1668955913:0;exit
-: 1668955921:0;ls
-: 1668955928:0;htop
-: 1668955938:0;ls
-: 1668955944:0;ls -la
-: 1668956254:0;clear
 : 1668956258:0;lus
-: 1668956259:0;lua
-: 1668956376:0;clear
-: 1668956376:0;n
-: 1668956397:0;j nvim
-: 1668956399:0;n
-: 1668956661:0;cd lua/said
-: 1668956662:0;ls
-: 1668956664:0;cd plugins
-: 1668956664:0;ls
-: 1668956667:0;n toggleterm.lua
-: 1668956691:0;n
-: 1668957869:0;print(5 * 5)
-: 1668957922:0;lua
 : 1668957978:0;print(5 * 5)
-: 1668957978:0;print("Hallo Said " .. 7)
-: 1668957996:0;lua
-: 1668958274:0;n
-: 1668959034:0;exit
 : 1668959137:0;cd local nvim
-: 1668959138:0;ls
-: 1668959140:0;j local nvim
-: 1668959141:0;ls
 : 1668959145:0;cd site
-: 1668959147:0;nnn
-: 1668959211:0;n
-: 1668963289:0;exit
-: 1668964298:0;lua
-: 1668964315:0;clear
-: 1668971188:0;pacseek
-: 1668971219:0;helix
-: 1668972480:0;clear
-: 1668972483:0;pacseek
-: 1668972499:0;clear
-: 1668972500:0;df
-: 1668972528:0;yay -Syy
-: 1668972554:0;yay -Suy
-: 1668972627:0;sudo reboot
-: 1668972658:0;n
-: 1668972673:0;clear
-: 1668972704:0;n
-: 1668972750:0;clear
-: 1668972763:0;n
-: 1668972817:0;ls
-: 1668972821:0;clear
-: 1668972829:0;n
 : 1668973448:0;j  nvi plug
-: 1668973449:0;ls
-: 1668973453:0;n keymaps.lua
-: 1668973506:0;n
-: 1668973523:0;n keymaps.lua
-: 1668973534:0;n
-: 1668973548:0;n keymaps.lua
-: 1668973568:0;n
-: 1668973622:0;n keymaps.lua
-: 1668973650:0;n
-: 1668973670:0;n keymaps.lua
-: 1668973675:0;n
-: 1668973752:0;ls
-: 1668973754:0;clear
-: 1668973755:0;n
-: 1668973770:0;c re-add
-: 1668973778:0;clear
-: 1668973779:0;n
-: 1668974162:0;print("Hallo Said " .. 7)
 : 1668975248:0;cmatrix
-: 1668975737:0;exit
-: 1668976079:0;n
 : 1668976103:0;kitty -o allow_remote_control=yes --listen-on unix:/tmp/mykitty\
 
 : 1668976113:0;kitty @ --to unix:/tmp/mykitty ls\
 
-: 1668976150:0;n
 : 1668976443:0;jkkkk
 : 1668976448:0;said
-: 1668976450:0;hello
-: 1668979993:0;pacseek
-: 1668980011:0;helix
-: 1668980567:0;hx
-: 1668980570:0;helix
-: 1668981072:0;h
-: 1668981078:0;h .zshrc
 : 1668981090:0;helix .zshrc
-: 1668981171:0;n .zshrc
-: 1668981189:0;h
-: 1668982511:0;n
-: 1668982538:0;h
-: 1668986034:0;pwd
-: 1668986039:0;j nvim
-: 1668986041:0;clear
-: 1668986045:0;hx
-: 1668986053:0;h
 : 1668987236:0;h -v
-: 1668987856:0;h
-: 1668987883:0;ls
-: 1668987885:0;clear
 : 1668987892:0;j helix
 : 1668987897:0;cd ../helix
-: 1668987898:0;ls
-: 1668987902:0;n config.toml
-: 1668987924:0;h config.toml
-: 1668987964:0;h
-: 1668995344:0;clear
 : 1668995347:0;man helix
 : 1668995349:0;man hx
 : 1668995356:0;helix -h]
 : 1668995358:0;helix -h
-: 1668995364:0;helix -V
 : 1668995389:0;helix -tutor
 : 1668995396:0;helix --tutor
-: 1669017239:0;h
-: 1669017273:0;clear
-: 1669017293:0;n
-: 1669017588:0;h
 : 1669027631:0;helix -V
 : 1669027679:0;helix --health
 : 1669027702:0;helix --health lua
 : 1669027717:0;helix --health cpp
 : 1669027770:0;helix --health yaml
-: 1669027841:0;helix --health go
 : 1669027869:0;pacseek gopls
 : 1669027887:0;helix --health go
-: 1669027954:0;n
-: 1669027963:0;h
-: 1669028666:0;pacseek
-: 1669028789:0;df
-: 1669028792:0;df -h
-: 1669028800:0;df
-: 1669029086:0;pacseek
-: 1669029140:0;hx
-: 1669029220:0;pacseek
-: 1669029243:0;yay -Scc
 : 1669029250:0;df
 : 1669029777:0;ls
 : 1669029795:0;nnn
@@ -10463,3 +8440,2127 @@ ne https://gitlab.com/gabmus/nvpunk ~/.config/nvim
 : 1670640862:0;c re-add
 : 1670640875:0;clear
 : 1670640926:0;run_chezmoi
+: 1670675158:0;cd /usr/share/tmux-resurrect
+: 1670675158:0;ls
+: 1670675178:0;cd strategies
+: 1670675178:0;ls
+: 1670675243:0;cat irb_default_strategy.sh
+: 1670675258:0;cd ..
+: 1670675259:0;ls
+: 1670675269:0;n resurrect.tmux
+: 1670675298:0;cd scripts
+: 1670675299:0;ls
+: 1670675302:0;n save.sh
+: 1670675455:0;cd 
+: 1670675457:0;cd .config
+: 1670675458:0;ls
+: 1670675464:0;cd
+: 1670675464:0;ls
+: 1670675476:0;cd .config
+: 1670675484:0;cd ..
+: 1670675486:0;cd .local
+: 1670675488:0;gdu
+: 1670675539:0;cd
+: 1670675557:0;cd .config.conf
+: 1670675558:0;ls
+: 1670675560:0;cd tmux
+: 1670675561:0;ls
+: 1670711281:0;clear
+: 1670715589:0;dn
+: 1670715592:0;n
+: 1670777080:0;ls
+: 1670777087:0;htop
+: 1670777126:0;sudo reboot
+: 1670787249:0;htop
+: 1670787419:0;kill -9 steam
+: 1670787427:0;ps axlgrep
+: 1670787436:0;ps axlgrep "steam"
+: 1670787454:0;ps axlgrep 
+: 1670787471:0;ps axlc steam
+: 1670787477:0;ps axlp
+: 1670787482:0;ps axlp steam
+: 1670787580:0;htop
+: 1670787658:0;sudo kill $(ps ax|grep "steam" | awk -F"\ " '{ print $1 }')
+: 1670787683:0;sudo windserver -l
+: 1670787714:0;sudo killall -9 $(ps ax|grep "steam" | awk -F"\ " '{ print $1 }')
+: 1670787740:0;ps auxc
+: 1670787752:0;htop
+: 1670787764:0;sudo reboot
+: 1670787814:0;pacman -U steam
+: 1670787819:0;root pacman -U steam
+: 1670787823:0;sudo pacman -U steam
+: 1670799293:0;clear
+: 1670799297:0;nvim main.cpp
+: 1670799329:0;ls
+: 1670799331:0;clear
+: 1670804523:0;n
+: 1670805431:0;./Testproject
+: 1670812179:0;clear
+: 1670817589:0;n
+: 1670875378:0;nvim main.cpp
+: 1670889955:0;m
+: 1670907405:0;htop
+: 1670907460:0;ps ax
+: 1670907485:0;sudo reboot
+: 1670907535:0;nvim main.cpp
+: 1670907544:0;clear
+: 1670907794:0;m
+: 1670907799:0;ls
+: 1670907801:0;clear
+: 1670907802:0;ps ax
+: 1670907820:0;clear
+: 1670907823:0;c cd
+: 1670907823:0;ls
+: 1670907826:0;gdu
+: 1670907836:0;ls
+: 1670907837:0;clear
+: 1670907838:0;df
+: 1670907846:0;yay -Scc
+: 1670907852:0;df
+: 1670907861:0;clear
+: 1670907871:0;cd 
+: 1670907874:0;cd .local
+: 1670907874:0;ls
+: 1670907876:0;gdu
+: 1670907923:0;UpdateInTerminal
+: 1670907960:0;pacman -R kxmlgui
+: 1670907967:0;sudo pacman -R kxmlgui
+: 1670907975:0;sudo pacman -R kbookmarks
+: 1670907980:0;sudo pacman -R kio
+: 1670907986:0;sudo pacman -R neochat
+: 1670907993:0;sudo pacman -R kio
+: 1670907999:0;sudo pacman -R kbookmarks
+: 1670908010:0;sudo pacman -R karchive
+: 1670908018:0;sudo pacman -R kiconthemes
+: 1670908027:0;sudo pacman -R kwallet
+: 1670908035:0;sudo pacman -R kxmlgui
+: 1670908045:0;sudo pacman -R kdbusaddons
+: 1670908050:0;sudo pacman -R kservice
+: 1670908053:0;sudo pacman -R kded
+: 1670908057:0;sudo pacman -R kservice
+: 1670908067:0;sudo pacman -R kco
+: 1670908070:0;sudo pacman -R kconfig
+: 1670908076:0;sudo pacman -R kcompletion
+: 1670908081:0;sudo pacman -R ktextwidgets
+: 1670908087:0;sudo pacman -R kglobalaccel
+: 1670908094:0;sudo pacman -R knotifications
+: 1670908177:0;sudo pacman -R kcompletion
+: 1670908184:0;sudo pacman -R karchive
+: 1670908189:0;sudo pacman -R kiconthemes
+: 1670908198:0;sudo pacman -R qqc2-desktop-style
+: 1670908201:0;sudo pacman -R kiconthemes
+: 1670908209:0;sudo pacman -R karchive
+: 1670908223:0;sudo pacman -R kguiaddons
+: 1670908236:0;sudo pacman -R kauth
+: 1670908243:0;sudo pacman -R kconfigwidgets
+: 1670908256:0;sudo pacman -R kcrash
+: 1670908264:0;sudo pacman -R kjobwidgets
+: 1670908272:0;sudo pacman -R kcoreaddons
+: 1670908276:0;sudo pacman -R kauth
+: 1670908279:0;sudo pacman -R kcoreaddons
+: 1670908293:0;sudo pacman -R kmod
+: 1670908314:0;sudo pacman -R kdbusaddons
+: 1670908327:0;sudo pacman -R kcodecs
+: 1670908335:0;sudo pacman -R kguiaddons
+: 1670908346:0;sudo pacman -R kirigami2
+: 1670908352:0;sudo pacman -R kirigami-addons
+: 1670908357:0;sudo pacman -R kirigami2
+: 1670908369:0;sudo pacman -R kwindowsystem
+: 1670908382:0;sudo pacman -R kquickimageeditor
+: 1670908391:0;sudo pacman -R kitemmodels
+: 1670908399:0;sudo pacman -R kitemviews
+: 1670908405:0;sudo pacman -R ki18n
+: 1670908412:0;sudo pacman -R kconfig
+: 1670908418:0;sudo pacman -R kwidgetsaddons
+: 1670908426:0;sudo pacman -R kguiaddons
+: 1670908438:0;sudo pacman -R krb5
+: 1670908460:0;sudo pacman -Scc
+: 1670908464:0;df
+: 1670908485:0;yay -Qqe > ~/pkglist.txt
+: 1670908486:0;ls
+: 1670908493:0;ls -la
+: 1670908497:0;cd
+: 1670908498:0;ls
+: 1670908500:0;n pkglist.txt
+: 1670908568:0;pacman -R sof-firmware
+: 1670908572:0;sudo pacman -R sof-firmware
+: 1670908619:0;sudo pacman -R rtkit
+: 1670908648:0;s-nail
+: 1670908660:0;snail
+: 1670908723:0;clear
+: 1670944521:0;sudo reboot
+: 1670944602:0;htop
+: 1670944625:0;sudo reboot
+: 1670944994:0;n
+: 1670945011:0;nvim main.cpp
+: 1670945337:0;sudo killall -9 steam
+: 1670945423:0;top
+: 1670945447:0;htop
+: 1670956719:0;clear
+: 1670974006:0;ping 8.8.8.8
+: 1670978990:0;clear
+: 1670978993:0;htop
+: 1671011164:0;sudo sync; echo 3 > /proc/sys/vm/drop_caches
+: 1671011192:0;su
+: 1671129305:0;nvim main.cpp
+: 1671129512:0;n
+: 1671131835:0;clear
+: 1671229349:0;nvim main.cpp
+: 1671229360:0;ls
+: 1671229362:0;clear
+: 1671229368:0;ping 8.8.8.8
+: 1671241501:0;clear
+: 1671241514:0;ls
+: 1671241518:0;ls -la
+: 1671241520:0;clear
+: 1671241534:0;m
+: 1671242855:0;ping 8.8.8.;8
+: 1671242859:0;ping 8.8.8.8
+: 1671414909:0;CLEAR
+: 1671414912:0;LS
+: 1671414915:0;n
+: 1671415500:0;j nvim
+: 1671415501:0;ls
+: 1671415503:0;n
+: 1671716890:0;htop
+: 1671765036:0;n
+: 1671765152:0;clear
+: 1671765156:0;nvim main.cpp
+: 1671765164:0;clear
+: 1671765226:0;n
+: 1671765233:0;ls
+: 1671765234:0;./Testproject
+: 1671766743:0;htop
+: 1671819487:0;m
+: 1671854069:0;c;ear
+: 1671854076:0;htop
+: 1671938434:0;sudo reboot
+: 1671938482:0;UpdateInTerminal
+: 1671938653:0;ls
+: 1671938690:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1671938697:0;sudo reboot
+: 1671939290:0;cd .config
+: 1671939291:0;ls
+: 1671939293:0;cd systemd
+: 1671939296:0;cd ..
+: 1671939296:0;ls
+: 1671939317:0;cd ..
+: 1671939318:0;ls
+: 1671939323:0;cd .steam
+: 1671939323:0;ls
+: 1671939356:0;chmod -R 777 .
+: 1671939357:0;ls
+: 1671939461:0;cd ..
+: 1671939473:0;rm -rf .steam
+: 1671939474:0;ls
+: 1671939702:0;cd .local/share/Steam
+: 1671939702:0;ls
+: 1671939708:0;du 
+: 1671939715:0;du -ch *
+: 1671939733:0;rm -rf *
+: 1671939735:0;ls
+: 1671939741:0;rm -rf .crash
+: 1671939742:0;ls
+: 1671939829:0;rm -rf *
+: 1671939832:0;cd 
+: 1671939836:0;rm -rf .steam
+: 1671942516:0;clear
+: 1671942531:0;ls
+: 1671942533:0;clear
+: 1671942535:0;n
+: 1671942611:0;f
+: 1672044874:0;ls
+: 1672044876:0;clear
+: 1672044885:0;ls
+: 1672044887:0;htop
+: 1672044898:0;n
+: 1672080961:0;ping 8.8.8.8
+: 1672260274:0;htop
+: 1672345716:0;HTOP
+: 1672345719:0;htop
+: 1672351914:0;m
+: 1672784296:0;yay -Syy
+: 1672784315:0;pacseek
+: 1672790709:0;htop
+: 1672906005:0;sudo root
+: 1672906012:0;yay -Syy
+: 1672906019:0;pacseek
+: 1672906160:0;sudo pacman -Syu gst-plugins-base-libs
+: 1672906506:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1672907174:0;sudo reboot
+: 1672907253:0;pacseek
+: 1673036251:0;n
+: 1673046925:0;m
+: 1673206001:0;ls
+: 1673206003:0;clear
+: 1673206012:0;ping 8.8.8.8
+: 1673245474:0;htop
+: 1673315342:0;m
+: 1673387365:0;jtp[
+: 1673387368:0;htop
+: 1673404470:0;htp
+: 1673404473:0;htop
+: 1673648396:0;m
+: 1673673884:0;HTOP
+: 1673673888:0;htop
+: 1673920750:0;n
+: 1674079429:0;HTOP
+: 1674079435:0;htop
+: 1674167846:0;m
+: 1674281605:0;htop
+: 1674812335:0;ping 8.8.8.8
+: 1674812347:0;sudo reboot
+: 1674839549:0;ping 8.8.8.8
+: 1674944758:0;m
+: 1675000867:0;ping 8.8.8.8
+: 1675379773:0;n
+: 1675494681:0;m
+: 1675698973:0;htop
+: 1675699013:0;UpdateInTerminal
+: 1675699182:0;pacman -Syy
+: 1675699187:0;sudo pacman -Syy
+: 1675699198:0;sudo pacman -Syu
+: 1675699607:0;sudo reboot
+: 1675699682:0;n
+: 1675699729:0;clear
+: 1675699731:0;ps ax
+: 1675699732:0;clar
+: 1675699734:0;clear
+: 1675699737:0;n
+: 1675699744:0;clear
+: 1675699765:0;nvim -v
+: 1675699777:0;clear
+: 1675709038:0;m
+: 1675710783:0;htop
+: 1676046564:0;ping 8.8.8.8
+: 1676090983:0;sudo reboot
+: 1676112280:0;n
+: 1676156638:0;cd .local/share/Steam/userdata
+: 1676156639:0;ls
+: 1676156644:0;gdu
+: 1676156656:0;ls
+: 1676156660:0;cd 12963159
+: 1676156660:0;las
+: 1676156661:0;ls
+: 1676156666:0;cd config
+: 1676156666:0;ls
+: 1676156687:0;rm localconfig.vdf
+: 1676156782:0;sudo reboot
+: 1676157100:0;cd .local/share/Steam/steamapps/common/Half-Life\ 2/hl2/save
+: 1676157102:0;ls
+: 1676157118:0;nnn
+: 1676207983:0;htop
+: 1676269656:0;sudo reboot
+: 1676743046:0;htop
+: 1676745661:0;sudo pacman -S gnome
+: 1676745728:0;yay
+: 1676746183:0;sudo pacman -S gnome
+: 1676747334:0;sudo reboot
+: 1676756410:0;hto
+: 1676756412:0;htop
+: 1676756525:0;htoop
+: 1676756527:0;htop
+: 1676756637:0;pacman -R gnome
+: 1676756649:0;sudo pacman -r gnome
+: 1676756683:0;sudo pacman -R gnome
+: 1676756702:0;sudo pacman -R gnome-keyring 
+: 1676756719:0;sudo pacman -R xdg-desktop-portal
+: 1676756728:0;sudo pacman -R flatpak
+: 1676756736:0;sudo pacman -R malcontent
+: 1676756760:0;sudo pacman -R gnome
+: 1676756766:0;sudo pacman -R gnome-keyring 
+: 1676756774:0;sudo pacman -R xdg-desktop-portal
+: 1676756786:0;sudo pacman -R flatpak
+: 1676756807:0;sudo pacman -R gnome
+: 1676756811:0;sudo pacman -R xdg-desktop-portal
+: 1676756815:0;sudo pacman -R gnome
+: 1676756834:0;sudo pacman -R gnome-settings-daemon
+: 1676756848:0;sudo pacman -R mutter
+: 1676756858:0;sudo pacman -R gnome
+: 1676756863:0;sudo pacman -R gnome-settings-daemon
+: 1676756878:0;sudo pacman -R gnome-control-center
+: 1676756881:0;sudo pacman -R gnome
+: 1676756886:0;sudo pacman -R gnome-settings-daemon
+: 1676756910:0;sudo pacman -R gnome-shell
+: 1676756914:0;sudo pacman -R gdm
+: 1676756921:0;sudo pacman -R gnome-shell
+: 1676756930:0;sudo pacman -R gnome-shell-extensions
+: 1676756937:0;sudo pacman -R gnome
+: 1676756947:0;sudo pacman -R gnome-settings-daemon
+: 1676756954:0;sudo pacman -R gnome-shell
+: 1676756959:0;sudo pacman -R gnome
+: 1676756971:0;sudo pacman -R xdg-desktop-portal-gnome
+: 1676756985:0;sudo pacman -R gnome
+: 1676756990:0;sudo pacman -R mutter
+: 1676756997:0;sudo pacman -R gnome
+: 1676757004:0;sudo reboot
+: 1676850388:0;htop
+: 1677002016:0;pacman -S helix
+: 1677002024:0;sudo pacman -S helix
+: 1677002053:0;pacman -Syy
+: 1677002057:0;sudo pacman -Syy
+: 1677002062:0;sudo pacman -S helix
+: 1677002070:0;helix
+: 1677002077:0;clear
+: 1677002079:0;helix
+: 1677002445:0;clear
+: 1677003534:0;pacseek
+: 1677147180:0;htop
+: 1677147193:0;sudo reboot
+: 1677147233:0;htop
+: 1677147263:0;n
+: 1677147287:0;clar
+: 1677147288:0;cleaer
+: 1677147290:0;clear
+: 1677147291:0;n
+: 1677185272:0;htop
+: 1677449272:0;ping 8.8.8.8
+: 1677471264:0;pacman -Syyu\ 
+: 1677471268:0;pacman -Suyy
+: 1677471273:0;sudo pacman -Suyy
+: 1677471351:0;sudo reboot
+: 1677783987:0;dmesg
+: 1677783991:0;sudo dmesg
+: 1677784007:0;df
+: 1677784018:0;lsblk
+: 1677784043:0;sudo mount /dev/sda1 /mnt
+: 1677784044:0;df
+: 1677790190:0;n
+: 1677804907:0;clear
+: 1677804909:0;htop
+: 1677834864:0;clear
+: 1677834866:0;df
+: 1677834872:0;sudo umount /mnt
+: 1677834876:0;df
+: 1678370211:0;pacseek
+: 1678370916:0;yay -S gnome
+: 1678370978:0;logout
+: 1678378060:0;sudo reboot
+: 1678378987:0;htop
+: 1678379120:0;ls
+: 1678379122:0;cleare
+: 1678379124:0;clear
+: 1678379130:0;ls
+: 1678379131:0;exit
+: 1678393505:0;cd Downloads
+: 1678393505:0;ls
+: 1678393549:0;ffmpeg -i VID_20230309_142119.mp4 -b 800k output.mp4
+: 1678393654:0;ffmpeg -i VID_20230309_142119.mp4 -b 1200k output.mp4
+: 1678461655:0;ls
+: 1678461672:0;ffmpeg -i VID_20230309_142119.mp4 -b 2000k output1.mp4
+: 1678461693:0;ffmpeg -i VID_20230310_132554.mp4 -b 2000k output1.mp4
+: 1678610431:0;exit
+: 1678610435:0;m
+: 1678645594:0;ls
+: 1678645595:0;clear
+: 1678645617:0;ls
+: 1678645619:0;clear
+: 1678645627:0;pacseek
+: 1678817716:0;df
+: 1678817839:0;sudo reboot
+: 1678818519:0;htop
+: 1678823720:0;clear
+: 1678823723:0;ls
+: 1678823730:0;n .zshrc
+: 1678823775:0;clear
+: 1678823777:0;ls
+: 1678823785:0;n
+: 1678823911:0;tmux kill-server
+: 1678823933:0;ls
+: 1678823934:0;clear
+: 1678823938:0;htop
+: 1678823941:0;n
+: 1678824002:0;clear
+: 1678824004:0;clar
+: 1678824006:0;clear
+: 1678824007:0;hx
+: 1678824009:0;helix
+: 1678930102:0;htop
+: 1678942758:0;sudo reboot
+: 1679329051:0;htop
+: 1680048292:0;sudo reboot
+: 1680135348:0;n
+: 1680135429:0;clear
+: 1680135430:0;n
+: 1680135443:0;clear
+: 1680135445:0;n
+: 1680135496:0;sudo reboot
+: 1680195312:0;helix
+: 1680195467:0;ps ax
+: 1680289648:0;gdb
+: 1680289650:0;dgb
+: 1680289664:0;cd .local/share
+: 1680289665:0;ls
+: 1680289693:0;cd ..
+: 1680289698:0;
+: 1680289706:0;
+: 1680289717:0;fzf +m -q surge
+: 1680289742:0;cd
+: 1680289768:0;fzf surge
+: 1680289771:0;fzf
+: 1680289801:0;cd .local
+: 1680289802:0;fzf
+: 1680289827:0;cd /var
+: 1680289829:0;fzf
+: 1680289881:0;ls
+: 1680289883:0;cd cache
+: 1680289886:0;rm -rf *
+: 1680289894:0;sudo rm -rf *
+: 1680289914:0;cd 
+: 1680289919:0;cd .cache
+: 1680289919:0;ls
+: 1680289926:0;fzf 
+: 1680289947:0;rm -rf *
+: 1680289950:0;ls
+: 1680290163:0;pacseek
+: 1680295888:0;m
+: 1680650523:0;htop
+: 1680721450:0;sudo reboot
+: 1680787561:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1680787581:0;blkid
+: 1680787596:0;sudo blkid
+: 1680787631:0;sudo reboot
+: 1680787718:0;cd /etc
+: 1680787720:0;su
+: 1680787966:0;sudo blkid
+: 1680788410:0;$ sudo pacman -S linux linux-headers
+: 1680788417:0;sudo pacman -S linux linux-headers
+: 1680788482:0;sudo reboot
+: 1680821951:0;htop
+: 1681411133:0;c
+: 1681411140:0;z
+: 1681411147:0;f
+: 1681411160:0;clear
+: 1681411173:0;d
+: 1681411178:0;m
+: 1681419885:0;sudo reboot
+: 1681619253:0;uname -a
+: 1681619302:0;yay -Syyu\
+
+: 1681619378:0;clear
+: 1681619395:0;paccache -r
+: 1681619407:0;paccache -ruk0
+: 1681619418:0;pacman -Rns $(pacman -Qdtq)
+: 1681619424:0;sudo pacman -Rns $(pacman -Qdtq)
+: 1681619510:0;df -h]
+: 1681619512:0;df 
+: 1681619556:0;clear
+: 1681619557:0;n
+: 1681672677:0;ping 8.8.8.8
+: 1682116758:0;sudo reboot
+: 1682116886:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1682116894:0;sudo reboot
+: 1682116998:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1682117052:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=EndeavourOS\
+
+: 1682117069:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1682117073:0;sudo reboot
+: 1682117356:0;uname -a
+: 1682117470:0;grub-install
+: 1682117517:0;sudo grub-install
+: 1682117540:0;sudo blkid
+: 1682117578:0;cd boot
+: 1682117583:0;cd /boot
+: 1682117583:0;ls
+: 1682117587:0;rm -rf *
+: 1682117593:0;ls
+: 1682117597:0;sudo rm -rf *
+: 1682117601:0;ls
+: 1682117604:0;cd efi
+: 1682117604:0;ls
+: 1682117608:0;ls -la
+: 1682117666:0;sudo pacman -Syu\
+
+: 1682117674:0;ls
+: 1682117766:0;sudo pacman -U /var/cache/pacman/pkg/linux*-$(uname -r | grep -o "^.*-[0-9][0-9]*")-x86_64.pkg.tar.xz
+: 1682117793:0;cd ..
+: 1682117793:0;ls
+: 1682117795:0;cd ..
+: 1682117796:0;sl
+: 1682117797:0;ls
+: 1682117839:0;$ sudo pacman -S linux linux-headers
+: 1682117846:0;sudo pacman -S linux linux-headers
+: 1682117865:0;ls
+: 1682117868:0;cd /boot
+: 1682117869:0;ls
+: 1682117872:0;sudo reboot
+: 1682125104:0;ls
+: 1682125107:0;clear
+: 1682125108:0;df
+: 1682125135:0;ls
+: 1682125136:0;clear
+: 1682125138:0;n
+: 1682125326:0;cd .config
+: 1682125327:0;ls
+: 1682125338:0;mv nvim nvim.bak
+: 1682125342:0;n
+: 1682125370:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim\
+\
+
+: 1682125386:0;n
+: 1682125400:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim\
+\
+
+: 1682125404:0;ls
+: 1682125406:0;cd nvim
+: 1682125407:0;ls
+: 1682125418:0;cd ..
+: 1682125423:0;cd .cach
+: 1682125426:0;cd .cache
+: 1682125428:0;cd ..
+: 1682125435:0;cd .cache
+: 1682125436:0;ls
+: 1682125443:0;rm -rf nvim
+: 1682125448:0;sudo rm -rf nvim
+: 1682125453:0;nvim
+: 1682125494:0;n
+: 1682125641:0;clear
+: 1682125642:0;ls
+: 1682125643:0;clear
+: 1682125644:0;n
+: 1682125659:0;ls
+: 1682125666:0;cd .config
+: 1682125667:0;ls
+: 1682125671:0;cd nvim
+: 1682125672:0;sl
+: 1682125672:0;ls
+: 1682125677:0;cd lua
+: 1682125677:0;ls
+: 1682125769:0;pwd
+: 1682125775:0;mkdir user
+: 1682125776:0;ls
+: 1682125778:0;cd user
+: 1682125778:0;ls
+: 1682125872:0;n
+: 1682125930:0;clear
+: 1682125979:0;ls
+: 1682125980:0;ps ax
+: 1682125982:0;clear
+: 1682125985:0;n
+: 1682126007:0;clar
+: 1682126011:0;n
+: 1682126055:0;cd
+: 1682126056:0;n
+: 1682126122:0;clear
+: 1682195786:0;top
+: 1682195792:0;clear
+: 1682195807:0;htop
+: 1682255191:0;pacseek
+: 1682903879:0;sudo reboot
+: 1682904215:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1682904240:0;sudo reboot
+: 1682904434:0;sudo pacmann -Qikk linux\
+
+: 1682904448:0;sudo pacman -Qikk linux\
+
+: 1682904464:0;sudo pacman -S linux linux-headers
+: 1682904480:0;sudo reboot
+: 1682904531:0;uname -a
+: 1682904538:0;n
+: 1682904696:0;ikdkdkdk
+: 1682904698:0;exit
+: 1682904741:0;iasdfasdfa
+: 1682904741:0;sdfasd
+: 1682904742:0;fasd
+: 1682904742:0;fa
+: 1682904742:0;sdf
+: 1682904742:0;asd
+: 1682904744:0;fclear
+: 1682904745:0;clear
+: 1682904747:0;exit
+: 1682904766:0;hello
+: 1682904770:0;exit
+: 1682905154:0;clear
+: 1682905155:0;n
+: 1682905210:0;clar
+: 1682905212:0;clear
+: 1682905423:0;n
+: 1682905437:0;clear
+: 1682905446:0;cd .config/nvim
+: 1682905446:0;ls
+: 1682905449:0;cd lua
+: 1682905450:0;ls
+: 1682905452:0;cd user
+: 1682905453:0;ls
+: 1682905454:0;ls 
+: 1682905618:0;git clone https://github.com/AstroNvim/user_example.git .
+: 1682905621:0;ls
+: 1682905624:0;n
+: 1682905642:0;ls
+: 1682905643:0;clear
+: 1682905651:0;ls
+: 1682905655:0;n mappings.lua
+: 1682905685:0;ls
+: 1682905690:0;n init.lua
+: 1682905726:0;cd plugins
+: 1682905727:0;ls
+: 1682905732:0;n user.lua
+: 1682905739:0;ls
+: 1682905759:0;clear
+: 1682905762:0;htop
+: 1683144405:0;m
+: 1683144511:0;n
+: 1683144741:0;clear
+: 1683144744:0;ps ax
+: 1683144746:0;clear
+: 1683144749:0;n
+: 1683151254:0;htop
+: 1683322126:0;n
+: 1683322321:0;cd .config
+: 1683322327:0;ls
+: 1683322337:0;rm -rf nvim
+: 1683322371:0;mkdir nvim
+: 1683322374:0;cd nvim
+: 1683322374:0;ls
+: 1683322380:0;n init.lua
+: 1683322396:0;n
+: 1683322456:0;ls
+: 1683322458:0;n init.lua
+: 1683322547:0;n
+: 1683322643:0;ls
+: 1683322645:0;cd ..
+: 1683322650:0;rm -rf nvim
+: 1683322718:0;rm -rf ~/.local/share/nvim
+: 1683322733:0;rm -rf ~/.cache/nvim
+: 1683322793:0;git clone https://github.com/folke/lazy.nvim.git ./nvim
+: 1683322798:0;cd nvim
+: 1683322798:0;ls
+: 1683322803:0;n
+: 1683322820:0;ls
+: 1683322822:0;pwd
+: 1683322870:0;cd ..
+: 1683322914:0;rm -rf nvim
+: 1683322925:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1683322938:0;rm -rf ~/.config/nvim/.git
+: 1683322941:0;n
+: 1683323243:0;clear
+: 1683323245:0;ls
+: 1683323246:0;cleaer
+: 1683323249:0;clear
+: 1683323253:0;n
+: 1683323499:0;clear
+: 1683323501:0;n
+: 1683324445:0;clear
+: 1683394574:0;n
+: 1683395490:0;j nvim
+: 1683395492:0;n
+: 1683407307:0;j nvim
+: 1683407308:0;ls
+: 1683407308:0;pwd
+: 1683407311:0;n
+: 1683407335:0;helix
+: 1683407366:0;j dev
+: 1683407367:0;ls
+: 1683407369:0;cd c
+: 1683407371:0;n
+: 1683407386:0;h
+: 1683407388:0;helix
+: 1683407515:0;clear
+: 1683407518:0;n
+: 1683407849:0;j nvim
+: 1683407850:0;n
+: 1683409483:0;ls
+: 1683409485:0;clear
+: 1683409494:0;cd ..
+: 1683409498:0;rm -rf nvim
+: 1683409506:0;rm -rf ~/.cache/nvim
+: 1683409516:0;rm -rf ~/.local/share/nvim
+: 1683413098:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim
+: 1683413407:0;git clone git@github.com:saidbelkacem/astronvim_config.git ~/.config/nvim/lua/user
+: 1683413474:0;cd nvim/lua/user
+: 1683413474:0;ls
+: 1683413475:0;n
+: 1683413950:0;cd ..
+: 1683413951:0;ls
+: 1683413954:0;rm -rf user
+: 1683413958:0;git clone git@github.com:saidbelkacem/astronvim_config.git ~/.config/nvim/lua/user
+: 1683413965:0;n
+: 1683413990:0;cd user
+: 1683413990:0;n
+: 1683414711:0;clear
+: 1683414713:0;n
+: 1683418776:0;j user
+: 1683418778:0;pwd
+: 1683418784:0;n
+: 1683420114:0;ls
+: 1683420115:0;clear
+: 1683420206:0;ls
+: 1683420208:0;clear
+: 1683420225:0;j alac
+: 1683420226:0;ls
+: 1683420229:0;n alacritty.yml
+: 1683420252:0;clear
+: 1683420253:0;n
+: 1683444181:0;lldb
+: 1683444351:0;n
+: 1683445577:0;ls
+: 1683445579:0;clear
+: 1683445580:0;n
+: 1683445626:0;j user
+: 1683445628:0;n
+: 1683447365:0;claer
+: 1683447367:0;clear
+: 1683448130:0;n
+: 1683449484:0;nnn
+: 1683449813:0;ls
+: 1683449814:0;pwd
+: 1683449815:0;n
+: 1683450404:0;ls
+: 1683450410:0;nnn
+: 1683450432:0;n
+: 1683450435:0;nnn
+: 1683450491:0;n
+: 1683452346:0;ls
+: 1683452352:0;n
+: 1683452746:0;ls
+: 1683452750:0;n
+: 1683452853:0;clear
+: 1683452873:0;nnn
+: 1683452916:0;n
+: 1683471587:0;j user
+: 1683471588:0;n
+: 1683471739:0;ls
+: 1683471741:0;cd plugins
+: 1683471741:0;ls
+: 1683471749:0;rm dap.lua
+: 1683471750:0;n
+: 1683472192:0;j dev
+: 1683472192:0;ls
+: 1683472195:0;cd cpp
+: 1683472195:0;sl
+: 1683472196:0;ls
+: 1683472199:0;cd test_cpp
+: 1683472200:0;ls
+: 1683472207:0;nnn
+: 1683472286:0;ls
+: 1683472292:0;rm -rf build
+: 1683472293:0;ls
+: 1683472301:0;rm neovim.json compile_commands.json
+: 1683472302:0;ls
+: 1683472311:0;n main.cpp
+: 1683472347:0;ls
+: 1683472358:0;cd build
+: 1683472358:0;ls
+: 1683472384:0;cd ..
+: 1683472385:0;ls
+: 1683472396:0;n
+: 1683472405:0;n main.cpp
+: 1683472949:0;ls
+: 1683472952:0;n
+: 1683473004:0;clear
+: 1683473045:0;exit
+: 1683473058:0;hello world
+: 1683473090:0;ls
+: 1683473095:0;cd 
+: 1683473107:0;cd .local/share/nvim
+: 1683473112:0;du -ch *
+: 1683473164:0;n
+: 1683482064:0;clear
+: 1683482068:0;j user
+: 1683482069:0;ls
+: 1683482071:0;cd plugins
+: 1683482071:0;ls
+: 1683482128:0;n cmake.lua
+: 1683482144:0;n
+: 1683482294:0;ls
+: 1683482319:0;n
+: 1683482361:0;rm cmake.lua
+: 1683482363:0;n
+: 1683483057:0;cd ..
+: 1683483058:0;ls
+: 1683483059:0;n
+: 1683483559:0;j nvim.bak
+: 1683483574:0;cd .config/nvim.bak
+: 1683483575:0;ls
+: 1683483578:0;cd lua
+: 1683483579:0;ls
+: 1683483581:0;cd said
+: 1683483582:0;ls
+: 1683483585:0;cd plugins
+: 1683483585:0;ls
+: 1683483607:0;n autocommands.lua
+: 1683483685:0;nnn
+: 1683483867:0;n
+: 1683489515:0;nnn
+: 1683489876:0;j user
+: 1683489877:0;pwd
+: 1683489893:0;j user
+: 1683489894:0;pwd
+: 1683489896:0;n
+: 1683496281:0;ls
+: 1683496284:0;n
+: 1683496856:0;j cpp
+: 1683496856:0;ls
+: 1683496866:0;cd CmakeLearn
+: 1683496868:0;ls
+: 1683496876:0;n
+: 1683496891:0;rm neovim.json
+: 1683496891:0;ls
+: 1683496893:0;n
+: 1683497052:0;n main.cpp
+: 1683499300:0;n
+: 1683500072:0;j user
+: 1683500072:0;ls
+: 1683500075:0;n init.lua
+: 1683500084:0;n mappings.lua
+: 1683500511:0;n
+: 1683500586:0;n mappings.lua
+: 1683500643:0;n
+: 1683509240:0;pwd
+: 1683509244:0;n
+: 1683509384:0;clear
+: 1683509385:0;n
+: 1683509390:0;htop
+: 1683509404:0;clear
+: 1683509406:0;htop
+: 1683509418:0;n
+: 1683509543:0;j test
+: 1683509546:0;n main.cpp
+: 1683509846:0;ls
+: 1683509852:0;rm -rf build
+: 1683509858:0;n main.cpp
+: 1683509887:0;pacseek
+: 1683509951:0;codelldb
+: 1683509968:0;pacseek
+: 1683509987:0;n main.cpp
+: 1683544014:0;cd .config
+: 1683544018:0;j .conf
+: 1683544029:0;rm -rf nvim
+: 1683544194:0;git clone git@github.com:saidbelkacem/nvim_setup.git ~/.config/nvim
+: 1683544208:0;rm -rf ~/.cache/nvim
+: 1683544237:0;rm -rf ~/.local/share/nvim
+: 1683544242:0;n
+: 1683544551:0;ls
+: 1683544553:0;clear
+: 1683544554:0;n
+: 1683549886:0;ls
+: 1683549894:0;cd nvim
+: 1683549895:0;n
+: 1683550042:0;nnn
+: 1683550052:0;n
+: 1683550126:0;j .con
+: 1683550127:0;ls
+: 1683550131:0;nnn
+: 1683550256:0;n
+: 1683550356:0;ls
+: 1683550358:0;cd nvim
+: 1683550361:0;nnn
+: 1683550512:0;n
+: 1683550591:0;ls
+: 1683550593:0;clear
+: 1683550595:0;n
+: 1683550643:0;j user
+: 1683550644:0;ls
+: 1683550646:0;cd ..
+: 1683550646:0;ls
+: 1683550650:0;n keymaps.lua
+: 1683550661:0;cp keymaps.lua keymaps.lua.old
+: 1683550664:0;n keymaps.lua
+: 1683550694:0;n
+: 1683550716:0;n keymaps.lua
+: 1683550804:0;n
+: 1683553318:0;ls
+: 1683553319:0;clear
+: 1683553323:0;cd ..
+: 1683553327:0;nnn
+: 1683553349:0;n
+: 1683553356:0;j nvim
+: 1683553356:0;ls
+: 1683553359:0;n
+: 1683564691:0;j nvi
+: 1683564692:0;ls
+: 1683564693:0;n
+: 1683565265:0;ls
+: 1683565268:0;cd lua
+: 1683565268:0;ls
+: 1683565276:0;cd user
+: 1683565276:0;ls
+: 1683565280:0;n colorscheme.lua
+: 1683565488:0;n
+: 1683565498:0;n colorscheme.lua
+: 1683565556:0;n
+: 1683566017:0;n colorscheme.lua
+: 1683566172:0;n
+: 1683566671:0;n colorscheme.lua
+: 1683566804:0;n
+: 1683582008:0;ls
+: 1683582009:0;n
+: 1683582208:0;clear
+: 1683582211:0;j main
+: 1683582217:0;j test
+: 1683582219:0;n main.cpp q
+: 1683582538:0;n
+: 1683582792:0;j user
+: 1683582792:0;ls
+: 1683582795:0;cd ..
+: 1683582796:0;ls
+: 1683582804:0;cd ..
+: 1683582805:0;n
+: 1683583109:0;cd ..
+: 1683583114:0;rm -rf nvim
+: 1683583132:0;rm -rf ~/.cache/nvim
+: 1683583142:0;rm -rf ~/.local/share/nvim
+: 1683583145:0;clear
+: 1683583303:0;git clone git@github.com:LazyVim/LazyVim.git ~/.config/nvim
+: 1683583307:0;n
+: 1683583320:0;ls
+: 1683583333:0;rm -rf nvim
+: 1683583358:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1683583363:0;clean
+: 1683583363:0;n
+: 1683583468:0;ls
+: 1683583470:0;clear
+: 1683583483:0;cd nvim
+: 1683583483:0;ls
+: 1683583490:0;cd lua
+: 1683583491:0;ls
+: 1683583493:0;cd config
+: 1683583494:0;ls
+: 1683583498:0;n lazy.lua
+: 1683584398:0;n
+: 1683584894:0;j conf
+: 1683584898:0;rm -rf nvim
+: 1683584909:0;rm -rf ~/.cache/nvim
+: 1683584918:0;rm -rf ~/.local/share/nvim
+: 1683584934:0;git clone git@github.com:saidbelkacem/nvim_setup.git ~/.config/nvim
+: 1683584937:0;n
+: 1683584967:0;cd nvim
+: 1683584968:0;n
+: 1683585352:0;ls
+: 1683585371:0;cd lua
+: 1683585371:0;ls
+: 1683585373:0;cd user
+: 1683585374:0;ls
+: 1683585376:0;n comment.lua
+: 1683585459:0;n
+: 1683588122:0;rm -rf ~/.local/share/nvim
+: 1683588134:0;rm -rf ~/.cache/nvim
+: 1683588163:0;cd .config
+: 1683588165:0;rm nvim
+: 1683588178:0;rm -rf mvo,
+: 1683588182:0;rm -rf nvim
+: 1683588186:0;ls
+: 1683588280:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim
+: 1683588325:0;git clone git@github.com:saidbelkacem/astronvim_config.git ~/.config/nvim/lua/user
+: 1683588331:0;clear
+: 1683588332:0;n
+: 1683588862:0;clear
+: 1683588923:0;htop
+: 1683618054:0;n
+: 1683619822:0;ls
+: 1683619833:0;rm -rf ~/.cache/nvim
+: 1683619857:0;rm -rf ~/.local/share/nvim
+: 1683619880:0;rm -rf ~/.config/nvim
+: 1683619882:0;n
+: 1683620517:0;cd .config
+: 1683620518:0;ls
+: 1683620522:0;cd nvim
+: 1683620524:0;mkdir nvim
+: 1683620525:0;ls
+: 1683620527:0;cd nvim
+: 1683620536:0;touch init.lua
+: 1683620543:0;n init.lua
+: 1683620556:0;n
+: 1683620565:0;ls
+: 1683620568:0;n init.lua
+: 1683620589:0;./init.lua
+: 1683620595:0;pwd
+: 1683620598:0;ls
+: 1683620602:0;chmod 755 init.lua
+: 1683620604:0;n
+: 1683620655:0;n init.lua
+: 1683620675:0;n
+: 1683620679:0;n init.lua
+: 1683620707:0;cd ..
+: 1683620709:0;cd nvim
+: 1683620709:0;ls
+: 1683620724:0;n
+: 1683620820:0;n init.lua
+: 1683620914:0;n
+: 1683621508:0;mkdir core
+: 1683621509:0;ls
+: 1683621513:0;cd core
+: 1683621517:0;mkdir plugins
+: 1683621586:0;ls
+: 1683621608:0;cd ..
+: 1683621610:0;ls
+: 1683621674:0;mv core lua
+: 1683621675:0;ls
+: 1683621691:0;mv init.lua lua/Lazy.lua
+: 1683621692:0;ls
+: 1683621700:0;cd ..
+: 1683621701:0;ls
+: 1683621703:0;cd nvim
+: 1683621704:0;ls
+: 1683621710:0;touch init
+: 1683621720:0;ls
+: 1683621746:0;cd lua
+: 1683621747:0;n
+: 1683621783:0;ls
+: 1683621789:0;cd ..
+: 1683621789:0;ls
+: 1683621795:0;n init
+: 1683621838:0;n
+: 1683621870:0;ls
+: 1683621886:0;cd lua
+: 1683621886:0;ls
+: 1683621910:0;chmod 644 Lazy.lua
+: 1683621911:0;ls
+: 1683621930:0;n Lazy.lua
+: 1683622326:0;cd ..
+: 1683622329:0;n init
+: 1683622352:0;cd ..
+: 1683622352:0;ls
+: 1683622355:0;cd nvim
+: 1683622356:0;ls
+: 1683622360:0;n init
+: 1683622385:0;ls
+: 1683622395:0;cd lua
+: 1683622397:0;ls
+: 1683622399:0;n Lazy.lua
+: 1683622456:0;n keymaps.lua
+: 1683622555:0;jn
+: 1683622556:0;n
+: 1683622578:0;ls
+: 1683622583:0;cd ..
+: 1683622584:0;ls
+: 1683622591:0;rm lazy-lock.json
+: 1683622593:0;n
+: 1683622620:0;mv init init.lua
+: 1683622634:0;rm -rf ~/.local/share/nvim
+: 1683622651:0;rm -rf ~/.cache/nvim
+: 1683622653:0;n
+: 1683622752:0;cd lua/plugins
+: 1683622760:0;n colorscheme.lua
+: 1683622773:0;n
+: 1683622797:0;ls
+: 1683622800:0;cd ..
+: 1683622802:0;ls
+: 1683622805:0;n Lazy.lua
+: 1683622819:0;n
+: 1683622829:0;ls
+: 1683622946:0;n
+: 1683622973:0;ls
+: 1683623039:0;cd plugins
+: 1683623042:0;n colorscheme.lua
+: 1683623126:0;ls
+: 1683623128:0;cd ..
+: 1683623129:0;ls
+: 1683623132:0;n Lazy.lua
+: 1683623297:0;ls
+: 1683623301:0;cd plugins
+: 1683623301:0;ls
+: 1683623306:0;n colorscheme.lua
+: 1683623378:0;touch nvim-tree.lua
+: 1683623380:0;n nvim-tree.lua
+: 1683623428:0;n
+: 1683623644:0;ls
+: 1683623647:0;n nvim-tree.lua
+: 1683623679:0;n
+: 1683623708:0;ls
+: 1683623710:0;cd ..
+: 1683623710:0;ls
+: 1683623712:0;cd ..
+: 1683623713:0;ls
+: 1683623717:0;rm lazy-lock.json
+: 1683623717:0;n
+: 1683623724:0;ls
+: 1683623726:0;cat init.lua
+: 1683623728:0;cd lua
+: 1683623728:0;ls
+: 1683623731:0;cat Lazy.lua
+: 1683623779:0;n Lazy.lua
+: 1683623813:0;n
+: 1683623823:0;rm -rf ~/.local/share/nvim
+: 1683623825:0;n
+: 1683623882:0;rm -rf ~/.cache/nvim
+: 1683623883:0;n
+: 1683623981:0;ls
+: 1683623985:0;n Lazy.lua
+: 1683624032:0;n
+: 1683624036:0;ls
+: 1683624142:0;cd plugins
+: 1683624143:0;ls
+: 1683624146:0;n colorscheme.lua
+: 1683624190:0;mv nvim-tree.lua nvim-tree.lua.bak
+: 1683624192:0;n
+: 1683624211:0;cd ..
+: 1683624212:0;ls
+: 1683624217:0;n Lazy.lua
+: 1683624253:0;n
+: 1683624437:0;j nvim
+: 1683624437:0;ls
+: 1683624444:0;rm lazy-lock.json
+: 1683624445:0;n
+: 1683624465:0;ls
+: 1683624468:0;n init.lua
+: 1683624543:0;cd lua
+: 1683624544:0;ls
+: 1683624549:0;n Lazy.lua
+: 1683624745:0;n
+: 1683624759:0;ls
+: 1683624764:0;n
+: 1683624774:0;cd plugins
+: 1683624774:0;ls
+: 1683624778:0;n colorscheme.lua
+: 1683624818:0;n
+: 1683624835:0;mv nvim-tree.lua.bak nvim-tree.lua
+: 1683624836:0;n
+: 1683625391:0;n telescope.lua
+: 1683625411:0;n
+: 1683627012:0;j user
+: 1683627014:0;ls
+: 1683627022:0;j nvim
+: 1683627022:0;ls
+: 1683627029:0;j plug
+: 1683627030:0;ls
+: 1683627031:0;n
+: 1683627132:0;ls
+: 1683627139:0;ls -a
+: 1683627168:0;cd ..
+: 1683627173:0;n options.lua
+: 1683627192:0;cd ..
+: 1683627194:0;n init.lua
+: 1683627215:0;cd lua
+: 1683627216:0;ls
+: 1683627218:0;n
+: 1683627423:0;ls
+: 1683627425:0;cd plugins
+: 1683627433:0;n null-ls.lua
+: 1683627445:0;n
+: 1683627688:0;touch lsp.lua
+: 1683627690:0;n lsp.lua
+: 1683627710:0;n
+: 1683627720:0;n lsp.lua
+: 1683630225:0;n cmp.lua
+: 1683630247:0;n
+: 1683630453:0;ls
+: 1683630503:0;cd ..
+: 1683630504:0;ls
+: 1683630506:0;cd ..
+: 1683630506:0;ls
+: 1683630519:0;cd ..
+: 1683630524:0;rm -rf nvim
+: 1683630532:0;rm -rf ~/.local/share/nvim
+: 1683630541:0;rm -rf ~/.cache/nvim
+: 1683630772:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
+: 1683630778:0;ls
+: 1683630789:0;cd nvim
+: 1683630789:0;ls
+: 1683630798:0;rm -rf .git
+: 1683630807:0;rm -rf .github
+: 1683630808:0;ls
+: 1683630812:0;n
+: 1683630945:0;ls
+: 1683630956:0;cd user
+: 1683630959:0;j user
+: 1683630959:0;ls
+: 1683630963:0;rm alpha.lua
+: 1683630964:0;n
+: 1683631075:0;ls
+: 1683631100:0;mv which-key.lua which-key.lua.bak
+: 1683631103:0;n
+: 1683631206:0;cd ..
+: 1683631207:0;ls
+: 1683631208:0;n keymaps.lua
+: 1683631301:0;n
+: 1683638307:0;rm -rf ~/.cache/nvim
+: 1683638315:0;rm -rf ~/.local/share/nvim
+: 1683638329:0;rm -rf ~/.config/nvim
+: 1683638351:0;git clone git@github.com:Alexis12119/nvim-config.git ~/.config/nvim
+: 1683638358:0;j nvim
+: 1683638359:0;ls
+: 1683638365:0;n
+: 1683638757:0;ls
+: 1683638760:0;n init.lua
+: 1683638770:0;n
+: 1683639178:0;clear
+: 1683639182:0;j test
+: 1683639184:0;n main.cpp
+: 1683639249:0;ls
+: 1683639255:0;j nvim
+: 1683639256:0;n
+: 1683639295:0;ls
+: 1683639301:0;n README.md
+: 1683639387:0;n
+: 1683639497:0;nnn
+: 1683639541:0;n
+: 1683639667:0;ls
+: 1683639670:0;ls -la
+: 1683639671:0;clear
+: 1683639683:0;n
+: 1683639809:0;clear
+: 1683639811:0;n
+: 1683639910:0;ls
+: 1683639911:0;clear
+: 1683639914:0;ls
+: 1683640133:0;git init
+: 1683640140:0;n
+: 1683640166:0;lazygit
+: 1683640335:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1683640342:0;gg
+: 1683640348:0;g
+: 1683640437:0;ls
+: 1683640439:0;clear
+: 1683640440:0;ls
+: 1683640445:0;n
+: 1683640919:0;ls
+: 1683640925:0;du -ch *
+: 1683640936:0;n
+: 1683641740:0;clear
+: 1683641747:0;ls
+: 1683643140:0;n
+: 1683655002:0;ls
+: 1683655004:0;n
+: 1683655669:0;ls
+: 1683655677:0;g
+: 1683655695:0;n
+: 1683656827:0;clear
+: 1683656857:0;cd ..
+: 1683656862:0;rm -rf nvim
+: 1683656867:0;rm -rf ~/.cache/nvim
+: 1683656896:0;rm -rf ~/.local/share/nvim
+: 1683656912:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
+: 1683656917:0;n
+: 1683656999:0;htop
+: 1683657018:0;ls
+: 1683657024:0;clear
+: 1683657025:0;n
+: 1683657030:0;ls
+: 1683657032:0;cd nvim
+: 1683657033:0;ls
+: 1683657040:0;nnn
+: 1683657057:0;n
+: 1683658792:0;rm -rf ~/.cache/nvim
+: 1683658793:0;n
+: 1683658863:0;ls
+: 1683658865:0;n init.lua
+: 1683658880:0;n
+: 1683658900:0;n init.lua
+: 1683658912:0;ls
+: 1683658915:0;cd lua
+: 1683658915:0;ls
+: 1683658919:0;cd ..
+: 1683658919:0;ls
+: 1683658923:0;n init.lua
+: 1683658942:0;n
+: 1683659033:0;ls
+: 1683659038:0;cd lua
+: 1683659038:0;ls
+: 1683659046:0;cd utils
+: 1683659047:0;ls
+: 1683659050:0;n init.lua
+: 1683659142:0;n
+: 1683659149:0;cd ..
+: 1683659149:0;ls
+: 1683659179:0;cd ..
+: 1683659180:0;n
+: 1683659649:0;n ke
+: 1683659679:0;n
+: 1683659980:0;j nvim
+: 1683659980:0;n
+: 1683663446:0;ls
+: 1683663460:0;j .conf
+: 1683663461:0;nnn
+: 1683663556:0;ls
+: 1683663561:0;cd nvim
+: 1683663562:0;ls
+: 1683663579:0;cd lua/user
+: 1683663580:0;ls
+: 1683663593:0;touch cmake-tools.lua
+: 1683663599:0;n cmake-tools.lua
+: 1683663625:0;n
+: 1683663654:0;n dap.lua
+: 1683664501:0;n
+: 1683664837:0;exit
+: 1683664848:0;ps
+: 1683664852:0;n
+: 1683664874:0;j nvim
+: 1683664960:0;n
+: 1683665235:0;rm -rf ~/.cache/nvim
+: 1683665236:0;n
+: 1683665738:0;clear
+: 1683665739:0;n
+: 1683666044:0;rm -rf ~/.cache/nvim
+: 1683666046:0;n
+: 1683666180:0;rm -rf ~/.cache/nvim
+: 1683666186:0;rm -rf ~/.local/share/nvim
+: 1683666188:0;n
+: 1683666340:0;j nvim
+: 1683666341:0;n
+: 1683666531:0;rm -rf ~/.local/share/nvim
+: 1683666537:0;rm -rf ~/.cache/nvim
+: 1683666540:0;n
+: 1683666578:0;htop
+: 1683666823:0;n
+: 1683666845:0;ls
+: 1683666847:0;clear
+: 1683666848:0;n
+: 1683674147:0;clear
+: 1683674152:0;n
+: 1683674164:0;cd
+: 1683674165:0;n
+: 1683678332:0;sudo pacman -S linux linux-headers
+: 1683678351:0;sudo reboot
+: 1683713492:0;pacseek
+: 1683713964:0;cd Downloads
+: 1683713964:0;ls
+: 1683713971:0;cd shell-master_jammy
+: 1683713972:0;ls
+: 1683714043:0;make local-install
+: 1683714066:0;pacseek
+: 1683714115:0;make local-install
+: 1683714679:0;env
+: 1683714694:0;sudo reboot
+: 1683714983:0;pacseek
+: 1683715392:0;pacseek gnome chrome
+: 1683716281:0;gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+: 1683716436:0;n
+: 1683716620:0;pacseek
+: 1683716982:0;n
+: 1683726218:0;j nvim.bak
+: 1683726219:0;ls
+: 1683726220:0;n
+: 1683726377:0;j nvim
+: 1683726380:0;ls
+: 1683726382:0;cd lua
+: 1683726382:0;ls
+: 1683726385:0;n options.lua
+: 1683726404:0;n
+: 1683726934:0;clear
+: 1683726939:0;cd
+: 1683726942:0;clear
+: 1683726943:0;n
+: 1683729727:0;cd .ViberPC
+: 1683729728:0;ls
+: 1683729750:0;cd data
+: 1683729751:0;ls
+: 1683729753:0;cd ..
+: 1683729903:0;n
+: 1683729924:0;rm -rf ~/.cache/nvim
+: 1683729926:0;n
+: 1683730263:0;ls
+: 1683730270:0;j nvim
+: 1683730270:0;ls
+: 1683730272:0;cd lua
+: 1683730273:0;ls
+: 1683730280:0;mkdir utils
+: 1683730281:0;ls
+: 1683730286:0;cd utils
+: 1683730298:0;n init.lua
+: 1683730347:0;n
+: 1683730530:0;clear
+: 1683732894:0;j nvim
+: 1683732895:0;ls
+: 1683732900:0;git init
+: 1683733775:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1683733786:0;git add *
+: 1683733810:0;git commit -am 'initial'\
+
+: 1683733812:0;ls
+: 1683733822:0;git push -f origin master\
+
+: 1683733881:0;j bak
+: 1683733883:0;n
+: 1683735788:0;clear
+: 1683735793:0;n
+: 1683737017:0;j bak
+: 1683737018:0;n
+: 1683737051:0;ls
+: 1683737064:0;cd plugin
+: 1683737064:0;sl
+: 1683737065:0;ls
+: 1683737068:0;cd ..
+: 1683737069:0;ls
+: 1683737070:0;n
+: 1683741540:0;j nvim
+: 1683741542:0;n
+: 1683741695:0;nnn
+: 1683741738:0;n
+: 1683742279:0;j user
+: 1683742279:0;ls
+: 1683742285:0;n hop.lua
+: 1683742316:0;n
+: 1683742600:0;n ke
+: 1683742616:0;n ../keymaps.lua
+: 1683742634:0;n
+: 1683742643:0;ls
+: 1683742650:0;n ../keymaps.lua
+: 1683742662:0;n
+: 1683750181:0;ls
+: 1683750191:0;n barbecue.lua
+: 1683750210:0;n
+: 1683750954:0;n vim-fugitive.lua
+: 1683750972:0;n
+: 1683752806:0;ls
+: 1683752809:0;cd ..
+: 1683752809:0;ls
+: 1683752814:0;cd ..
+: 1683752814:0;ls
+: 1683752816:0;cd ..
+: 1683752816:0;ls
+: 1683752821:0;rm -rf nvim
+: 1683752882:0;git clone git@github.com:saidbelkacem/nvimconfig.git ~/.config/nvim
+: 1683752891:0;cd nvim
+: 1683752892:0;ls
+: 1683752895:0;n
+: 1683752905:0;clear
+: 1683752955:0;n
+: 1683752959:0;clear
+: 1683752962:0;n
+: 1683753879:0;j lua
+: 1683753880:0;pwd
+: 1683753885:0;j dev lua
+: 1683753886:0;ls
+: 1683753891:0;cd luafiles
+: 1683753892:0;ls
+: 1683753894:0;n test.lua
+: 1683754192:0;j bak
+: 1683754193:0;ls
+: 1683754196:0;cd plugin
+: 1683754196:0;ls
+: 1683754200:0;nnn
+: 1683754769:0;n
+: 1683754778:0;ls
+: 1683754783:0;j user
+: 1683754784:0;ls
+: 1683754786:0;n code_runner.lua
+: 1683793347:0;cd ..
+: 1683793350:0;cd
+: 1683793359:0;rm -rf .ViberPC
+: 1683793460:0;sudo reboot
+: 1683818146:0;j nvim
+: 1683818146:0;ls
+: 1683818155:0;n init.lua
+: 1683818169:0;n
+: 1683818177:0;ls
+: 1683818179:0;clear
+: 1683818183:0;cd user
+: 1683818186:0;n
+: 1683819284:0;clear
+: 1683819284:0;n
+: 1683819320:0;cd
+: 1683819322:0;n
+: 1683819422:0;j nvim
+: 1683819424:0;n
+: 1683820334:0;ls
+: 1683820356:0;n lua/options.lua
+: 1683820367:0;n
+: 1683820531:0;n lua/options.lua
+: 1683820584:0;n
+: 1683825672:0;sudo reboot
+: 1683830589:0;n
+: 1683830825:0;pwd
+: 1683830830:0;n
+: 1683836820:0;j nvim
+: 1683836851:0;n
+: 1683842926:0;ls
+: 1683842930:0;n
+: 1683849800:0;htop
+: 1683854192:0;n .Xresources
+: 1683854210:0;n .xprofile
+: 1683854317:0;UpdateInTerminal
+: 1683854424:0;sudo pacman -S linux linux-headers
+: 1683854441:0;sudo reboot
+: 1683854489:0;htop
+: 1683854551:0;ls
+: 1683854553:0;clear
+: 1683854553:0;n
+: 1683854974:0;clear
+: 1683884397:0;ping 8.8.8.8
+: 1683886955:0;htop
+: 1683905912:0;ls
+: 1683905915:0;j testlua
+: 1683905920:0;j luatest
+: 1683905925:0;j de
+: 1683905926:0;ls
+: 1683905927:0;cd lua
+: 1683905928:0;ls
+: 1683905931:0;cd luafiles
+: 1683905932:0;ls
+: 1683905941:0;cat test.lua
+: 1683905972:0;n autosave.lua
+: 1683906051:0;ls
+: 1683906056:0;n autosave.lua
+: 1683910910:0;echo test.lua
+: 1683910927:0;exit
+: 1683910941:0;source test.lua
+: 1683910968:0;exit
+: 1683910977:0;runlua test.lua
+: 1683911006:0;exit
+: 1683911014:0;lua test.lua
+: 1683911025:0;exit
+: 1683911145:0;lua test.lua
+: 1683911189:0;clear && lua test.lua
+: 1683917483:0;df -h
+: 1683917519:0;df
+: 1683917520:0;clear
+: 1683918035:0;htop
+: 1683918042:0;clear
+: 1683919198:0;ls
+: 1683919201:0;clear
+: 1683919211:0;j nvim
+: 1683919214:0;gg
+: 1683919218:0;g
+: 1683919253:0;cd ..
+: 1683919258:0;rm -rf nvim
+: 1683919265:0;rm -rf ~/.cache/nvim
+: 1683919274:0;rm -rf ~/.local/share/nvim
+: 1683919316:0;git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim\
+
+: 1683919667:0;n
+: 1683919733:0;j nvim
+: 1683919733:0;ls
+: 1683919735:0;nn
+: 1683919736:0;n
+: 1683919794:0;ls
+: 1683919799:0;cd lua
+: 1683919799:0;ls
+: 1683919802:0;cd core
+: 1683919805:0;cd ..
+: 1683919806:0;ls
+: 1683919808:0;cd core
+: 1683919810:0;cd ..
+: 1683919813:0;cd custom
+: 1683919813:0;ls
+: 1683919820:0;n chadrc.lua
+: 1683919890:0;n
+: 1683919968:0;j .con
+: 1683919969:0;ls
+: 1683919978:0;rm -rf nvim
+: 1683919991:0;rm -rf ~/.local/share/nvim
+: 1683920004:0;rm -rf ~/.cache/nvim
+: 1683920013:0;git clone git@github.com:saidbelkacem/nvimconfig.git ~/.config/nvim
+: 1683920021:0;n
+: 1683920084:0;htop
+: 1683920116:0;n
+: 1683920159:0;j user
+: 1683920160:0;ls
+: 1683920164:0;cd theme
+: 1683920165:0;ls
+: 1683920172:0;rm everblush.lua
+: 1683920173:0;n
+: 1683920352:0;rm -rf ~/.cache/nvim
+: 1683920353:0;n
+: 1683920415:0;rm -rf ~/.cache/nvim
+: 1683920425:0;rm -rf ~/.local/share/nvim
+: 1683920428:0;n
+: 1683920470:0;j nvim
+: 1683920471:0;ls
+: 1683920476:0;cat init.lua
+: 1683920482:0;cd lua
+: 1683920482:0;ls
+: 1683920490:0;n Lazy.lua
+: 1683920525:0;cd user
+: 1683920525:0;ls
+: 1683920531:0;f
+: 1683920546:0;ls
+: 1683920549:0;cd theme
+: 1683920549:0;ls
+: 1683920552:0;n init.lua
+: 1683920615:0;rm -rf ~/.cache/nvim
+: 1683920624:0;rm -rf ~/.local/share/nvim
+: 1683920626:0;n
+: 1683920795:0;j nvim
+: 1683920796:0;n
+: 1683924119:0;source test.lua
+: 1683924136:0;exit
+: 1683934590:0;j dev
+: 1683934591:0;ls
+: 1683934602:0;cd lua
+: 1683934602:0;ls
+: 1683934605:0;n luafiles
+: 1683934701:0;ls
+: 1683934702:0;n
+: 1683935231:0;j nvim
+: 1683935231:0;ls
+: 1683935232:0;n
+: 1683974530:0;j nvim
+: 1683974531:0;n
+: 1683974680:0;ls
+: 1683974690:0;mv colorizer.lua lua/user
+: 1683974692:0;n
+: 1683974764:0;cd lua/user
+: 1683974765:0;ls
+: 1683974769:0;n colorizer.lua
+: 1683974800:0;n
+: 1683975048:0;rm -rf ~/.cache/nvim
+: 1683975049:0;n
+: 1683975181:0;ls
+: 1683975186:0;cd ..
+: 1683975187:0;ls
+: 1683975191:0;cd ..
+: 1683975191:0;ls
+: 1683975195:0;n init.lua
+: 1683975206:0;j user
+: 1683975206:0;ls
+: 1683975221:0;mv colorizer.lua colorizer.lua.bak
+: 1683975222:0;n
+: 1683975233:0;mv colorizer.lua.bak colorizer.lua
+: 1683975235:0;n
+: 1683975451:0;rm -rf ~/.cache/nvim
+: 1683975453:0;n
+: 1683984420:0;clear
+: 1683984421:0;n
+: 1683988232:0;neovim
+: 1683988250:0;clear
+: 1683988255:0;j nvim
+: 1683988257:0;n
+: 1683990245:0;clear
+: 1683990248:0;n
+: 1683990487:0;j user
+: 1683990487:0;ls
+: 1683990490:0;n dap
+: 1683991203:0;n
+: 1683991265:0;clear
+: 1683991266:0;n
+: 1683991344:0;ls
+: 1683991351:0;cd ..
+: 1683991351:0;ls
+: 1683991359:0;cd ..
+: 1683991360:0;ls
+: 1683991363:0;git init
+: 1683991367:0;rm -rf .git
+: 1683991370:0;git init
+: 1683991402:0;git push -f origin master\
+
+: 1683991433:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1683991438:0;git push -f origin master\
+
+: 1683991458:0;git push -f origin main\
+
+: 1683991487:0;git push -f origin master\
+
+: 1683991490:0;ls
+: 1683991492:0;cd .git
+: 1683991493:0;ls
+: 1683991496:0;n config
+: 1683991517:0;git push -f origin \
+
+: 1683991559:0;git push --set-upstream origin master
+: 1683991579:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1683991593:0;cd ..
+: 1683991593:0;ls
+: 1683991598:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1683991601:0;git push --set-upstream origin master
+: 1683991655:0;g
+: 1683991680:0;git push -f origin master\
+
+: 1683991688:0;clear
+: 1683991690:0;g
+: 1683991697:0;n
+: 1683991715:0;ls -la
+: 1683991724:0;du -ch *
+: 1683991739:0;cd .git
+: 1683991741:0;du -ch *
+: 1683991743:0;clear
+: 1683998732:0;j user
+: 1683998732:0;ls
+: 1683998754:0;cp hop.lua trouble.lua
+: 1683998759:0;n trouble.lua
+: 1683998882:0;n
+: 1683999436:0;clear
+: 1683999490:0;n
+: 1684010749:0;htop
+: 1684011999:0;j nvim
+: 1684012001:0;gg
+: 1684012002:0;g
+: 1684012070:0;n
+: 1684012132:0;cd lua/user
+: 1684012133:0;ls
+: 1684012137:0;n treesitter.lua
+: 1684012258:0;n
+: 1684012737:0;ls
+: 1684012754:0;n mini-surround.lua
+: 1684012794:0;n
+: 1684013913:0;ls
+: 1684013925:0;mv hop.lua hop.lua.bak
+: 1684013926:0;n
+: 1684055408:0;clear
+: 1684055935:0;j nvim
+: 1684055936:0;ls
+: 1684055964:0;g
+: 1684055990:0;ls
+: 1684055993:0;cd lua
+: 1684055994:0;ls
+: 1684056000:0;mv user user.bak
+: 1684056001:0;n
+: 1684056021:0;mkdir user
+: 1684056022:0;ls
+: 1684056038:0;rm -rf user_off
+: 1684056040:0;ls
+: 1684056084:0;cd user
+: 1684056085:0;ls
+: 1684056088:0;mini.lua
+: 1684056094:0;n mini.lua
+: 1684056147:0;n
+: 1684056158:0;cd ..
+: 1684056162:0;n init.lua
+: 1684056197:0;n
+: 1684056206:0;n init.lua
+: 1684056219:0;n
+: 1684056236:0;n lua/user/mini.lua
+: 1684056258:0;n
+: 1684056284:0;ls
+: 1684056286:0;rm lazy-lock.json
+: 1684056286:0;n
+: 1684056292:0;n lua/user/mini.lua
+: 1684056303:0;n
+: 1684056348:0;n lua/user/mini.lua
+: 1684056387:0;n
+: 1684056391:0;n lua/user/mini.lua
+: 1684056425:0;n
+: 1684056525:0;n lua/user/mini.lua
+: 1684056570:0;n
+: 1684056595:0;n lua/user/mini.lua
+: 1684056661:0;n
+: 1684056673:0;n lua/user/mini.lua
+: 1684056730:0;n
+: 1684056741:0;n lua/user/mini.lua
+: 1684056880:0;n
+: 1684056889:0;n lua/user/mini.lua
+: 1684056998:0;n
+: 1684057003:0;n lua/user/mini.lua
+: 1684057211:0;n
+: 1684057226:0;n lua/user/mini.lua
+: 1684057233:0;m
+: 1684057241:0;n
+: 1684057262:0;n lua/user/mini.lua
+: 1684057288:0;n
+: 1684057315:0;n lua/user/mini.lua
+: 1684057480:0;n
+: 1684057495:0;n lua/user/mini.lua
+: 1684057507:0;n
+: 1684057574:0;n lua/user/mini.lua
+: 1684057584:0;n
+: 1684057593:0;n lua/user/mini.lua
+: 1684057804:0;n
+: 1684057809:0;n lua/user/mini.lua
+: 1684058005:0;n
+: 1684058011:0;n lua/user/mini.lua
+: 1684058105:0;n
+: 1684058114:0;n lua/user/mini.lua
+: 1684058124:0;n
+: 1684058128:0;n lua/user/mini.lua
+: 1684058652:0;n
+: 1684058659:0;n lua/user/mini.lua
+: 1684059382:0;n
+: 1684059401:0;n lua/user/mini.lua
+: 1684059507:0;n
+: 1684059526:0;rm -rf ~/.cache/nvim
+: 1684059527:0;n
+: 1684059532:0;n lua/user/mini.lua
+: 1684060117:0;n
+: 1684060124:0;n lua/user/mini.lua
+: 1684060469:0;n
+: 1684060481:0;n lua/user/mini.lua
+: 1684061072:0;cd ../..
+: 1684061072:0;ls
+: 1684061083:0;j nvim
+: 1684061085:0;n init.lua
+: 1684061228:0;n lua/user/mini.lua
+: 1684062188:0;n init.lua
+: 1684062194:0;n lua/user/mini.lua
+: 1684062460:0;n init.lua
+: 1684063247:0;thunar
+: 1684063340:0;n
+: 1684063645:0;clear
+: 1684063658:0;ls
+: 1684063659:0;clear
+: 1684063683:0;n
+: 1684063727:0;j nvim
+: 1684063729:0;n
+: 1684063773:0;clear
+: 1684063780:0;j user
+: 1684063782:0;n mini.lua
+: 1684063950:0;n lsp.lua
+: 1684063957:0;n
+: 1684064144:0;ls
+: 1684064148:0;n cmp.lua
+: 1684064164:0;rm cmp.lua
+: 1684064165:0;n
+: 1684064438:0;n lsp.lua
+: 1684064727:0;n
+: 1684064752:0;n lsp.lua
+: 1684065906:0;thunar
+: 1684065934:0;n
+: 1684066208:0;rm -rf ~/.local/share/nvim
+: 1684066218:0;rm -rf ~/.cache/nvim
+: 1684066219:0;n
+: 1684076568:0;j nvim
+: 1684076569:0;n
+: 1684076929:0;ls
+: 1684076932:0;cd lua
+: 1684076932:0;ls
+: 1684076936:0;n options.lua
+: 1684076951:0;n keymaps.lua
+: 1684077045:0;ls
+: 1684077049:0;cd uT
+: 1684077057:0;cd utils
+: 1684077058:0;ls
+: 1684077059:0;cat init.lua
+: 1684077064:0;cd ..
+: 1684077065:0;ls
+: 1684077066:0;clear
+: 1684077067:0;ls
+: 1684077071:0;n Lazy.lua
+: 1684077097:0;ls
+: 1684077101:0;n autocommands.lua
+: 1684077222:0;cd settings
+: 1684077222:0;ls
+: 1684077224:0;n lua_ls.lua
+: 1684077231:0;n pyright.lua
+: 1684077244:0;ls
+: 1684077249:0;n 
+: 1684077256:0;cd ..
+: 1684077257:0;n
+: 1684077909:0;cd .local
+: 1684077910:0;ls
+: 1684077913:0;cd opt
+: 1684077913:0;ls
+: 1684077915:0;cd ..
+: 1684077916:0;ls
+: 1684077917:0;cd bin
+: 1684077918:0;ls
+: 1684077919:0;cd ..
+: 1684077920:0;ls
+: 1684077922:0;cd state
+: 1684077923:0;ls
+: 1684077927:0;cd nvim
+: 1684077927:0;ls
+: 1684077937:0;cd ..
+: 1684077942:0;rm -rf nvim
+: 1684077948:0;n
+: 1684077958:0;cd ..
+: 1684077958:0;ls
+: 1684077969:0;cd share
+: 1684077969:0;ls
+: 1684077992:0;cd nvim
+: 1684077993:0;ls
+: 1684078001:0;cd mason
+: 1684078002:0;ls
+: 1684078004:0;cd ..
+: 1684078004:0;ls
+: 1684078006:0;cd lazy
+: 1684078007:0;ls
+: 1684078017:0;cd telescope.nvim
+: 1684078018:0;ls
+: 1684078023:0;cd plugin
+: 1684078023:0;ls
+: 1684078026:0;cd ..
+: 1684078026:0;ls
+: 1684078029:0;cd autoload
+: 1684078030:0;ls
+: 1684078032:0;cd ..
+: 1684078033:0;ls
+: 1684078042:0;cd lua
+: 1684078042:0;ls
+: 1684078046:0;cd te
+: 1684078046:0;ls
+: 1684078048:0;cd te
+: 1684078052:0;cd telescope
+: 1684078052:0;ls
+: 1684078060:0;n themes.lua
+: 1684078119:0;j user
+: 1684078121:0;ls
+: 1684078125:0;n telescope.lua
+: 1684078554:0;n
+: 1684078695:0;clear
+: 1684078697:0;j nvim
+: 1684078698:0;ls
+: 1684078705:0;rm lazy-lock.json
+: 1684078713:0;cd lua
+: 1684078714:0;ls
+: 1684078718:0;cd ..
+: 1684078719:0;la
+: 1684078720:0;ls
+: 1684078722:0;n
+: 1684078850:0;ls
+: 1684078853:0;n init.lua
+: 1684078864:0;n
+: 1684079504:0;n init.lua
+: 1684079517:0;n
+: 1684079888:0;n init.lua
+: 1684079895:0;n
+: 1684080398:0;j user
+: 1684080400:0;n telescope.lua
+: 1684080412:0;n
+: 1684085926:0;ping 8.8.8.8
+: 1684086849:0;clear
+: 1684086853:0;n
+: 1684087651:0;ls
+: 1684087671:0;n
+: 1684088742:0;n mini.lua
+: 1684088750:0;n
+: 1684092604:0;g
+: 1684092643:0;n
+: 1684092647:0;ls
+: 1684092653:0;nnn
+: 1684092699:0;n
+: 1684092713:0;nnn
+: 1684092725:0;n
+: 1684092752:0;clear
+: 1684092753:0;n
+: 1684092799:0;clear
+: 1684092815:0;ls
+: 1684092817:0;clear
+: 1684092841:0;n
+: 1684094372:0;clear
+: 1684094374:0;ps ax
+: 1684094376:0;clear
+: 1684094378:0;n
+: 1684094456:0;n nnn.lua
+: 1684094480:0;n
+: 1684094755:0;j nvim
+: 1684094757:0;n
+: 1684095396:0;clear
+: 1684095400:0;du -ch *
+: 1684095422:0;n
+: 1684095522:0;clear
+: 1684095523:0;n
+: 1684095786:0;ls
+: 1684095792:0;g
+: 1684095806:0;ls
+: 1684095810:0;rm -rf .git
+: 1684095827:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1684095831:0;git init
+: 1684095833:0;git remote add origin git@github.com:saidbelkacem/nvimconfig
+: 1684095837:0;g
+: 1684095890:0;n
+: 1684096056:0;cd
+: 1684096059:0;n
+: 1684096089:0;
+: 1684096115:0;n .xprofile
+: 1684096165:0;n
+: 1684096233:0;j .con
+: 1684096237:0;n alacritty/alacritty.yml
+: 1684096558:0;n
+: 1684097091:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 150\
+
+: 1684097099:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30\
+
+: 1684097104:0;n
+: 1684097137:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 60\
+
+: 1684097142:0;n
+: 1684097155:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20\
+
+: 1684097159:0;n
+: 1684097189:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15\
+
+: 1684097191:0;n
+: 1684097221:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20\
+
+: 1684097248:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 100\
+
+: 1684097250:0;n
+: 1684097276:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 1550\
+
+: 1684097281:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 120\
+
+: 1684097288:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15\
+
+: 1684097289:0;n
+: 1684098008:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20\
+
+: 1684098009:0;n
+: 1684098029:0;cleeeear
+: 1684098036:0;clear
+: 1684098043:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30\
+
+: 1684098046:0;clear
+: 1684098047:0;n
+: 1684098081:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 100\
+
+: 1684098093:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 150\
+
+: 1684098102:0;n
+: 1684098117:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 20\
+
+: 1684098123:0;clear or not
+: 1684098124:0;n
+: 1684098236:0;clear
+: 1684098237:0;n
+: 1684098825:0;ls
+: 1684098830:0;clar
+: 1684098837:0;clear
+: 1684098863:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 150\
+
+: 1684098873:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 25\
+
+: 1684098881:0;clear
+: 1684098884:0;top
+: 1684098887:0;clear
+: 1684098897:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30\
+
+: 1684098898:0;n
+: 1684099036:0;pacman
+: 1684099039:0;pacseek
+: 1684099062:0;df -h
+: 1684099068:0;ls
+: 1684099092:0;sudo pacman -Sc
+: 1684099102:0;df
+: 1684099107:0;df -h
+: 1684099548:0;clear
+: 1684099596:0;gdu
+: 1684099603:0;cd /
+: 1684099607:0;gdu 
+: 1684108124:0;j lua
+: 1684108125:0;ls
+: 1684108130:0;j dev 
+: 1684108130:0;ls
+: 1684108132:0;cd lua
+: 1684108133:0;ls
+: 1684108138:0;cd luafiles
+: 1684108142:0;cd ..
+: 1684108155:0;mv luafiles learn
+: 1684108156:0;ls
+: 1684108158:0;cd learn
+: 1684108160:0;ls
+: 1684108163:0;n
+: 1684108181:0;n learn.lua
+: 1684108295:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 40\
+
+: 1684108314:0;n learn.lua
+: 1684108737:0;ls
+: 1684108742:0;lua learn.lua
+: 1684108760:0;n learn.lua
+: 1684108831:0;n
+: 1684108836:0;n learn.lua
+: 1684108846:0;lua learn.lua
+: 1684108966:0;clear
+: 1684108997:0;n
+: 1684109167:0;gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30\
+
+: 1684109174:0;gsettings set org.gnome.desktop.peripherals.keyboard delay 250\
+
+: 1684109180:0;n
+: 1684109275:0;j nvim
+: 1684109276:0;ls
+: 1684109286:0;nnn
+: 1684109354:0;n
+: 1684109368:0;nnn
+: 1684109385:0;n
+: 1684109442:0;ls
+: 1684109446:0;clear
+: 1684130552:0;lua
+: 1684130966:0;lua -e print("hallo")
+: 1684130986:0;lua -e -llib print("hallo")
+: 1684131106:0;man lua
+: 1684131155:0;clear
+: 1684148511:0;ls
+: 1684148517:0;j chez
+: 1684148518:0;ls
+: 1684148533:0;n .chezmoiignore
+: 1684148554:0;ls
+: 1684148569:0;cd
+: 1684148569:0;ls
+: 1684148578:0;rm pkglist.txt
+: 1684148585:0;j chez
+: 1684148585:0;ls
+: 1684148589:0;n config
+: 1684148632:0;run_chezmoi

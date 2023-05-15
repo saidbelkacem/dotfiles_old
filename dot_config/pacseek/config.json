@@ -1,5 +1,5 @@
 {
-	"AurRpcUrl": "https://server.moson.rocks/rpc",
+	"AurRpcUrl": "https://aurapi.moson.org/rpc",
 	"AurTimeout": 5000,
 	"AurSearchDelay": 500,
 	"AurUseDifferentCommands": false,
@@ -27,5 +27,7 @@
 	"FeedMaxItems": 5,
 	"SaveWindowLayout": false,
 	"LeftProportion": 4,
-	"Transparent": false
+	"Transparent": false,
+	"PackageColumnWidth": 0,
+	"EnableAutoSuggest": false
 }

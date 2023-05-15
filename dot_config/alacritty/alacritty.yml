@@ -4,10 +4,10 @@ window:
     x: 0
     y: 0
 font:
-  size: 12
+  size: 13
   offset:
     x: 0
-    y: 2
+    y: 1
   normal:
     family: Iosevka Nerd Font
     style: Regular
@@ -22,6 +22,9 @@ colors:
   primary:
     background: '0x24283b'
     foreground: '0xc0caf5'
+scrolling:
+  multiplier: 6
+  faux_multiplier: 6
 
   # Normal colors
   normal:

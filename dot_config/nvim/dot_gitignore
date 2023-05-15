@@ -1,7 +1,6 @@
 # Compiled Lua sources
 luac.out
 
-
 # luarocks build files
 *.src.rock
 *.zip
@@ -42,3 +41,6 @@ luac.out
 
 
 plugin/packer_compiled.lua
+java-debug/
+vscode-java-test/
+lazy-lock.json

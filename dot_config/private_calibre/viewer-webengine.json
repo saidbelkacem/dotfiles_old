@@ -1,28 +1,28 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 1410,
-      "width": 1002,
-      "x": 1553,
-      "y": 25
+      "height": 1400,
+      "width": 1274,
+      "x": 1282,
+      "y": 36
     },
     "full_screened": false,
     "geometry": {
-      "height": 1406,
-      "width": 998,
-      "x": 1555,
-      "y": 27
+      "height": 1400,
+      "width": 1274,
+      "x": 1282,
+      "y": 36
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1406,
-      "width": 998,
-      "x": 1555,
-      "y": 27
+      "height": 1400,
+      "width": 1274,
+      "x": 1282,
+      "y": 36
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAYRAAAAGQAACfoAAAWaAAAGEwAAABsAAAn4AAAFmAAAAAAAAAAACgAAAAYTAAAAGwAACfgAAAWY"
+      "__value__": "AdnQywADAAAAAAUCAAAAJAAACfsAAAWbAAAFAgAAACQAAAn7AAAFmwAAAAAAAAAACgAAAAUCAAAAJAAACfsAAAWb"
     },
     "screen": {
       "depth": 24,
@@ -56,7 +56,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAABDgAABX78AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABX4AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAARzAAABCwAAANIA////AAAD5gAABX4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAABDgAABX78AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABX4AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAARzAAABCwAAANIA////AAAE+gAABXgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -111,6 +111,15 @@
       "remember_window_geometry": true
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Das Drama Der Juden Europas  Eine Technische Studie-Castle Hill Services (2018)"
+        ],
+        "key": "/home/said/Downloads/Paul Rassinier - Das Drama Der Juden Europas_ Eine Technische Studie-Castle Hill Services (2018).djvu",
+        "pathtoebook": "/home/said/Downloads/Paul Rassinier - Das Drama Der Juden Europas_ Eine Technische Studie-Castle Hill Services (2018).djvu",
+        "timestamp": "2023-04-26T10:44:05.733Z",
+        "title": "Paul Rassinier"
+      },
       {
         "authors": [
           "Lippman, Stanley B.",

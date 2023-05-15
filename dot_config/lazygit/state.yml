@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/said/.config/nvim
 - /home/said/Dev/cpp/CppPrimer
 - /home/said/Dev/go/src/basicfeatures
 - /home/said/.local/share/chezmoi
